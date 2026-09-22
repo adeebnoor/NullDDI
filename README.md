@@ -15,12 +15,26 @@ The resource is for research and decision-support assurance. It is **not** a uni
 
 A post-analysis adversarial audit on 20 August 2026 identified label leakage in an experimental four-arm text-classifier/RIDI demonstration that had briefly been documented in v3.0.0. The associated efficacy and safety claims are withdrawn and are **not evidence for this resource**. See [`VALIDATION_NOTICE_20260820.md`](VALIDATION_NOTICE_20260820.md). The audited dataset, evidence tiers, graph audit, label exclusions and clinical-anchor source table are unaffected.
 
+## PDS manuscript alignment — September 2026
+
+The current manuscript prepared for **Pharmacoepidemiology and Drug Safety** is titled **“Evidence-Graded Negative Controls for Drug-Drug Interaction Evaluation.”** Its primary contribution is the **evidence-graded pair-level negative-control design** (provenance + observation opportunity + detectability + external screening + degree metadata), not the discovery of degree bias.
+
+Two structural-bias diagnostics are retained in this repository because they use different units and answer different robustness questions:
+
+- **Drug-pair diagnostic used in the PDS manuscript:** `data/benchmark_replicates.csv` gives mean AUC **0.934** against random unlabelled negatives, **0.947** against the curated pair set, and **0.498** after degree matching across 20 seeds.
+- **Later ATC5 class-level robustness diagnostic:** `data/degree_bias_atc5_replicates.csv` / `data/degree_bias_atc5_summary.json` give mean AUC **0.908**, **0.900**, and **0.501**, respectively.
+
+These are not competing estimates: the first operates on drug pairs and the second on ATC level-5 class pairs with overlap exclusion. Both are stress tests showing that popularity-only discrimination collapses after structural matching. Neither is clinical validation of non-interaction.
+
+See `manuscript/PDS_2026_ALIGNMENT.md` for a claim-to-file map used for submission QA.
+
 ## What this resource provides
 
 | File | Rows | Intended use |
 |---|---:|---|
 | `data/antiddi_v3_dataset.csv` | 797 | Complete audit/evidence-state table, including excluded and unresolved records |
 | `data/antiddi_v3_benchmark.csv` | 538 | Default research benchmark candidates: T1 + T2 only |
+| `data/benchmark_replicates.csv` | 20 | Drug-pair structural-bias diagnostic reported in the PDS manuscript |
 | `data/degree_bias_atc5_replicates.csv` | 20 | Reproducible ATC5 structural-bias output |
 | `data/degree_bias_atc5_summary.json` | — | Frozen summary of the ATC5 structural-bias analysis |
 | `data/figure2_vertex_cover_degrees.csv` | 13 | Source data for the 13-drug vertex-cover figure |
