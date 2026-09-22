@@ -138,3 +138,8 @@ The ATC5 structural diagnostic additionally requires the checksum-verified froze
 ## Clinical boundary
 
 Anti-DDI is a research evidence framework. It is **not a clinical safety list** and does not substitute for current drug-information sources, clinician/pharmacist judgment, patient context, dose, route, timing, or monitoring.
+
+
+## Submission QA record
+
+The PDS submission was repository-validated on 22 September 2026. See [`manuscript/SUBMISSION_QA_20260922.md`](manuscript/SUBMISSION_QA_20260922.md) for the executed checks, verified manuscript quantities, and interpretation boundaries.
