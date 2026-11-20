@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use NullDDI, please cite the dataset and the paper."
+title: "NullDDI: documented drug non-interactions from US drug labels"
+version: "1.0"
+date-released: 2026-11-20
+license: CC-BY-4.0
+type: dataset
+authors:
+  - family-names: Noor
+    given-names: Adeeb
+    affiliation: "King Abdulaziz University"
+    orcid: "https://orcid.org/0000-0002-8251-1853"
+  - family-names: Dumontier
+    given-names: Michel
+    affiliation: "Maastricht University"
+    orcid: "https://orcid.org/0000-0003-4727-9435"
+keywords: [drug-drug interactions, negative knowledge, drug labels, FAIR data]

@@ -1,0 +1,21 @@
+{
+ "dataset_version": "1.0",
+ "stats": {
+  "accepted_units": 4547,
+  "condition_conditional": 328,
+  "condition_uncertain": 15,
+  "condition_unconditional": 689,
+  "dimension_PD": 14,
+  "dimension_PK": 961,
+  "dimension_PK+PD": 45,
+  "dimension_not_stated": 12,
+  "pairs": 955,
+  "pairs_N0_undirected_only": 59,
+  "pairs_N1_one_direction": 760,
+  "pairs_N2_bidirectional": 136,
+  "restriction_strong": 150,
+  "statements_directional": 1032,
+  "statements_undirected": 72,
+  "symmetric_phrasing_only": 76
+ }
+}

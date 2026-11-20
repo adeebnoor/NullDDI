@@ -1,0 +1,1105 @@
+statement_id,kind,perpetrator,perpetrator_rxcui,victim,victim_rxcui,dimension,parameters,numeric_grade,numeric_gmr,reverse_direction_fda,condition,condition_types,restriction_strong,symmetric_phrasing_only,n_sentences,n_labels
+NDDI-00001,directional,tamoxifen,10324,abemaciclib,1946825,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00002,directional,temazepam,10355,duloxetine,72625,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,10,315
+NDDI-00003,directional,dabigatran etexilate,1037042,bosutinib,1307619,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,5
+NDDI-00004,directional,dabigatran etexilate,1037042,clarithromycin,21212,PK,pk_unspecified,,,path_expected,unconditional,,0,0,5,25
+NDDI-00005,directional,dabigatran etexilate,1037042,clopidogrel,32968,PK,pk_unspecified,,,no_path,unconditional,,0,0,5,25
+NDDI-00006,directional,dabigatran etexilate,1037042,diclofenac,3355,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,25
+NDDI-00007,directional,dabigatran etexilate,1037042,digoxin,3407,PK,pk_unspecified,,,no_path,unconditional,,0,0,5,25
+NDDI-00008,directional,dabigatran etexilate,1037042,pantoprazole,40790,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,25
+NDDI-00009,directional,dabigatran etexilate,1037042,amiodarone,703,PK,pk_unspecified,,,path_expected,unconditional,,0,0,5,25
+NDDI-00010,directional,dabigatran etexilate,1037042,atorvastatin,83367,PK,pk_unspecified,,,no_path,unconditional,,0,0,5,25
+NDDI-00011,directional,dabigatran etexilate,1037042,ranitidine,9143,PK,pk_unspecified,,,no_path,unconditional,,0,0,5,25
+NDDI-00012,directional,tetrabenazine,10390,digoxin,3407,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,6,17
+NDDI-00013,directional,thalidomide,10432,zoledronic acid,77655,PK,pk_unspecified,,,undetermined,unconditional,,0,0,9,47
+NDDI-00014,directional,theophylline,10438,moxifloxacin,139462,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00015,directional,theophylline,10438,dofetilide,49247,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,9
+NDDI-00016,directional,theophylline,10438,famciclovir,68099,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,15
+NDDI-00017,directional,tesamorelin,1044584,simvastatin,36567,PK,pk_unspecified,,,undetermined,unconditional,,0,0,4,7
+NDDI-00018,directional,levothyroxine,10582,selegiline,9639,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;specific_population;victim_specific_product,1,0,2,1
+NDDI-00019,directional,ticlopidine,10594,brexpiprazole,1658314,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,7
+NDDI-00020,directional,triamterene,10763,memantine,6719,PK,exposure_auc_or_cmax,,,undetermined,conditional,perpetrator_specific_product,1,0,1,5
+NDDI-00021,directional,triazolam,10767,citalopram,2556,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,17,256
+NDDI-00022,directional,vilazodone,1086769,caffeine,1886,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00023,directional,vilazodone,1086769,flurbiprofen,4502,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00024,directional,vilazodone,1086769,nifedipine,7417,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00025,directional,vandetanib,1098413,itraconazole,28031,PK,not_stated;pk_unspecified,,,no_path,conditional,specific_population,0,1,1,1
+NDDI-00026,directional,11118,11118,pregabalin,187832,PK,pk_unspecified,,,undetermined,unconditional,,0,1,6,12
+NDDI-00027,directional,11118,11118,lacosamide,623400,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population;victim_specific_product,1,0,17,88
+NDDI-00028,directional,vancomycin,11124,tazobactam,37617,PK,pk_unspecified,,,undetermined,unconditional,,0,1,5,29
+NDDI-00029,directional,vancomycin,11124,piperacillin,8339,PK,pk_unspecified,,,undetermined,unconditional,,0,1,2,19
+NDDI-00030,directional,belatacept,1112973,caffeine,1886,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00031,directional,belatacept,1112973,dextromethorphan,3289,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00032,directional,belatacept,1112973,losartan,52175,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00033,directional,belatacept,1112973,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00034,directional,belatacept,1112973,omeprazole,7646,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00035,directional,verapamil,11170,bexagliflozin,2627044,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,4
+NDDI-00036,directional,verapamil,11170,propranolol,8787,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,315
+NDDI-00037,directional,warfarin,11289,levetiracetam,114477,PK+PD,pk_and_pd;pk_unspecified,,,undetermined,unconditional,,0,0,4,437
+NDDI-00038,directional,warfarin,11289,moxifloxacin,139462,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00039,directional,warfarin,11289,rivastigmine,183379,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,51
+NDDI-00040,directional,warfarin,11289,daptomycin,22299,PK+PD,pk_and_pd,,,undetermined,conditional,single_dose_perpetrator,1,0,11,69
+NDDI-00041,directional,warfarin,11289,vericiguat,2475830,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00042,directional,warfarin,11289,elacestrant,2628469,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00043,directional,warfarin,11289,nateglinide,274332,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.9628, 'cmax': 1.0265};{'auc': 0.9628, 'cmax': 1.0265};{'auc': 0.9628, 'cmax': 1.0265};{'auc': 0.9628, 'cmax': 1.0265};{'auc': 0.9628, 'cmax': 1.0265}",undetermined,unconditional,,0,0,1,14
+NDDI-00044,directional,warfarin,11289,vardenafil,306674,PK,pk_unspecified,,,no_path,unconditional,,0,1,2,38
+NDDI-00045,directional,warfarin,11289,fondaparinux,321208,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,5,12
+NDDI-00046,directional,warfarin,11289,aliskiren,325646,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,2,6
+NDDI-00047,directional,warfarin,11289,lenalidomide,342369,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,5,21
+NDDI-00048,directional,warfarin,11289,milnacipran,588250,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,13
+NDDI-00049,directional,warfarin,11289,valsartan,69749,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,3,150
+NDDI-00050,directional,warfarin,11289,raloxifene,72143,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,7,36
+NDDI-00051,directional,zidovudine,11413,elvitegravir,1306286,not_stated,not_stated,,,undetermined,conditional,,0,1,1,1
+NDDI-00052,directional,zidovudine,11413,rifabutin,55672,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00053,directional,zidovudine,11413,famciclovir,68099,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,15
+NDDI-00054,directional,zidovudine,11413,lamivudine,68244,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,4,11
+NDDI-00055,directional,indinavir,114289,voriconazole,121243,PK,exposure_auc_or_cmax,,,path_expected,conditional,specific_dose_or_regimen;specific_population,0,0,16,68
+NDDI-00056,directional,indinavir,114289,rifapentine,35617,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,3,5
+NDDI-00057,directional,indinavir,114289,venlafaxine,39786,PK,pk_unspecified,,,no_path,unconditional,,0,0,2,214
+NDDI-00058,directional,levetiracetam,114477,11118,11118,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,3,372
+NDDI-00059,directional,levetiracetam,114477,warfarin,11289,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_route,1,0,19,438
+NDDI-00060,directional,levetiracetam,114477,carbamazepine,2002,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,3,372
+NDDI-00061,directional,levetiracetam,114477,lamotrigine,28439,PK,pk_unspecified,,,undetermined,unconditional,,0,0,6,655
+NDDI-00062,directional,levetiracetam,114477,digoxin,3407,PK+PD,pk_and_pd,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_route,1,0,18,438
+NDDI-00063,directional,levetiracetam,114477,topiramate,38404,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,372
+NDDI-00064,directional,rabeprazole,114979,vismodegib,1242987,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00065,directional,rabeprazole,114979,acalabrutinib,1986808,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00066,directional,rabeprazole,114979,encorafenib,2049106,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00067,directional,rabeprazole,114979,asciminib,2584304,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00068,directional,rabeprazole,114979,deucravacitinib,2612087,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00069,directional,rabeprazole,114979,fruquintinib,2670179,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00070,directional,rabeprazole,114979,vimseltinib,2705378,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00071,directional,rabeprazole,114979,dordaviprone,2721194,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00072,directional,rabeprazole,114979,zongertinib,2721604,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00073,directional,rabeprazole,114979,clopidogrel,32968,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,3,8
+NDDI-00074,directional,ziprasidone,115698,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,150
+NDDI-00075,directional,ziprasidone,115698,levonorgestrel,6373,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,150
+NDDI-00076,directional,aspirin,1191,dimethyl fumarate,1373478,PK,pk_unspecified,,,undetermined,conditional,staggered_administration;victim_specific_product,1,0,3,27
+NDDI-00077,directional,aspirin,1191,vericiguat,2475830,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00078,directional,aspirin,1191,vonoprazan,2604577,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00079,directional,aspirin,1191,pemetrexed,68446,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,28
+NDDI-00080,directional,tolterodine,119565,vibegron,2472254,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00081,directional,tolterodine,119565,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_population,1,0,22,53
+NDDI-00082,directional,tolterodine,119565,levonorgestrel,6373,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,11,25
+NDDI-00083,directional,atenolol,1202,apixaban,1364430,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,19
+NDDI-00084,directional,rituximab,121191,venetoclax,1747556,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00085,directional,voriconazole,121243,relugolix,2472778,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00086,directional,voriconazole,121243,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,8,18
+NDDI-00087,directional,voriconazole,121243,mycophenolic acid,7145,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,1,1
+NDDI-00088,directional,azacitidine,1251,venetoclax,1747556,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00089,directional,aztreonam,1272,daptomycin,22299,PK,exposure_auc_or_cmax,,,undetermined,conditional,single_dose_perpetrator;specific_route,1,0,13,69
+NDDI-00090,directional,aztreonam,1272,telavancin,473837,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00091,directional,avanafil,1291301,amlodipine,17767,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,1,3
+NDDI-00092,directional,elvitegravir,1306286,zidovudine,11413,not_stated,not_stated,,,undetermined,unconditional,,0,1,1,1
+NDDI-00093,directional,elvitegravir,1306286,abacavir,190521,not_stated,not_stated,,,undetermined,unconditional,,0,1,1,1
+NDDI-00094,directional,elvitegravir,1306286,emtricitabine,276237,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00095,directional,elvitegravir,1306286,tenofovir disoproxil,300195,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00096,directional,elvitegravir,1306286,famotidine,4278,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00097,directional,elvitegravir,1306286,etravirine,475969,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00098,directional,elvitegravir,1306286,stavudine,59763,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00099,directional,elvitegravir,1306286,omeprazole,7646,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00100,directional,enzalutamide,1307298,caffeine,1886,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,2,2
+NDDI-00101,directional,enzalutamide,1307298,relugolix,2472778,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00102,directional,enzalutamide,1307298,rosuvastatin,301542,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,2,2
+NDDI-00103,directional,enzalutamide,1307298,dextromethorphan,3289,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,2,2
+NDDI-00104,directional,enzalutamide,1307298,pioglitazone,33738,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,2,2
+NDDI-00105,directional,teriflunomide,1310520,bupropion,42347,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,25
+NDDI-00106,directional,teriflunomide,1310520,metoprolol,6918,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,25
+NDDI-00107,directional,teriflunomide,1310520,midazolam,6960,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,25
+NDDI-00108,directional,teriflunomide,1310520,omeprazole,7646,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,25
+NDDI-00109,directional,rasagiline,134748,opicapone,2362167,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00110,directional,donepezil,135447,memantine,6719,PK,pk_unspecified,,,undetermined,unconditional,,0,0,13,142
+NDDI-00111,directional,darifenacin,136198,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,8,19
+NDDI-00112,directional,darifenacin,136198,levonorgestrel,6373,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,9,22
+NDDI-00113,directional,sildenafil,136411,amlodipine,17767,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;specific_population,1,0,1,1
+NDDI-00114,directional,sildenafil,136411,vericiguat,2475830,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00115,directional,apixaban,1364430,atenolol,1202,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,19
+NDDI-00116,directional,apixaban,1364430,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,19
+NDDI-00117,directional,apixaban,1364430,prasugrel,613391,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,19
+NDDI-00118,directional,apixaban,1364430,naproxen,7258,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,19
+NDDI-00119,directional,crofelemer,1364449,zidovudine,11413,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,2
+NDDI-00120,directional,crofelemer,1364449,nelfinavir,134527,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,2
+NDDI-00121,directional,bedaquiline,1364504,clofazimine,2592,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00122,directional,glycerol phenylbutyrate,1368451,celecoxib,140587,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,10
+NDDI-00123,directional,ospemifene,1370971,warfarin,11289,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,3
+NDDI-00124,directional,moxifloxacin,139462,theophylline,10438,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00125,directional,moxifloxacin,139462,warfarin,11289,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00126,directional,moxifloxacin,139462,atenolol,1202,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00127,directional,moxifloxacin,139462,itraconazole,28031,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00128,directional,moxifloxacin,139462,cyclosporine,3008,PK,pk_unspecified,,,undetermined,unconditional,,0,0,4,59
+NDDI-00129,directional,moxifloxacin,139462,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00130,directional,moxifloxacin,139462,glyburide,4815,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00131,directional,tegaserod,139778,theophylline,10438,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00132,directional,tegaserod,139778,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,2
+NDDI-00133,directional,tegaserod,139778,dextromethorphan,3289,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00134,directional,insulin detemir,139825,liraglutide,475968,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;specific_dose_or_regimen;specific_population;specific_route,1,1,4,18
+NDDI-00135,directional,pramlintide,139953,acetaminophen,161,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00136,directional,141400,141400,entecavir,306266,PK,pk_unspecified,,,undetermined,unconditional,,0,0,11,30
+NDDI-00137,directional,everolimus,141704,simvastatin,36567,PK,pk_unspecified,,,no_path,unconditional,,0,1,5,5
+NDDI-00138,directional,everolimus,141704,pravastatin,42463,PK+PD,pk_and_pd;pk_unspecified,,,no_path,unconditional,,0,0,13,21
+NDDI-00139,directional,everolimus,141704,atorvastatin,83367,PK+PD,pk_and_pd;pk_unspecified,,,no_path,unconditional,,0,0,11,18
+NDDI-00140,directional,dolutegravir,1433868,doravirine,2055755,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00141,directional,riociguat,1439816,warfarin,11289,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00142,directional,riociguat,1439816,sildenafil,136411,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00143,directional,riociguat,1439816,ethinyl estradiol,4124,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,2,2
+NDDI-00144,directional,riociguat,1439816,levonorgestrel,6373,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,2
+NDDI-00145,directional,riociguat,1439816,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00146,directional,macitentan,1442132,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,3,13
+NDDI-00147,directional,macitentan,1442132,riociguat,1439816,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,11,15
+NDDI-00148,directional,macitentan,1442132,rosuvastatin,301542,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,11,15
+NDDI-00149,directional,macitentan,1442132,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,6,15
+NDDI-00150,directional,vortioxetine,1455099,diazepam,3322,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,3,8
+NDDI-00151,directional,sofosbuvir,1484911,doravirine,2055755,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00152,directional,belinostat,1543543,warfarin,11289,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,2,3
+NDDI-00153,directional,empagliflozin,1545653,linagliptin,1100699,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00154,directional,empagliflozin,1545653,warfarin,11289,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,2
+NDDI-00155,directional,empagliflozin,1545653,glimepiride,25789,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00156,directional,empagliflozin,1545653,pioglitazone,33738,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00157,directional,empagliflozin,1545653,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00158,directional,empagliflozin,1545653,ramipril,35296,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00159,directional,empagliflozin,1545653,simvastatin,36567,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00160,directional,empagliflozin,1545653,torsemide,38413,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00161,directional,empagliflozin,1545653,hydrochlorothiazide,5487,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00162,directional,empagliflozin,1545653,sitagliptin,593411,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00163,directional,empagliflozin,1545653,metformin,6809,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00164,directional,eliglustat,1547220,ethinyl estradiol,4124,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00165,directional,eliglustat,1547220,norethindrone,7514,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00166,directional,decitabine,15657,venetoclax,1747556,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00167,directional,ledipasvir,1591922,doravirine,2055755,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00168,directional,mirtazapine,15996,phenytoin,8183,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,233
+NDDI-00169,directional,lenvatinib,1603296,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00170,directional,acetaminophen,161,zolmitriptan,135775,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,6,51
+NDDI-00171,directional,acetaminophen,161,selinexor,2178390,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00172,directional,acetaminophen,161,ubrogepant,2268216,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00173,directional,acetaminophen,161,opicapone,2362167,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00174,directional,acetaminophen,161,imatinib,282388,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,6,41
+NDDI-00175,directional,acetaminophen,161,tizanidine,57258,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,262
+NDDI-00176,directional,ivabradine,1649480,metformin,6809,PK,pk_unspecified,,,no_path,conditional,specific_dose_or_regimen,0,0,1,12
+NDDI-00177,directional,eluxadoline,1653781,ethinyl estradiol,4124,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00178,directional,eluxadoline,1653781,norethindrone,7514,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00179,directional,sacubitril,1656328,vericiguat,2475830,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00180,directional,alirocumab,1659152,rosuvastatin,301542,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00181,directional,alirocumab,1659152,atorvastatin,83367,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00182,directional,acarbose,16681,rosiglitazone,84108,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,4,6
+NDDI-00183,directional,lansoprazole,17128,warfarin,11289,PK+PD,pk_and_pd,,,no_path,unconditional,,0,0,23,47
+NDDI-00184,directional,lansoprazole,17128,futibatinib,2628190,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00185,directional,lansoprazole,17128,quizartinib,2643048,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00186,directional,lansoprazole,17128,clopidogrel,32968,PK+PD,pk_and_pd,,,no_path,unconditional,,0,0,10,33
+NDDI-00187,directional,lansoprazole,17128,methotrexate,6851,PK,pk_unspecified,,,no_path,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_population,1,0,23,133
+NDDI-00188,directional,patiromer,1716203,trimethoprim,10829,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,2
+NDDI-00189,directional,patiromer,1716203,verapamil,11170,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,2
+NDDI-00190,directional,patiromer,1716203,warfarin,11289,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,2
+NDDI-00191,directional,patiromer,1716203,amlodipine,17767,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,2
+NDDI-00192,directional,patiromer,1716203,clopidogrel,32968,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,2
+NDDI-00193,directional,patiromer,1716203,cinacalcet,407990,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,2
+NDDI-00194,directional,patiromer,1716203,furosemide,4603,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,2
+NDDI-00195,directional,patiromer,1716203,metoprolol,6918,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,2
+NDDI-00196,directional,osimertinib,1721560,simvastatin,36567,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00197,directional,elbasvir,1734628,doravirine,2055755,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00198,directional,grazoprevir,1734630,doravirine,2055755,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00199,directional,brivaracetam,1739745,levonorgestrel,6373,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,4,23
+NDDI-00200,directional,ixekizumab,1745099,warfarin,11289,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,1
+NDDI-00201,directional,ixekizumab,1745099,caffeine,1886,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,1
+NDDI-00202,directional,ixekizumab,1745099,midazolam,6960,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,1
+NDDI-00203,directional,ixekizumab,1745099,omeprazole,7646,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,1
+NDDI-00204,directional,amlodipine,17767,warfarin,11289,PK+PD,pd_effect_only,,,undetermined,unconditional,,0,0,9,293
+NDDI-00205,directional,amlodipine,17767,digoxin,3407,PK,exposure_auc_or_cmax,exposure_equivalent,"{'auc': 1.15, 'cmax': 1.2};{'auc': 1.15, 'cmax': 1.2};{'auc': 1.15, 'cmax': 1.2}",undetermined,unconditional,,0,0,8,292
+NDDI-00206,directional,amlodipine,17767,ethanol,448,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,30,465
+NDDI-00207,directional,amlodipine,17767,dofetilide,49247,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,9
+NDDI-00208,directional,amlodipine,17767,atorvastatin,83367,PK,exposure_auc_or_cmax,exposure_equivalent,"{'auc': 1.18, 'cmax': 0.91};{'auc': 1.18, 'cmax': 0.91};{'auc': 1.18, 'cmax': 0.91};{'auc': 1.18, 'cmax': 0.91};{'auc': 1.18, 'cmax': 0.91}",undetermined,unconditional,,0,0,9,293
+NDDI-00209,directional,pimavanserin,1791685,carbidopa,2019,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00210,directional,pimavanserin,1791685,levodopa,6375,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00211,directional,rivastigmine,183379,warfarin,11289,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,51
+NDDI-00212,directional,rivastigmine,183379,diazepam,3322,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,51
+NDDI-00213,directional,rivastigmine,183379,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,51
+NDDI-00214,directional,rivastigmine,183379,fluoxetine,4493,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,51
+NDDI-00215,directional,butorphanol,1841,cimetidine,2541,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,4,9
+NDDI-00216,directional,rucaparib,1862579,rosuvastatin,301542,not_stated,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00217,directional,azithromycin,18631,indinavir,114289,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.9, 'cmax': 0.96};{'auc': 0.9, 'cmax': 0.96};{'auc': 0.9, 'cmax': 0.96};{'auc': 0.9, 'cmax': 0.96};{'auc': 0.9, 'cmax': 0.96}",undetermined,conditional,single_dose_perpetrator,1,0,3,5
+NDDI-00218,directional,azithromycin,18631,venetoclax,1747556,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00219,directional,azithromycin,18631,efavirenz,195085,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.95, 'cmax': 1.04};{'auc': 0.95, 'cmax': 1.04};{'auc': 0.95, 'cmax': 1.04};{'auc': 0.95, 'cmax': 1.04};{'auc': 0.95, 'cmax': 1.04}",undetermined,conditional,single_dose_perpetrator,1,0,1,5
+NDDI-00220,directional,azithromycin,18631,fluconazole,4450,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.01, 'cmax': 1.04};{'auc': 1.01, 'cmax': 1.04};{'auc': 1.01, 'cmax': 1.04};{'auc': 1.01, 'cmax': 1.04};{'auc': 1.01, 'cmax': 1.04}",undetermined,conditional,single_dose_perpetrator,1,0,2,5
+NDDI-00221,directional,azithromycin,18631,magnesium hydroxide,6581,PK,exposure_auc_or_cmax,,,undetermined,conditional,perpetrator_specific_product,1,0,1,1
+NDDI-00222,directional,pregabalin,187832,11118,11118,PK,pk_unspecified,,,undetermined,unconditional,,0,0,11,391
+NDDI-00223,directional,pregabalin,187832,carbamazepine,2002,PK,pk_unspecified,,,undetermined,unconditional,,0,0,12,391
+NDDI-00224,directional,pregabalin,187832,gabapentin,25480,PK,pk_unspecified,,,undetermined,unconditional,,0,1,7,12
+NDDI-00225,directional,pregabalin,187832,lamotrigine,28439,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,18,675
+NDDI-00226,directional,pregabalin,187832,topiramate,38404,PK,pk_unspecified,,,undetermined,unconditional,,0,1,6,12
+NDDI-00227,directional,pregabalin,187832,ethanol,448,PK,pk_unspecified,,,undetermined,unconditional,,0,1,4,12
+NDDI-00228,directional,pregabalin,187832,milnacipran,588250,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,3,11
+NDDI-00229,directional,pregabalin,187832,lorazepam,6470,PK,pk_unspecified,,,undetermined,unconditional,,0,1,4,12
+NDDI-00230,directional,pregabalin,187832,oxycodone,7804,PK,pk_unspecified,,,undetermined,unconditional,,0,1,4,12
+NDDI-00231,directional,pregabalin,187832,phenobarbital,8134,PK,pk_unspecified,,,undetermined,unconditional,,0,1,7,12
+NDDI-00232,directional,pregabalin,187832,phenytoin,8183,PK,pk_unspecified,,,undetermined,unconditional,,0,0,12,391
+NDDI-00233,directional,caffeine,1886,icotrokinra,2739030,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00234,directional,calcium carbonate,1897,lusutrombopag,2054984,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,3
+NDDI-00235,directional,calcium carbonate,1897,raloxifene,72143,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,8,51
+NDDI-00236,directional,abacavir,190521,elvitegravir,1306286,not_stated,not_stated,,,undetermined,unconditional,,0,1,1,1
+NDDI-00237,directional,midostaurin,1919083,dextromethorphan,3289,PK,exposure_auc_or_cmax,,,undetermined,conditional,single_dose_perpetrator,1,0,1,1
+NDDI-00238,directional,midostaurin,1919083,digoxin,3407,PK,exposure_auc_or_cmax,,,undetermined,conditional,single_dose_perpetrator,1,0,1,1
+NDDI-00239,directional,capecitabine,194000,ixabepilone,337523,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00240,directional,capecitabine,194000,docetaxel,72962,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,7,25
+NDDI-00241,directional,abemaciclib,1946825,tamoxifen,10324,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00242,directional,abemaciclib,1946825,exemestane,258494,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00243,directional,abemaciclib,1946825,imlunestrant,2725912,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00244,directional,abemaciclib,1946825,fulvestrant,282357,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00245,directional,abemaciclib,1946825,letrozole,72965,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00246,directional,abemaciclib,1946825,anastrozole,84857,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00247,directional,lopinavir,195088,pretomanid,2198359,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00248,directional,budesonide,19831,ethinyl estradiol,4124,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,4,34
+NDDI-00249,directional,letermovir,1988648,acyclovir,281,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.02, 'cmax': 0.82}",undetermined,unconditional,,0,0,1,1
+NDDI-00250,directional,letermovir,1988648,digoxin,3407,PK,pk_unspecified,weak_change,"{'auc': 0.88, 'cmax': 0.75}",undetermined,unconditional,,0,0,1,1
+NDDI-00251,directional,ertugliflozin,1992672,glimepiride,25789,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00252,directional,ertugliflozin,1992672,simvastatin,36567,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00253,directional,ertugliflozin,1992672,sitagliptin,593411,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00254,directional,ertugliflozin,1992672,metformin,6809,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00255,directional,carbamazepine,2002,levomilnacipran,1433212,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00256,directional,carbamazepine,2002,pregabalin,187832,PK,pk_unspecified,,,undetermined,unconditional,,0,1,7,12
+NDDI-00257,directional,carbamazepine,2002,selinexor,2178390,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00258,directional,carbamazepine,2002,milnacipran,588250,PK,pk_unspecified,,,undetermined,unconditional,,0,0,6,13
+NDDI-00259,directional,carbamazepine,2002,lacosamide,623400,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population;victim_specific_product,1,0,6,90
+NDDI-00260,directional,carbidopa,2019,rasagiline,134748,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,3,24
+NDDI-00261,directional,carvedilol,20352,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,15,360
+NDDI-00262,directional,carvedilol,20352,hydrochlorothiazide,5487,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;specific_population,1,0,8,360
+NDDI-00263,directional,baricitinib,2047232,digoxin,3407,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00264,directional,baricitinib,2047232,simvastatin,36567,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00265,directional,baricitinib,2047232,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00266,directional,baricitinib,2047232,levonorgestrel,6373,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00267,directional,baricitinib,2047232,methotrexate,6851,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00268,directional,encorafenib,2049106,oxaliplatin,32592,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00269,directional,encorafenib,2049106,irinotecan,51499,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00270,directional,binimetinib,2049122,midazolam,6960,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00271,directional,tafenoquine,2054023,artemether,18343,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00272,directional,tafenoquine,2054023,caffeine,1886,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00273,directional,tafenoquine,2054023,chloroquine,2393,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00274,directional,tafenoquine,2054023,desipramine,3247,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00275,directional,tafenoquine,2054023,flurbiprofen,4502,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00276,directional,tafenoquine,2054023,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00277,directional,tafenoquine,2054023,lumefantrine,847728,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00278,directional,lusutrombopag,2054984,midazolam,6960,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,3
+NDDI-00279,directional,doravirine,2055755,dolutegravir,1433868,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00280,directional,doravirine,2055755,sofosbuvir,1484911,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00281,directional,doravirine,2055755,ledipasvir,1591922,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00282,directional,doravirine,2055755,elbasvir,1734628,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00283,directional,doravirine,2055755,grazoprevir,1734630,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00284,directional,doravirine,2055755,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00285,directional,doravirine,2055755,levonorgestrel,6373,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00286,directional,doravirine,2055755,metformin,6809,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00287,directional,doravirine,2055755,methadone,6813,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00288,directional,doravirine,2055755,lamivudine,68244,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00289,directional,doravirine,2055755,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00290,directional,doravirine,2055755,atorvastatin,83367,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00291,directional,sarecycline,2059018,ethinyl estradiol,4124,PD,pd_effect_only,,,undetermined,conditional,victim_specific_product,1,0,1,2
+NDDI-00292,directional,clarithromycin,21212,selinexor,2178390,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00293,directional,erdafitinib,2123125,metformin,6809,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00294,directional,erdafitinib,2123125,midazolam,6960,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00295,directional,sevelamer,214824,warfarin,11289,PK,pk_unspecified,,,undetermined,unconditional,,0,0,30,94
+NDDI-00296,directional,sevelamer,214824,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,29,94
+NDDI-00297,directional,sevelamer,214824,enalapril,3827,PK,pk_unspecified,,,undetermined,unconditional,,0,0,27,94
+NDDI-00298,directional,sevelamer,214824,metoprolol,6918,PK,pk_unspecified,,,undetermined,unconditional,,0,0,27,94
+NDDI-00299,directional,alpelisib,2169285,everolimus,141704,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00300,directional,darolutamide,2180325,midazolam,6960,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00301,directional,pretomanid,2198359,efavirenz,195085,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,2
+NDDI-00302,directional,pretomanid,2198359,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00303,directional,lefamulin,2198944,digoxin,3407,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product,1,0,1,1
+NDDI-00304,directional,lefamulin,2198944,midazolam,6960,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product,1,0,1,1
+NDDI-00305,directional,istradefylline,2199015,carbidopa,2019,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,1
+NDDI-00306,directional,istradefylline,2199015,levodopa,6375,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,2,1
+NDDI-00307,directional,daptomycin,22299,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,11,69
+NDDI-00308,directional,trastuzumab,224905,capecitabine,194000,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,2,2
+NDDI-00309,directional,trastuzumab,224905,cisplatin,2555,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00310,directional,trastuzumab,224905,paclitaxel,56946,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00311,directional,lasmiditan,2256930,topiramate,38404,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00312,directional,lasmiditan,2256930,propranolol,8787,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00313,directional,zanubrutinib,2262435,warfarin,11289,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00314,directional,zanubrutinib,2262435,rosuvastatin,301542,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00315,directional,cenobamate,2265690,warfarin,11289,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00316,directional,cefiderocol,2265702,rosuvastatin,301542,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00317,directional,cefiderocol,2265702,furosemide,4603,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00318,directional,cefiderocol,2265702,metformin,6809,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00319,directional,ubrogepant,2268216,acetaminophen,161,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00320,directional,ubrogepant,2268216,atogepant,2571813,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00321,directional,ubrogepant,2268216,esomeprazole,283742,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00322,directional,ubrogepant,2268216,norgestimate,31994,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00323,directional,ubrogepant,2268216,sumatriptan,37418,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00324,directional,ubrogepant,2268216,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00325,directional,ubrogepant,2268216,naproxen,7258,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00326,directional,lumateperone,2275602,midazolam,6960,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,2,2
+NDDI-00327,directional,rimegepant,2282307,sumatriptan,37418,PD,pd_effect_only,,,undetermined,conditional,specific_population;victim_specific_product,1,0,1,2
+NDDI-00328,directional,rimegepant,2282307,metformin,6809,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00329,directional,rimegepant,2282307,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00330,directional,bempedoic acid,2282403,metformin,6809,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00331,directional,ozanimod,2288236,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00332,directional,ozanimod,2288236,norethindrone,7514,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00333,directional,ozanimod,2288236,pseudoephedrine,8896,PD,pd_effect_only,,,undetermined,unconditional,,0,0,1,1
+NDDI-00334,directional,bexarotene,233272,carboplatin,40048,PK,exposure_auc_or_cmax,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,6,14
+NDDI-00335,directional,lanthanum carbonate,234416,warfarin,11289,PK,pk_unspecified,,,undetermined,conditional,staggered_administration,1,0,1,2
+NDDI-00336,directional,lanthanum carbonate,234416,digoxin,3407,PK,pk_unspecified,,,undetermined,conditional,staggered_administration,1,0,1,2
+NDDI-00337,directional,lanthanum carbonate,234416,metoprolol,6918,PK,pk_unspecified,,,undetermined,conditional,staggered_administration,1,0,1,2
+NDDI-00338,directional,pemigatinib,2359268,metformin,6809,PD,pd_effect_only,,,undetermined,unconditional,,0,0,1,1
+NDDI-00339,directional,capmatinib,2362165,midazolam,6960,not_stated,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,1,1
+NDDI-00340,directional,trospium,236778,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,29,41
+NDDI-00341,directional,selpercatinib,2370147,metformin,6809,PD,pd_effect_only,,,no_path,unconditional,,0,0,1,1
+NDDI-00342,directional,chloroquine,2393,tafenoquine,2054023,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00343,directional,fludarabine,24698,nelarabine,274771,PK,pk_unspecified,,,undetermined,conditional,specific_population;staggered_administration,1,0,7,16
+NDDI-00344,directional,relugolix,2472778,dabigatran etexilate,1037042,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00345,directional,relugolix,2472778,rosuvastatin,301542,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00346,directional,relugolix,2472778,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00347,directional,vericiguat,2475830,warfarin,11289,PK+PD,pd_effect_only;pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,2,1
+NDDI-00348,directional,vericiguat,2475830,sildenafil,136411,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00349,directional,vericiguat,2475830,sacubitril,1656328,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00350,directional,vericiguat,2475830,digoxin,3407,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00351,directional,vericiguat,2475830,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00352,directional,vericiguat,2475830,valsartan,69749,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00353,directional,tepotinib,2477103,metformin,6809,PD,pd_effect_only,,,undetermined,unconditional,,0,0,1,1
+NDDI-00354,directional,2478646,2478646,rosuvastatin,301542,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00355,directional,2478646,2478646,simvastatin,36567,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00356,directional,2478646,2478646,atorvastatin,83367,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00357,directional,trilaciclib,2479690,topotecan,57308,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00358,directional,trilaciclib,2479690,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00359,directional,felbamate,24812,lamotrigine,28439,PK,pk_unspecified,,,undetermined,unconditional,,0,0,11,284
+NDDI-00360,directional,felbamate,24812,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,18
+NDDI-00361,directional,formoterol,25255,ciclesonide,274964,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,7
+NDDI-00362,directional,bevacizumab,253337,carboplatin,40048,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00363,directional,bevacizumab,253337,irinotecan,51499,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00364,directional,cimetidine,2541,amlodipine,17767,PK,pk_unspecified,,,undetermined,unconditional,,0,0,27,173
+NDDI-00365,directional,cimetidine,2541,butorphanol,1841,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,5,10
+NDDI-00366,directional,cimetidine,2541,elacestrant,2628469,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00367,directional,cimetidine,2541,sebetralstat,2717944,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00368,directional,cimetidine,2541,oxcarbazepine,32624,PK,pk_unspecified,,,undetermined,conditional,victim_specific_product,1,0,2,3
+NDDI-00369,directional,cimetidine,2541,risperidone,35636,PK,pk_unspecified,weak_change,"{'auc': 1.1, 'cmax': 1.3};{'auc': 1.1, 'cmax': 1.3};{'auc': 1.1, 'cmax': 1.3};{'auc': 1.1, 'cmax': 1.3};{'auc': 1.1, 'cmax': 1.3}",undetermined,unconditional,,0,0,4,4
+NDDI-00370,directional,cimetidine,2541,sertraline,36437,PK,pk_unspecified,,,no_path,unconditional,,0,0,11,265
+NDDI-00371,directional,cimetidine,2541,venlafaxine,39786,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,68
+NDDI-00372,directional,cimetidine,2541,zonisamide,39998,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,11,70
+NDDI-00373,directional,cimetidine,2541,fluconazole,4450,PK,exposure_auc_or_cmax;pk_unspecified,,,no_path,conditional,specific_dose_or_regimen;specific_population;specific_route,1,0,5,304
+NDDI-00374,directional,cimetidine,2541,fosfomycin,4550,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,1
+NDDI-00375,directional,cimetidine,2541,lorazepam,6470,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,26
+NDDI-00376,directional,cimetidine,2541,famciclovir,68099,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,15
+NDDI-00377,directional,cimetidine,2541,tiotropium,69120,not_stated,not_stated,,,undetermined,unconditional,,0,1,1,2
+NDDI-00378,directional,cimetidine,2541,letrozole,72965,PK,pk_unspecified,,,undetermined,unconditional,,0,0,6,43
+NDDI-00379,directional,cimetidine,2541,atorvastatin,83367,PK+PD,pk_and_pd,exposure_equivalent,"{'auc': 1.0, 'cmax': 0.89};{'auc': 1.0, 'cmax': 0.89};{'auc': 1.0, 'cmax': 0.89};{'auc': 1.0, 'cmax': 0.89};{'auc': 1.0, 'cmax': 0.89}",no_path,unconditional,,0,0,1,1
+NDDI-00380,directional,gabapentin,25480,pregabalin,187832,PK,pk_unspecified,,,undetermined,unconditional,,0,1,7,12
+NDDI-00381,directional,gabapentin,25480,carbamazepine,2002,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,10,931
+NDDI-00382,directional,gabapentin,25480,morphine,7052,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;staggered_administration,1,0,11,936
+NDDI-00383,directional,sotorasib,2550714,metformin,6809,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,1,1
+NDDI-00384,directional,ciprofloxacin,2551,ivacaftor,1243041,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,1,1
+NDDI-00385,directional,cisplatin,2555,cetuximab,318341,PK,pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00386,directional,cisplatin,2555,topotecan,57308,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,11
+NDDI-00387,directional,cisplatin,2555,pemetrexed,68446,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,28
+NDDI-00388,directional,cisplatin,2555,docetaxel,72962,PK,pk_unspecified,,,undetermined,uncertain,,0,0,3,52
+NDDI-00389,directional,citalopram,2556,theophylline,10438,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,21,257
+NDDI-00390,directional,citalopram,2556,warfarin,11289,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,18,257
+NDDI-00391,directional,citalopram,2556,carbamazepine,2002,PK,pk_unspecified,,,undetermined,unconditional,,0,0,17,257
+NDDI-00392,directional,citalopram,2556,bupropion,42347,PK,pk_unspecified,,,undetermined,unconditional,,0,0,10,668
+NDDI-00393,directional,citalopram,2556,imipramine,5691,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,uncertain,,0,0,15,257
+NDDI-00394,directional,finerenone,2562811,midazolam,6960,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00395,directional,finerenone,2562811,repaglinide,73044,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00396,directional,atogepant,2571813,ubrogepant,2268216,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00397,directional,glimepiride,25789,bexagliflozin,2627044,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,4
+NDDI-00398,directional,glimepiride,25789,rosiglitazone,84108,PK,pk_unspecified,,,no_path,conditional,single_dose_perpetrator,1,0,4,6
+NDDI-00399,directional,exemestane,258494,abemaciclib,1946825,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00400,directional,abrocitinib,2591476,caffeine,1886,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00401,directional,abrocitinib,2591476,efavirenz,195085,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00402,directional,abrocitinib,2591476,rosuvastatin,301542,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00403,directional,abrocitinib,2591476,metformin,6809,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00404,directional,abrocitinib,2591476,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00405,directional,2599041,2599041,carboplatin,40048,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00406,directional,2599041,2599041,irinotecan,51499,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00407,directional,brincidofovir,2599518,dabigatran etexilate,1037042,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00408,directional,brincidofovir,2599518,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00409,directional,mavacamten,2600867,ethinyl estradiol,4124,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,1
+NDDI-00410,directional,mavacamten,2600867,norethindrone,7514,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,1
+NDDI-00411,directional,oseltamivir,260101,baloxavir marboxil,2099995,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00412,directional,ondansetron,26225,temazepam,10355,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,8,133
+NDDI-00413,directional,clozapine,2626,risperidone,35636,PK,pk_unspecified,,,undetermined,conditional,victim_specific_product,1,0,2,2
+NDDI-00414,directional,bexagliflozin,2627044,glimepiride,25789,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00415,directional,bexagliflozin,2627044,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00416,directional,bexagliflozin,2627044,sitagliptin,593411,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00417,directional,bexagliflozin,2627044,metformin,6809,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00418,directional,sparsentan,2630535,rosuvastatin,301542,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00419,directional,sparsentan,2630535,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00420,directional,sparsentan,2630535,pitavastatin,861634,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00421,directional,omaveloxolone,2631931,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00422,directional,omaveloxolone,2631931,metformin,6809,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00423,directional,leniolisib,2633005,caffeine,1886,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,1,1
+NDDI-00424,directional,leniolisib,2633005,furosemide,4603,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,1,1
+NDDI-00425,directional,leniolisib,2633005,metformin,6809,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,1,1
+NDDI-00426,directional,leniolisib,2633005,midazolam,6960,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,1,1
+NDDI-00427,directional,zavegepant,2637955,sumatriptan,37418,PD,pd_effect_only,,,undetermined,conditional,specific_dose_or_regimen;specific_population;specific_route,1,0,1,2
+NDDI-00428,directional,quizartinib,2643048,dabigatran etexilate,1037042,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00429,directional,quizartinib,2643048,raltegravir,719872,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00430,directional,palovarotene,2663954,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00431,directional,momelotinib,2665204,midazolam,6960,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00432,directional,etrasimod,2668045,ethinyl estradiol,4124,PK+PD,pk_and_pd,,,undetermined,conditional,victim_specific_product,1,0,1,1
+NDDI-00433,directional,etrasimod,2668045,levonorgestrel,6373,PK+PD,pk_and_pd,,,undetermined,conditional,victim_specific_product,1,0,1,1
+NDDI-00434,directional,zuranolone,2669905,ethanol,448,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00435,directional,zuranolone,2669905,alprazolam,596,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00436,directional,colchicine,2683,theophylline,10438,PK,pk_unspecified,,,no_path,unconditional,,0,0,12,52
+NDDI-00437,directional,mavorixafor,2684021,caffeine,1886,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00438,directional,mavorixafor,2684021,furosemide,4603,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00439,directional,mavorixafor,2684021,losartan,52175,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00440,directional,mavorixafor,2684021,omeprazole,7646,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00441,directional,elafibranor,2684941,warfarin,11289,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00442,directional,vorasidenib,2690647,lamotrigine,28439,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00443,directional,crinecerfont,2701386,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00444,directional,crinecerfont,2701386,levonorgestrel,6373,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00445,directional,crinecerfont,2701386,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00446,directional,leflunomide,27169,bupropion,42347,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00447,directional,leflunomide,27169,metoprolol,6918,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00448,directional,leflunomide,27169,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00449,directional,leflunomide,27169,omeprazole,7646,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00450,directional,activated charcoal,272,nebivolol,31555,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;staggered_administration,1,0,10,58
+NDDI-00451,directional,imlunestrant,2725912,abemaciclib,1946825,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00452,directional,imlunestrant,2725912,dextromethorphan,3289,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00453,directional,imlunestrant,2725912,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00454,directional,imlunestrant,2725912,repaglinide,73044,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00455,directional,imlunestrant,2725912,omeprazole,7646,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00456,directional,tradipitant,2739506,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00457,directional,nateglinide,274332,warfarin,11289,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.0074, 'cmax': 0.9897};{'auc': 1.0074, 'cmax': 0.9897};{'auc': 1.0074, 'cmax': 0.9897};{'auc': 1.0074, 'cmax': 0.9897};{'auc': 1.0074, 'cmax': 0.9897}",undetermined,unconditional,,0,0,1,14
+NDDI-00458,directional,nateglinide,274332,diclofenac,3355,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.0797, 'cmax': 1.0219};{'auc': 1.0797, 'cmax': 1.0219};{'auc': 1.0797, 'cmax': 1.0219};{'auc': 1.0797, 'cmax': 1.0219};{'auc': 1.0797, 'cmax': 1.0219}",undetermined,unconditional,,0,0,1,14
+NDDI-00459,directional,nateglinide,274332,digoxin,3407,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.0658, 'cmax': 0.9459};{'auc': 1.0658, 'cmax': 0.9459};{'auc': 1.0658, 'cmax': 0.9459};{'auc': 1.0658, 'cmax': 0.9459};{'auc': 1.0658, 'cmax': 0.9459}",undetermined,unconditional,,0,0,3,22
+NDDI-00460,directional,nateglinide,274332,glyburide,4815,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.9266, 'cmax': 0.9682};{'auc': 0.9266, 'cmax': 0.9682};{'auc': 0.9266, 'cmax': 0.9682};{'auc': 0.9266, 'cmax': 0.9682};{'auc': 0.9266, 'cmax': 0.9682}",undetermined,unconditional,,0,0,1,14
+NDDI-00461,directional,nateglinide,274332,metformin,6809,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.133, 'cmax': 1.107};{'auc': 1.133, 'cmax': 1.107};{'auc': 1.133, 'cmax': 1.107};{'auc': 1.133, 'cmax': 1.107};{'auc': 1.133, 'cmax': 1.107}",undetermined,unconditional,,0,0,3,22
+NDDI-00462,directional,emtricitabine,276237,elvitegravir,1306286,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00463,directional,emtricitabine,276237,famciclovir,68099,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,15
+NDDI-00464,directional,28004,28004,vericiguat,2475830,PD,pd_effect_only,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,1
+NDDI-00465,directional,itraconazole,28031,vandetanib,1098413,PK,not_stated;pk_unspecified,,,no_path,unconditional,,0,1,1,1
+NDDI-00466,directional,itraconazole,28031,zidovudine,11413,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_population,1,0,1,3
+NDDI-00467,directional,itraconazole,28031,vismodegib,1242987,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00468,directional,itraconazole,28031,moxifloxacin,139462,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00469,directional,itraconazole,28031,baloxavir marboxil,2099995,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00470,directional,itraconazole,28031,ozanimod,2288236,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00471,directional,itraconazole,28031,trilaciclib,2479690,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00472,directional,itraconazole,28031,sotorasib,2550714,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,1,1
+NDDI-00473,directional,itraconazole,28031,belumosudil,2564025,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,1,1
+NDDI-00474,directional,itraconazole,28031,asciminib,2584304,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00475,directional,itraconazole,28031,olutasidenib,2623641,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00476,directional,itraconazole,28031,pirtobrutinib,2629338,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00477,directional,itraconazole,28031,fruquintinib,2670179,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00478,directional,itraconazole,28031,vimseltinib,2705378,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00479,directional,itraconazole,28031,baxdrostat,2743398,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00480,directional,itraconazole,28031,brepocitinib,2751486,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00481,directional,itraconazole,28031,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,8,18
+NDDI-00482,directional,itraconazole,28031,selegiline,9639,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00483,directional,acyclovir,281,digoxin,3407,PK,pk_unspecified,,,no_path,uncertain,,0,0,1,1
+NDDI-00484,directional,fulvestrant,282357,ribociclib,1873916,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00485,directional,fulvestrant,282357,abemaciclib,1946825,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00486,directional,imatinib,282388,acetaminophen,161,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,1
+NDDI-00487,directional,imatinib,282388,nilotinib,662281,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,3
+NDDI-00488,directional,posaconazole,282446,zidovudine,11413,PK+PD,not_stated;pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,11,27
+NDDI-00489,directional,posaconazole,282446,indinavir,114289,PK+PD,not_stated;pk_unspecified,,,no_path,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,11,27
+NDDI-00490,directional,posaconazole,282446,alectinib,1727455,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00491,directional,posaconazole,282446,caffeine,1886,PK+PD,not_stated;pk_unspecified,,,no_path,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,11,27
+NDDI-00492,directional,posaconazole,282446,lamivudine,68244,PK+PD,not_stated;pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,10,25
+NDDI-00493,directional,esomeprazole,283742,crizotinib,1148495,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00494,directional,esomeprazole,283742,sonidegib,1659191,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,2,2
+NDDI-00495,directional,esomeprazole,283742,alectinib,1727455,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00496,directional,esomeprazole,283742,ubrogepant,2268216,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00497,directional,esomeprazole,283742,pemigatinib,2359268,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00498,directional,esomeprazole,283742,sparsentan,2630535,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00499,directional,esomeprazole,283742,sevabertinib,2728187,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00500,directional,esomeprazole,283742,daraxonrasib,2750155,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00501,directional,lamotrigine,28439,levetiracetam,114477,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,283
+NDDI-00502,directional,lamotrigine,28439,pregabalin,187832,PK,pk_unspecified,,,undetermined,unconditional,,0,1,8,12
+NDDI-00503,directional,lamotrigine,28439,risperidone,35636,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,5,243
+NDDI-00504,directional,lamotrigine,28439,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00505,directional,miglitol,30009,digoxin,3407,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,6
+NDDI-00506,directional,tenofovir disoproxil,300195,elvitegravir,1306286,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00507,directional,tenofovir disoproxil,300195,entecavir,306266,PK,pk_unspecified,exposure_equivalent,{'auc': 1.13};{'auc': 1.13};{'auc': 1.13};{'auc': 1.13};{'auc': 1.13},undetermined,unconditional,,0,0,11,30
+NDDI-00508,directional,cyclophosphamide,3002,rituximab,121191,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00509,directional,cycloserine,3007,clofazimine,2592,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00510,directional,cyclosporine,3008,moxifloxacin,139462,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,56
+NDDI-00511,directional,cyclosporine,3008,baricitinib,2047232,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00512,directional,cyclosporine,3008,lusutrombopag,2054984,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,3
+NDDI-00513,directional,cyclosporine,3008,ozanimod,2288236,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00514,directional,cyclosporine,3008,deucravacitinib,2612087,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00515,directional,cyclosporine,3008,resmetirom,2677894,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00516,directional,cyclosporine,3008,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,8,18
+NDDI-00517,directional,modafinil,30125,sebetralstat,2717944,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00518,directional,modafinil,30125,dextroamphetamine,3288,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,9
+NDDI-00519,directional,modafinil,30125,methylphenidate,6901,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,9
+NDDI-00520,directional,rosuvastatin,301542,elagolix,2049846,PK,exposure_auc_or_cmax,,,no_path,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00521,directional,rosuvastatin,301542,orforglipron,2739838,not_stated,not_stated,,,undetermined,unconditional,,0,0,1,1
+NDDI-00522,directional,cytarabine,3041,venetoclax,1747556,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00523,directional,vardenafil,306674,warfarin,11289,PK,pk_unspecified,,,no_path,unconditional,,0,1,2,38
+NDDI-00524,directional,vardenafil,306674,digoxin,3407,PK,pk_unspecified,,,no_path,unconditional,,0,1,2,38
+NDDI-00525,directional,vardenafil,306674,glyburide,4815,PK,pk_unspecified,,,no_path,unconditional,,0,1,2,38
+NDDI-00526,directional,vardenafil,306674,nifedipine,7417,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,3,24
+NDDI-00527,directional,vardenafil,306674,ranitidine,9143,PK,pk_unspecified,,,path_possible,unconditional,,0,1,2,38
+NDDI-00528,directional,dapsone,3108,clofazimine,2592,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00529,directional,nebivolol,31555,furosemide,4603,PK,pk_unspecified,,,no_path,uncertain,,0,1,3,58
+NDDI-00530,directional,nebivolol,31555,hydrochlorothiazide,5487,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,58
+NDDI-00531,directional,nebivolol,31555,spironolactone,9997,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,58
+NDDI-00532,directional,nefazodone,31565,pravastatin,42463,PK,pk_unspecified,,,no_path,unconditional,,0,0,2,12
+NDDI-00533,directional,nefazodone,31565,phenytoin,8183,PK,pk_unspecified,,,no_path,conditional,specific_dose_or_regimen,0,0,4,12
+NDDI-00534,directional,cetuximab,318341,cisplatin,2555,PK,pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00535,directional,cetuximab,318341,carboplatin,40048,PK,pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00536,directional,cetuximab,318341,irinotecan,51499,PK,pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00537,directional,tiagabine,31914,theophylline,10438,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,4,12
+NDDI-00538,directional,tiagabine,31914,ethanol,448,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,12
+NDDI-00539,directional,norgestimate,31994,ubrogepant,2268216,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00540,directional,escitalopram,321988,ritonavir,85762,PK,pk_unspecified,,,no_path,conditional,single_dose_perpetrator;specific_dose_or_regimen,1,0,8,331
+NDDI-00541,directional,solifenacin,322167,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,7,16
+NDDI-00542,directional,micafungin,325887,mycophenolate mofetil,68149,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,18
+NDDI-00543,directional,dexamethasone,3264,lenalidomide,342369,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,4,21
+NDDI-00544,directional,dexamethasone,3264,bortezomib,358258,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,40
+NDDI-00545,directional,dexamethasone,3264,irinotecan,51499,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00546,directional,dextroamphetamine,3288,modafinil,30125,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,9
+NDDI-00547,directional,dextromethorphan,3289,tegaserod,139778,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00548,directional,paroxetine,32937,zaleplon,74667,PK,pk_unspecified,,,undetermined,unconditional,,0,0,6,42
+NDDI-00549,directional,diazepam,3322,rivastigmine,183379,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,51
+NDDI-00550,directional,diazepam,3322,fosphenytoin,72236,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,7,10
+NDDI-00551,directional,diazepam,3322,phenytoin,8183,PK,pk_unspecified,,,path_expected,conditional,single_dose_perpetrator,1,0,2,5
+NDDI-00552,directional,diazepam,3322,propranolol,8787,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,315
+NDDI-00553,directional,diclofenac,3355,vonoprazan,2604577,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00554,directional,diclofenac,3355,nateglinide,274332,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.022, 'cmax': 1.1323};{'auc': 1.022, 'cmax': 1.1323};{'auc': 1.022, 'cmax': 1.1323};{'auc': 1.022, 'cmax': 1.1323};{'auc': 1.022, 'cmax': 1.1323}",undetermined,unconditional,,0,0,1,14
+NDDI-00555,directional,didanosine,3364,ganciclovir,4678,PK,pk_unspecified,weak_change,"{'auc': 1.21, 'cmax': 1.17};{'auc': 0.79};{'auc': 0.79};{'auc': 0.79};{'auc': 1.21}",undetermined,unconditional,,0,0,1,2
+NDDI-00556,directional,didanosine,3364,rifabutin,55672,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00557,directional,pioglitazone,33738,warfarin,11289,PD,pd_effect_only,exposure_equivalent,"{'auc': 0.97, 'cmax': 0.98}",no_path,conditional,specific_population,0,0,1,3
+NDDI-00558,directional,pioglitazone,33738,metformin,6809,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.97, 'cmax': 0.98}",no_path,conditional,specific_dose_or_regimen,0,0,1,3
+NDDI-00559,directional,diflunisal,3393,deucravacitinib,2612087,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00560,directional,digoxin,3407,levetiracetam,114477,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,438
+NDDI-00561,directional,digoxin,3407,moxifloxacin,139462,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00562,directional,digoxin,3407,rivastigmine,183379,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,51
+NDDI-00563,directional,digoxin,3407,trospium,236778,PK,pk_unspecified,,,undetermined,unconditional,,0,0,29,41
+NDDI-00564,directional,digoxin,3407,vericiguat,2475830,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00565,directional,digoxin,3407,citalopram,2556,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,27,255
+NDDI-00566,directional,digoxin,3407,nateglinide,274332,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.0762, 'cmax': 1.0217};{'auc': 1.0762, 'cmax': 1.0217};{'auc': 1.0762, 'cmax': 1.0217};{'auc': 1.0762, 'cmax': 1.0217};{'auc': 1.0762, 'cmax': 1.0217}",undetermined,unconditional,,0,0,3,22
+NDDI-00567,directional,digoxin,3407,acyclovir,281,PK,pk_unspecified,,,no_path,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00568,directional,digoxin,3407,vardenafil,306674,PK,pk_unspecified,,,no_path,unconditional,,0,1,2,38
+NDDI-00569,directional,digoxin,3407,fondaparinux,321208,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,5,12
+NDDI-00570,directional,digoxin,3407,famciclovir,68099,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,15
+NDDI-00571,directional,digoxin,3407,valacyclovir,73645,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,6,134
+NDDI-00572,directional,dihydroergotamine,3418,topiramate,38404,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;specific_dose_or_regimen;specific_route,1,0,3,361
+NDDI-00573,directional,treprostinil,343048,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,2,8
+NDDI-00574,directional,diltiazem,3443,vibegron,2472254,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00575,directional,diltiazem,3443,pravastatin,42463,PK,pk_unspecified,weak_change,"{'auc': 1.027, 'cmax': 1.3};{'auc': 1.027, 'cmax': 1.3};{'auc': 1.027, 'cmax': 1.3};{'auc': 1.027, 'cmax': 1.3};{'auc': 1.027, 'cmax': 1.3}",no_path,unconditional,,0,0,3,14
+NDDI-00576,directional,quazepam,35185,bupropion,42347,PK,exposure_auc_or_cmax,,,undetermined,conditional,victim_specific_product,1,0,2,12
+NDDI-00577,directional,quinapril,35208,warfarin,11289,PD,pd_effect_only,,,undetermined,unconditional,,0,0,2,4
+NDDI-00578,directional,quinapril,35208,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,7,45
+NDDI-00579,directional,sirolimus,35302,cyclosporine,3008,PK,exposure_auc_or_cmax,,,path_possible,conditional,perpetrator_specific_product,1,0,3,27
+NDDI-00580,directional,sirolimus,35302,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,9,18
+NDDI-00581,directional,sirolimus,35302,diltiazem,3443,PK,pk_unspecified,,,path_expected,unconditional,,0,0,1,32
+NDDI-00582,directional,disulfiram,3554,lorazepam,6470,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,26
+NDDI-00583,directional,rifaximin,35619,norgestimate,31994,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,8
+NDDI-00584,directional,rifaximin,35619,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,8
+NDDI-00585,directional,risperidone,35636,donepezil,135447,PK,pk_unspecified,,,undetermined,unconditional,,0,0,13,260
+NDDI-00586,directional,risperidone,35636,topiramate,38404,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,4,9
+NDDI-00587,directional,risperidone,35636,galantamine,4637,PK,pk_unspecified,,,undetermined,unconditional,,0,0,13,260
+NDDI-00588,directional,risperidone,35636,selegiline,9639,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,2,1
+NDDI-00589,directional,aprepitant,358255,vinorelbine,39541,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_route,1,0,6,9
+NDDI-00590,directional,aprepitant,358255,palonosetron,70561,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_route;victim_specific_product,1,0,14,36
+NDDI-00591,directional,aprepitant,358255,docetaxel,72962,PK,pk_unspecified,,,no_path,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,6,9
+NDDI-00592,directional,aprepitant,358255,cabazitaxel,996051,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,2,3
+NDDI-00593,directional,tolvaptan,358257,warfarin,11289,PK,pk_unspecified,,,no_path,unconditional,,0,0,2,5
+NDDI-00594,directional,tolvaptan,358257,furosemide,4603,PK,pk_unspecified,,,no_path,unconditional,,0,0,2,5
+NDDI-00595,directional,tolvaptan,358257,hydrochlorothiazide,5487,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,5
+NDDI-00596,directional,tolvaptan,358257,amiodarone,703,PK,pk_unspecified,,,path_possible,unconditional,,0,0,2,5
+NDDI-00597,directional,fosamprenavir,358262,saquinavir,83395,PK,not_stated;pk_unspecified,exposure_equivalent,"{'auc': 0.81, 'cmax': 1.21};{'auc': 0.81, 'cmax': 1.21};{'auc': 0.81, 'cmax': 1.21};{'auc': 0.81, 'cmax': 1.21};{'auc': 0.81, 'cmax': 1.21}",undetermined,unconditional,,0,0,2,1
+NDDI-00598,directional,tadalafil,358263,theophylline,10438,PK,pk_unspecified,,,no_path,unconditional,,0,0,9,209
+NDDI-00599,directional,tadalafil,358263,bosentan,75207,PK,exposure_auc_or_cmax,,,path_expected,unconditional,,0,0,3,20
+NDDI-00600,directional,tadalafil,358263,tamsulosin,77492,PD,pd_effect_only,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,5
+NDDI-00601,directional,sertraline,36437,elagolix,2049846,PK,exposure_auc_or_cmax,,,no_path,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00602,directional,simvastatin,36567,everolimus,141704,PK,pk_unspecified,,,no_path,unconditional,,0,1,5,5
+NDDI-00603,directional,sumatriptan,37418,butorphanol,1841,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;specific_population;victim_specific_product,1,0,6,10
+NDDI-00604,directional,sumatriptan,37418,ubrogepant,2268216,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00605,directional,tazobactam,37617,vancomycin,11124,PK,pk_unspecified,,,undetermined,unconditional,,0,1,5,29
+NDDI-00606,directional,37864,37864,rosuvastatin,301542,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00607,directional,37864,37864,digoxin,3407,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00608,directional,37864,37864,midazolam,6960,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00609,directional,orlistat,37925,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,4
+NDDI-00610,directional,orlistat,37925,pravastatin,42463,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,2
+NDDI-00611,directional,orlistat,37925,glyburide,4815,PK+PD,pk_and_pd,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,4
+NDDI-00612,directional,orlistat,37925,nifedipine,7417,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population;victim_specific_product,1,0,10,75
+NDDI-00613,directional,orlistat,37925,phenytoin,8183,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,2,4
+NDDI-00614,directional,topiramate,38404,pregabalin,187832,PK,pk_unspecified,,,undetermined,unconditional,,0,1,6,12
+NDDI-00615,directional,topiramate,38404,dihydroergotamine,3418,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_route,1,0,6,361
+NDDI-00616,directional,topiramate,38404,risperidone,35636,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,13,357
+NDDI-00617,directional,topiramate,38404,sumatriptan,37418,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,8,358
+NDDI-00618,directional,topiramate,38404,venlafaxine,39786,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,11,355
+NDDI-00619,directional,topiramate,38404,haloperidol,5093,PK,pk_unspecified,,,undetermined,uncertain,,0,0,8,361
+NDDI-00620,directional,topiramate,38404,propranolol,8787,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,7,361
+NDDI-00621,directional,torsemide,38413,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,40
+NDDI-00622,directional,trandolapril,38454,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,7,24
+NDDI-00623,directional,venlafaxine,39786,topiramate,38404,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,11,354
+NDDI-00624,directional,venlafaxine,39786,imipramine,5691,PK,pk_unspecified,,,no_path,unconditional,,0,0,9,209
+NDDI-00625,directional,epirubicin,3995,paclitaxel,56946,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,14
+NDDI-00626,directional,epirubicin,3995,docetaxel,72962,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,14
+NDDI-00627,directional,zonisamide,39998,lamotrigine,28439,PK,pk_unspecified,,,undetermined,unconditional,,0,0,14,284
+NDDI-00628,directional,carboplatin,40048,gemcitabine,12574,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,12,46
+NDDI-00629,directional,carboplatin,40048,cetuximab,318341,PK,pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00630,directional,guanfacine,40114,673579,673579,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00631,directional,iloprost,40138,digoxin,3407,PK,pk_unspecified,,,undetermined,conditional,specific_route,1,0,2,3
+NDDI-00632,directional,erythromycin,4053,argatroban,15202,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,27
+NDDI-00633,directional,erythromycin,4053,ciclesonide,274964,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,14
+NDDI-00634,directional,erythromycin,4053,oxcarbazepine,32624,PK,pk_unspecified,,,undetermined,conditional,victim_specific_product,1,0,2,3
+NDDI-00635,directional,erythromycin,4053,risperidone,35636,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.1, 'cmax': 0.94};{'auc': 1.1, 'cmax': 0.94};{'auc': 1.1, 'cmax': 0.94};{'auc': 1.1, 'cmax': 0.94};{'auc': 1.1, 'cmax': 0.94}",undetermined,unconditional,,0,0,4,4
+NDDI-00636,directional,erythromycin,4053,losartan,52175,not_stated,not_stated,,,undetermined,unconditional,,0,0,1,40
+NDDI-00637,directional,pantoprazole,40790,doravirine,2055755,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00638,directional,pantoprazole,40790,ripretinib,2369389,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00639,directional,pantoprazole,40790,clopidogrel,32968,PK+PD,pk_and_pd,weak_change,"{'auc': 0.8, 'cmax': 0.76};{'auc': 0.8, 'cmax': 0.76}",undetermined,unconditional,,0,0,43,338
+NDDI-00640,directional,pantoprazole,40790,cladribine,44157,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,5
+NDDI-00641,directional,pantoprazole,40790,mycophenolic acid,7145,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population;victim_specific_product,1,0,9,16
+NDDI-00642,directional,cinacalcet,407990,warfarin,11289,PK+PD,pk_and_pd,exposure_equivalent,"{'auc': 1.01, 'cmax': 0.9};{'auc': 1.01, 'cmax': 0.9};{'auc': 1.01, 'cmax': 0.9};{'auc': 1.01, 'cmax': 0.9};{'auc': 1.01, 'cmax': 0.9}",no_path,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00643,directional,ethinyl estradiol,4124,sildenafil,136411,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,1,1
+NDDI-00644,directional,ethinyl estradiol,4124,eluxadoline,1653781,PK,exposure_auc_or_cmax,,,undetermined,uncertain,,0,0,1,1
+NDDI-00645,directional,ethinyl estradiol,4124,ubrogepant,2268216,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00646,directional,meloxicam,41493,vonoprazan,2604577,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00647,directional,meloxicam,41493,digoxin,3407,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,12,267
+NDDI-00648,directional,tacrolimus,42316,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,9,18
+NDDI-00649,directional,tacrolimus,42316,anidulafungin,341018,PK,exposure_auc_or_cmax,,,undetermined,conditional,single_dose_perpetrator,1,0,1,2
+NDDI-00650,directional,misoprostol,42331,diclofenac,3355,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,46
+NDDI-00651,directional,misoprostol,42331,ibuprofen,5640,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,46
+NDDI-00652,directional,bupropion,42347,lamotrigine,28439,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,6
+NDDI-00653,directional,bupropion,42347,memantine,6719,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00654,directional,fluvoxamine,42355,deucravacitinib,2612087,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00655,directional,pravastatin,42463,warfarin,11289,PD,pd_effect_only,exposure_equivalent,"{'auc': 1.17, 'cmax': 1.15};{'auc': 1.17, 'cmax': 1.15};{'auc': 1.17, 'cmax': 1.15};{'auc': 1.17, 'cmax': 1.15};{'auc': 1.17, 'cmax': 1.15}",no_path,conditional,specific_dose_or_regimen;specific_population,0,0,5,14
+NDDI-00656,directional,pravastatin,42463,everolimus,141704,PK,pk_unspecified,,,no_path,unconditional,,0,1,8,12
+NDDI-00657,directional,pravastatin,42463,digoxin,3407,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.046, 'cmax': 1.053};{'auc': 1.046, 'cmax': 1.053};{'auc': 1.046, 'cmax': 1.053};{'auc': 1.046, 'cmax': 1.053};{'auc': 1.046, 'cmax': 1.053}",no_path,conditional,specific_dose_or_regimen;specific_population,0,0,4,14
+NDDI-00658,directional,pravastatin,42463,fenofibrate,8703,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.99, 'cmax': 0.98};{'auc': 0.99, 'cmax': 0.98};{'auc': 0.99, 'cmax': 0.98};{'auc': 0.99, 'cmax': 0.98};{'auc': 0.99, 'cmax': 0.98}",undetermined,conditional,single_dose_perpetrator,1,0,1,3
+NDDI-00659,directional,dexrazoxane,42736,doxorubicin,3639,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00660,directional,famotidine,4278,elvitegravir,1306286,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00661,directional,famotidine,4278,apixaban,1364430,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,19
+NDDI-00662,directional,famotidine,4278,aripiprazole lauroxil,1673265,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00663,directional,famotidine,4278,deucravacitinib,2612087,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00664,directional,famotidine,4278,dasatinib,475342,PK,pk_unspecified,,,no_path,conditional,victim_specific_product,1,0,1,2
+NDDI-00665,directional,famotidine,4278,nilotinib,662281,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,3
+NDDI-00666,directional,famotidine,4278,aripiprazole,89013,PK,pk_unspecified,,,undetermined,unconditional,,0,0,16,259
+NDDI-00667,directional,felodipine,4316,digoxin,3407,PK,pk_unspecified,,,no_path,conditional,perpetrator_specific_product;specific_population,1,0,8,60
+NDDI-00668,directional,fenfluramine,4328,11118,11118,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,1,1
+NDDI-00669,directional,fenfluramine,4328,cannabidiol,2045371,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,1,1
+NDDI-00670,directional,fenfluramine,4328,stiripentol,2054968,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,1,1
+NDDI-00671,directional,fenfluramine,4328,clobazam,21241,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,1,1
+NDDI-00672,directional,cladribine,44157,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,4
+NDDI-00673,directional,cladribine,44157,levonorgestrel,6373,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,4
+NDDI-00674,directional,fluconazole,4450,vismodegib,1242987,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00675,directional,fluconazole,4450,baricitinib,2047232,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00676,directional,fluconazole,4450,elagolix,2049846,PK,exposure_auc_or_cmax,,,no_path,conditional,single_dose_perpetrator,1,0,1,1
+NDDI-00677,directional,fluconazole,4450,clarithromycin,21212,PK,pk_unspecified,,,no_path,unconditional,,0,0,2,41
+NDDI-00678,directional,fluconazole,4450,revumenib,2698325,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00679,directional,fluconazole,4450,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,8,18
+NDDI-00680,directional,fluconazole,4450,eprosartan,83515,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,3
+NDDI-00681,directional,ethanol,448,pregabalin,187832,PK,pk_unspecified,,,undetermined,unconditional,,0,1,4,12
+NDDI-00682,directional,ethanol,448,zuranolone,2669905,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00683,directional,ethanol,448,venlafaxine,39786,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;specific_population,1,0,9,209
+NDDI-00684,directional,fluorouracil,4492,docetaxel,72962,PK,pk_unspecified,,,undetermined,uncertain,,0,0,3,52
+NDDI-00685,directional,fluoxetine,4493,rivastigmine,183379,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,51
+NDDI-00686,directional,fluoxetine,4493,clonazepam,2598,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,88
+NDDI-00687,directional,fluoxetine,4493,estazolam,4077,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,2,10
+NDDI-00688,directional,fluoxetine,4493,milnacipran,588250,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,4,13
+NDDI-00689,directional,darunavir,460132,dolutegravir,1433868,PK,pk_unspecified,weak_change,"{'auc': 0.78, 'cmax': 0.89};{'auc': 0.75, 'cmax': 0.88};{'auc': 0.78, 'cmax': 0.89};{'auc': 0.75, 'cmax': 0.88};{'auc': 0.78, 'cmax': 0.89}",no_path,uncertain,,0,0,1,1
+NDDI-00690,directional,furosemide,4603,captopril,1998,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,4,62
+NDDI-00691,directional,furosemide,4603,nebivolol,31555,PK,pk_unspecified,,,no_path,conditional,single_dose_perpetrator;specific_population,1,1,3,58
+NDDI-00692,directional,eszopiclone,461016,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,conditional,specific_dose_or_regimen,0,0,10,154
+NDDI-00693,directional,eszopiclone,461016,digoxin,3407,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,7,154
+NDDI-00694,directional,galantamine,4637,warfarin,11289,PK+PD,pk_and_pd;pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,11,43
+NDDI-00695,directional,galantamine,4637,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,10
+NDDI-00696,directional,ganciclovir,4678,foscarnet,33562,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,2,14
+NDDI-00697,directional,ganciclovir,4678,mycophenolate mofetil,68149,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;specific_population;specific_route,1,0,2,15
+NDDI-00698,directional,gemfibrozil,4719,finerenone,2562811,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00699,directional,gemfibrozil,4719,raloxifene,72143,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,3,11
+NDDI-00700,directional,telavancin,473837,aztreonam,1272,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00701,directional,telavancin,473837,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00702,directional,liraglutide,475968,insulin detemir,139825,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population;specific_route,1,1,4,18
+NDDI-00703,directional,etravirine,475969,elvitegravir,1306286,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00704,directional,glyburide,4815,nateglinide,274332,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.9647, 'cmax': 0.9122};{'auc': 0.9647, 'cmax': 0.9122};{'auc': 0.9647, 'cmax': 0.9122};{'auc': 0.9647, 'cmax': 0.9122};{'auc': 0.9647, 'cmax': 0.9122}",undetermined,unconditional,,0,0,1,14
+NDDI-00705,directional,glyburide,4815,vardenafil,306674,PK,pk_unspecified,,,no_path,unconditional,,0,1,2,38
+NDDI-00706,directional,glyburide,4815,dofetilide,49247,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,9
+NDDI-00707,directional,glyburide,4815,memantine,6719,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product,1,0,15,142
+NDDI-00708,directional,dofetilide,49247,theophylline,10438,PK,pk_unspecified,,,undetermined,uncertain,,0,0,1,9
+NDDI-00709,directional,dofetilide,49247,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,uncertain,,0,0,1,9
+NDDI-00710,directional,dofetilide,49247,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,9
+NDDI-00711,directional,dofetilide,49247,phenytoin,8183,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,9
+NDDI-00712,directional,dofetilide,49247,propranolol,8787,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,9
+NDDI-00713,directional,sorafenib,495881,dextromethorphan,3289,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,6,9
+NDDI-00714,directional,sorafenib,495881,midazolam,6960,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,6,9
+NDDI-00715,directional,sorafenib,495881,omeprazole,7646,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,6,9
+NDDI-00716,directional,quetiapine,51272,antipyrine,1001,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,4,29
+NDDI-00717,directional,irinotecan,51499,cetuximab,318341,PK,pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00718,directional,allopurinol,519,famciclovir,68099,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,15
+NDDI-00719,directional,losartan,52175,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,5,81
+NDDI-00720,directional,losartan,52175,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,81
+NDDI-00721,directional,hydralazine,5470,acebutolol,149,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,13
+NDDI-00722,directional,hydrochlorothiazide,5487,acebutolol,149,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,13
+NDDI-00723,directional,hydrochlorothiazide,5487,carvedilol,20352,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,360
+NDDI-00724,directional,hydrochlorothiazide,5487,nebivolol,31555,PK,pk_unspecified,,,undetermined,unconditional,,0,1,3,58
+NDDI-00725,directional,hydrochlorothiazide,5487,memantine,6719,PK,exposure_auc_or_cmax,,,undetermined,uncertain,,0,0,1,5
+NDDI-00726,directional,hydrochlorothiazide,5487,irbesartan,83818,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,25
+NDDI-00727,directional,rifabutin,55672,theophylline,10438,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00728,directional,rifabutin,55672,didanosine,3364,PK,pk_unspecified,exposure_equivalent,"{'auc': 4.12, 'cmax': 3.32};{'auc': 1.13, 'cmax': 1.17};{'auc': 1.13, 'cmax': 1.17};{'auc': 1.13, 'cmax': 1.17};{'auc': 1.13, 'cmax': 1.17}",undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,1,1
+NDDI-00729,directional,rifabutin,55672,fluconazole,4450,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00730,directional,rifabutin,55672,methadone,6813,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00731,directional,ibuprofen,5640,metformin,6809,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.05, 'cmax': 1.07};{'auc': 1.05, 'cmax': 1.07};{'auc': 1.05, 'cmax': 1.07};{'auc': 1.05, 'cmax': 1.07};{'auc': 1.05, 'cmax': 1.07}",undetermined,conditional,single_dose_perpetrator;specific_population,1,0,5,71
+NDDI-00732,directional,ibuprofen,5640,selegiline,9639,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;victim_specific_product,1,0,2,1
+NDDI-00733,directional,imipramine,5691,venlafaxine,39786,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,209
+NDDI-00734,directional,paclitaxel,56946,epirubicin,3995,PK,pk_unspecified,,,undetermined,conditional,staggered_administration,1,0,2,2
+NDDI-00735,directional,topotecan,57308,cisplatin,2555,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,11
+NDDI-00736,directional,indomethacin,5781,elafibranor,2684941,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00737,directional,milnacipran,588250,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,conditional,specific_dose_or_regimen,0,0,3,13
+NDDI-00738,directional,varenicline,591622,warfarin,11289,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,4,63
+NDDI-00739,directional,sitagliptin,593411,warfarin,11289,PK+PD,pk_and_pd;pk_unspecified,exposure_equivalent,"{'auc': 0.95, 'cmax': 0.89};{'auc': 0.99, 'cmax': 0.89};{'auc': 0.95, 'cmax': 0.89};{'auc': 0.99, 'cmax': 0.89};{'auc': 0.95, 'cmax': 0.89}",undetermined,unconditional,,0,0,7,31
+NDDI-00740,directional,sitagliptin,593411,bexagliflozin,2627044,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,4
+NDDI-00741,directional,sitagliptin,593411,digoxin,3407,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.11, 'cmax': 1.18};{'auc': 1.11, 'cmax': 1.18};{'auc': 1.11, 'cmax': 1.18};{'auc': 1.11, 'cmax': 1.18};{'auc': 1.11, 'cmax': 1.18}",undetermined,unconditional,,0,0,4,22
+NDDI-00742,directional,sitagliptin,593411,simvastatin,36567,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.85, 'cmax': 0.8};{'auc': 1.12, 'cmax': 1.06};{'auc': 0.85, 'cmax': 0.8};{'auc': 1.12, 'cmax': 1.06};{'auc': 0.85, 'cmax': 0.8}",undetermined,unconditional,,0,0,5,31
+NDDI-00743,directional,sitagliptin,593411,ethinyl estradiol,4124,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.99, 'cmax': 0.97};{'auc': 1.03, 'cmax': 0.98};{'auc': 0.99, 'cmax': 0.97};{'auc': 1.03, 'cmax': 0.98};{'auc': 0.99, 'cmax': 0.97}",undetermined,unconditional,,0,0,3,21
+NDDI-00744,directional,sitagliptin,593411,glyburide,4815,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.09, 'cmax': 1.01};{'auc': 1.09, 'cmax': 1.01};{'auc': 1.09, 'cmax': 1.01};{'auc': 1.09, 'cmax': 1.01};{'auc': 1.09, 'cmax': 1.01}",undetermined,unconditional,,0,0,5,31
+NDDI-00745,directional,sitagliptin,593411,metformin,6809,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.02, 'cmax': 0.97};{'auc': 1.02, 'cmax': 0.97};{'auc': 1.02, 'cmax': 0.97};{'auc': 1.02, 'cmax': 0.97};{'auc': 1.02, 'cmax': 0.97}",undetermined,unconditional,,0,0,8,31
+NDDI-00746,directional,sitagliptin,593411,norethindrone,7514,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.99, 'cmax': 0.97};{'auc': 1.03, 'cmax': 0.98};{'auc': 0.99, 'cmax': 0.97};{'auc': 1.03, 'cmax': 0.98};{'auc': 0.99, 'cmax': 0.97}",undetermined,unconditional,,0,0,3,21
+NDDI-00747,directional,sitagliptin,593411,rosiglitazone,84108,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.98, 'cmax': 0.99};{'auc': 0.98, 'cmax': 0.99};{'auc': 0.98, 'cmax': 0.99};{'auc': 0.98, 'cmax': 0.99};{'auc': 0.98, 'cmax': 0.99}",undetermined,unconditional,,0,0,5,31
+NDDI-00748,directional,alprazolam,596,levomilnacipran,1433212,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00749,directional,alprazolam,596,zuranolone,2669905,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00750,directional,alprazolam,596,selegiline,9639,PK,exposure_auc_or_cmax,,,undetermined,conditional,victim_specific_product,1,0,1,1
+NDDI-00751,directional,stavudine,59763,elvitegravir,1306286,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00752,directional,alprostadil,598,warfarin,11289,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00753,directional,alprostadil,598,aspirin,1191,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00754,directional,alprostadil,598,digoxin,3407,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00755,directional,alprostadil,598,glyburide,4815,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00756,directional,exenatide,60548,acetaminophen,161,PK,exposure_auc_or_cmax,,,undetermined,conditional,staggered_administration,1,0,2,4
+NDDI-00757,directional,exenatide,60548,bexagliflozin,2627044,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,4
+NDDI-00758,directional,isotretinoin,6064,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_population,1,0,8,10
+NDDI-00759,directional,isotretinoin,6064,norethindrone,7514,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_population,1,0,8,10
+NDDI-00760,directional,isotretinoin,6064,phenytoin,8183,PK,pk_unspecified,,,undetermined,unconditional,,0,0,6,16
+NDDI-00761,directional,prasugrel,613391,apixaban,1364430,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,19
+NDDI-00762,directional,ketoconazole,6135,abiraterone,1100072,PK,pk_unspecified,,,no_path,unconditional,,0,0,13,45
+NDDI-00763,directional,ketoconazole,6135,doravirine,2055755,PK,pk_unspecified,strong_change,"{'auc': 3.06, 'cmax': 1.25};{'auc': 3.06, 'cmax': 1.25};{'auc': 3.06, 'cmax': 1.25}",undetermined,unconditional,,0,0,1,3
+NDDI-00764,directional,ketoconazole,6135,vibegron,2472254,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00765,directional,ketoconazole,6135,vericiguat,2475830,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00766,directional,ketoconazole,6135,citalopram,2556,PK,pk_unspecified,,,undetermined,unconditional,,0,0,15,307
+NDDI-00767,directional,ketoconazole,6135,fulvestrant,282357,PK,pk_unspecified,,,undetermined,unconditional,,0,0,9,37
+NDDI-00768,directional,ketoconazole,6135,zonisamide,39998,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,7,57
+NDDI-00769,directional,ketoconazole,6135,losartan,52175,PK,not_stated;pk_unspecified,,,undetermined,conditional,specific_route,1,0,1,40
+NDDI-00770,directional,ketoconazole,6135,eprosartan,83515,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,3
+NDDI-00771,directional,ketoconazole,6135,selegiline,9639,PK,exposure_auc_or_cmax,,,undetermined,conditional,victim_specific_product,1,0,1,1
+NDDI-00772,directional,olanzapine,61381,theophylline,10438,PK,pk_unspecified,,,undetermined,unconditional,,0,0,7,298
+NDDI-00773,directional,olanzapine,61381,warfarin,11289,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,24,295
+NDDI-00774,directional,olanzapine,61381,diazepam,3322,PK,pk_unspecified,,,undetermined,unconditional,,0,0,9,295
+NDDI-00775,directional,olanzapine,61381,ethanol,448,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,3
+NDDI-00776,directional,olanzapine,61381,imipramine,5691,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,5,291
+NDDI-00777,directional,olanzapine,61381,selegiline,9639,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,victim_specific_product,1,0,2,1
+NDDI-00778,directional,maraviroc,620216,zidovudine,11413,PK,pk_unspecified,,,undetermined,unconditional,,0,0,4,17
+NDDI-00779,directional,maraviroc,620216,elvitegravir,1306286,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.07, 'cmax': 1.01}",undetermined,unconditional,,0,0,3,14
+NDDI-00780,directional,maraviroc,620216,digoxin,3407,PK,pk_unspecified,,,no_path,unconditional,,0,0,2,14
+NDDI-00781,directional,maraviroc,620216,levonorgestrel,6373,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,17
+NDDI-00782,directional,maraviroc,620216,lamivudine,68244,PK,pk_unspecified,,,undetermined,unconditional,,0,0,4,17
+NDDI-00783,directional,maraviroc,620216,midazolam,6960,PK,pk_unspecified,,,no_path,unconditional,,0,0,3,17
+NDDI-00784,directional,lacosamide,623400,11118,11118,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_population,1,0,27,91
+NDDI-00785,directional,lacosamide,623400,levetiracetam,114477,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_population,0,0,9,86
+NDDI-00786,directional,lacosamide,623400,carbamazepine,2002,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_population,1,0,27,91
+NDDI-00787,directional,lacosamide,623400,gabapentin,25480,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_population,0,0,10,87
+NDDI-00788,directional,lacosamide,623400,clonazepam,2598,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_population,1,0,10,87
+NDDI-00789,directional,lacosamide,623400,lamotrigine,28439,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,16,269
+NDDI-00790,directional,lacosamide,623400,digoxin,3407,PK,pk_unspecified,,,undetermined,uncertain,,0,0,5,41
+NDDI-00791,directional,lacosamide,623400,topiramate,38404,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_population,1,0,10,87
+NDDI-00792,directional,lacosamide,623400,zonisamide,39998,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_population,0,0,10,87
+NDDI-00793,directional,lacosamide,623400,metformin,6809,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,12,89
+NDDI-00794,directional,lacosamide,623400,phenobarbital,8134,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_population,0,0,10,87
+NDDI-00795,directional,lacosamide,623400,phenytoin,8183,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_population,0,0,10,87
+NDDI-00796,directional,levonorgestrel,6373,perampanel,1356552,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,5,9
+NDDI-00797,directional,levonorgestrel,6373,sildenafil,136411,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00798,directional,levodopa,6375,rasagiline,134748,PK,pk_unspecified,,,undetermined,uncertain,,0,0,3,24
+NDDI-00799,directional,armodafinil,641465,caffeine,1886,PK,pk_unspecified,,,no_path,conditional,specific_dose_or_regimen,0,0,1,5
+NDDI-00800,directional,loperamide,6468,posaconazole,282446,PK,pk_unspecified,weak_change,"{'auc': 0.81, 'cmax': 0.79};{'auc': 1.11, 'cmax': 0.97};{'auc': 0.81, 'cmax': 0.79};{'auc': 1.11, 'cmax': 0.97}",path_expected,conditional,victim_specific_product,1,0,3,5
+NDDI-00801,directional,lorazepam,6470,pregabalin,187832,PK,pk_unspecified,,,undetermined,unconditional,,0,1,4,12
+NDDI-00802,directional,lorazepam,6470,olanzapine,61381,PK,pk_unspecified,,,undetermined,conditional,specific_route;staggered_administration,1,0,9,52
+NDDI-00803,directional,lorazepam,6470,duloxetine,72625,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,9,315
+NDDI-00804,directional,lorazepam,6470,aripiprazole,89013,PK,pk_unspecified,,,undetermined,unconditional,,0,0,16,259
+NDDI-00805,directional,lovastatin,6472,antipyrine,1001,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00806,directional,temsirolimus,657797,lenalidomide,342369,PK,pk_unspecified,,,undetermined,uncertain,,0,0,6,22
+NDDI-00807,directional,magnesium hydroxide,6581,sildenafil,136411,PK,exposure_auc_or_cmax;pk_unspecified,exposure_equivalent,"{'auc': 0.92, 'cmax': 1.16}",undetermined,conditional,single_dose_perpetrator;victim_specific_product,1,0,6,151
+NDDI-00808,directional,magnesium hydroxide,6581,azithromycin,18631,PK,exposure_auc_or_cmax,weak_change,"{'auc': 0.984, 'cmax': 0.765};{'auc': 0.99, 'cmax': 0.99};{'auc': 0.984, 'cmax': 0.765};{'auc': 0.984, 'cmax': 0.765};{'auc': 0.984, 'cmax': 0.765}",undetermined,conditional,victim_specific_product,1,0,1,1
+NDDI-00809,directional,magnesium hydroxide,6581,doravirine,2055755,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00810,directional,magnesium hydroxide,6581,tebipenem pivoxil,2750185,PK,exposure_auc_or_cmax,,,undetermined,conditional,single_dose_perpetrator;victim_specific_product,1,0,1,1
+NDDI-00811,directional,nilotinib,662281,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,conditional,perpetrator_specific_product;single_dose_perpetrator,1,0,3,8
+NDDI-00812,directional,medroxyprogesterone,6691,dofetilide,49247,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,9
+NDDI-00813,directional,6693,6693,vericiguat,2475830,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00814,directional,enoxaparin,67108,dabigatran etexilate,1037042,PK+PD,pk_and_pd,,,undetermined,conditional,specific_route;staggered_administration,1,0,1,1
+NDDI-00815,directional,enoxaparin,67108,apixaban,1364430,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,3,19
+NDDI-00816,directional,melphalan,6718,bortezomib,358258,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,40
+NDDI-00817,directional,memantine,6719,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,1,134
+NDDI-00818,directional,memantine,6719,donepezil,135447,PK,pk_unspecified,,,undetermined,unconditional,,0,0,13,142
+NDDI-00819,directional,memantine,6719,bupropion,42347,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,40
+NDDI-00820,directional,memantine,6719,galantamine,4637,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,7,40
+NDDI-00821,directional,metformin,6809,cimetidine,2541,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.95, 'cmax': 1.01};{'auc': 0.95, 'cmax': 1.01};{'auc': 0.95, 'cmax': 1.01};{'auc': 0.95, 'cmax': 1.01};{'auc': 0.95, 'cmax': 1.01}",path_expected,unconditional,,0,0,1,1
+NDDI-00822,directional,metformin,6809,sotorasib,2550714,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,1,1
+NDDI-00823,directional,metformin,6809,bexagliflozin,2627044,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,4
+NDDI-00824,directional,metformin,6809,nateglinide,274332,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.0151, 'cmax': 1.0714};{'auc': 1.0151, 'cmax': 1.0714};{'auc': 1.0151, 'cmax': 1.0714};{'auc': 1.0151, 'cmax': 1.0714};{'auc': 1.0151, 'cmax': 1.0714}",undetermined,unconditional,,0,0,3,22
+NDDI-00825,directional,metformin,6809,sitagliptin,593411,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.02, 'cmax': 1.05};{'auc': 1.02, 'cmax': 1.05};{'auc': 1.02, 'cmax': 1.05};{'auc': 1.02, 'cmax': 1.05};{'auc': 1.02, 'cmax': 1.05}",undetermined,unconditional,,0,0,3,10
+NDDI-00826,directional,metformin,6809,lacosamide,623400,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_route;victim_specific_product,1,0,10,91
+NDDI-00827,directional,metformin,6809,memantine,6719,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product,1,0,15,142
+NDDI-00828,directional,famciclovir,68099,zidovudine,11413,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,1,15
+NDDI-00829,directional,famciclovir,68099,emtricitabine,276237,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,1,15
+NDDI-00830,directional,famciclovir,68099,digoxin,3407,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,15
+NDDI-00831,directional,methadone,6813,abacavir,190521,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,31
+NDDI-00832,directional,methadone,6813,doravirine,2055755,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00833,directional,mycophenolate mofetil,68149,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,9,18
+NDDI-00834,directional,mycophenolate mofetil,68149,ganciclovir,4678,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;specific_population;specific_route,1,0,2,15
+NDDI-00835,directional,lamivudine,68244,zidovudine,11413,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,0,20,69
+NDDI-00836,directional,lamivudine,68244,doravirine,2055755,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00837,directional,lamivudine,68244,entecavir,306266,PK,pk_unspecified,,,undetermined,unconditional,,0,0,11,30
+NDDI-00838,directional,pyridoxine,684879,clofazimine,2592,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00839,directional,methotrexate,6851,rituximab,121191,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00840,directional,methylphenidate,6901,modafinil,30125,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,9
+NDDI-00841,directional,tiotropium,69120,cimetidine,2541,not_stated,not_stated,,,undetermined,unconditional,,0,1,1,2
+NDDI-00842,directional,tiotropium,69120,ranitidine,9143,not_stated,not_stated,,,undetermined,unconditional,,0,1,1,2
+NDDI-00843,directional,metoclopramide,6915,zolmitriptan,135775,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,3,51
+NDDI-00844,directional,metoclopramide,6915,posaconazole,282446,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.93, 'cmax': 0.86};{'auc': 0.93, 'cmax': 0.86};{'auc': 0.93, 'cmax': 0.86};{'auc': 0.93, 'cmax': 0.86};{'auc': 0.81, 'cmax': 0.79}",undetermined,conditional,victim_specific_product,1,0,14,29
+NDDI-00845,directional,metoclopramide,6915,tapentadol,787390,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,30
+NDDI-00846,directional,metoprolol,6918,28004,28004,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,25
+NDDI-00847,directional,metoprolol,6918,lorazepam,6470,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,26
+NDDI-00848,directional,metronidazole,6922,ciprofloxacin,2551,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,9,458
+NDDI-00849,directional,metronidazole,6922,lorazepam,6470,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,26
+NDDI-00850,directional,midazolam,6960,telavancin,473837,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00851,directional,valsartan,69749,vericiguat,2475830,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00852,directional,amitriptyline,704,risperidone,35636,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.2, 'cmax': 1.1};{'auc': 1.2, 'cmax': 1.1};{'auc': 1.2, 'cmax': 1.1};{'auc': 1.2, 'cmax': 1.1};{'auc': 1.2, 'cmax': 1.1}",undetermined,unconditional,,0,0,10,53
+NDDI-00853,directional,morphine,7052,moxifloxacin,139462,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00854,directional,eltrombopag,711942,sebetralstat,2717944,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00855,directional,raloxifene,72143,warfarin,11289,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,51
+NDDI-00856,directional,interferon beta-1b,72257,dalfampridine,897018,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,3,17
+NDDI-00857,directional,ropinirole,72302,theophylline,10438,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_population;specific_route,1,0,19,126
+NDDI-00858,directional,naproxen,7258,ubrogepant,2268216,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00859,directional,72611,72611,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,5
+NDDI-00860,directional,duloxetine,72625,warfarin,11289,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,25,311
+NDDI-00861,directional,tolcapone,72937,desipramine,3247,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00862,directional,docetaxel,72962,capecitabine,194000,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,7,25
+NDDI-00863,directional,docetaxel,72962,darolutamide,2180325,PK,pk_unspecified,,,path_expected,unconditional,,0,0,1,1
+NDDI-00864,directional,docetaxel,72962,cisplatin,2555,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,3,52
+NDDI-00865,directional,docetaxel,72962,cyclophosphamide,3002,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,54
+NDDI-00866,directional,docetaxel,72962,doxorubicin,3639,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,54
+NDDI-00867,directional,docetaxel,72962,epirubicin,3995,PK,pk_unspecified,,,undetermined,uncertain,,0,0,2,2
+NDDI-00868,directional,docetaxel,72962,fluorouracil,4492,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,3,52
+NDDI-00869,directional,letrozole,72965,warfarin,11289,PK,pk_unspecified,,,undetermined,unconditional,,0,0,4,44
+NDDI-00870,directional,letrozole,72965,abemaciclib,1946825,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00871,directional,repaglinide,73044,theophylline,10438,PK,pk_unspecified,,,no_path,unconditional,,0,0,7,37
+NDDI-00872,directional,repaglinide,73044,warfarin,11289,PK,pk_unspecified,,,no_path,unconditional,,0,0,7,37
+NDDI-00873,directional,repaglinide,73044,digoxin,3407,PK,pk_unspecified,,,no_path,unconditional,,0,0,7,37
+NDDI-00874,directional,iloperidone,73178,fluoxetine,4493,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,2,7
+NDDI-00875,directional,amphotericin b,732,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,9,18
+NDDI-00876,directional,desvenlafaxine,734064,tamoxifen,10324,PK,pk_unspecified,,,undetermined,unconditional,,0,0,8,47
+NDDI-00877,directional,desvenlafaxine,734064,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,14,64
+NDDI-00878,directional,desvenlafaxine,734064,aripiprazole,89013,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,2
+NDDI-00879,directional,valacyclovir,73645,digoxin,3407,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,6,134
+NDDI-00880,directional,febuxostat,73689,warfarin,11289,PK,pk_unspecified,,,no_path,conditional,specific_dose_or_regimen;specific_population,0,0,5,38
+NDDI-00881,directional,nifedipine,7417,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,9,18
+NDDI-00882,directional,nifedipine,7417,tirofiban,73137,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,7,92
+NDDI-00883,directional,nifedipine,7417,irbesartan,83818,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,25
+NDDI-00884,directional,zaleplon,74667,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,conditional,specific_dose_or_regimen,0,0,7,42
+NDDI-00885,directional,norethindrone,7514,eluxadoline,1653781,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00886,directional,sapropterin,753340,digoxin,3407,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,3,19
+NDDI-00887,directional,interferon beta-1a,75917,cladribine,44157,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,5
+NDDI-00888,directional,omeprazole,7646,levothyroxine,10582,PK,pk_unspecified,,,undetermined,conditional,victim_specific_product,1,0,1,1
+NDDI-00889,directional,omeprazole,7646,vandetanib,1098413,PK,exposure_auc_or_cmax,,,no_path,unconditional,,0,0,2,2
+NDDI-00890,directional,omeprazole,7646,elvitegravir,1306286,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,1,1,1
+NDDI-00891,directional,omeprazole,7646,brexpiprazole,1658314,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,7
+NDDI-00892,directional,omeprazole,7646,semaglutide,1991302,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00893,directional,omeprazole,7646,tucatinib,2361285,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00894,directional,omeprazole,7646,risdiplam,2390935,PK,pk_unspecified,,,undetermined,conditional,victim_specific_product,1,0,1,1
+NDDI-00895,directional,omeprazole,7646,elacestrant,2628469,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00896,directional,omeprazole,7646,pirtobrutinib,2629338,PK,pk_unspecified,,,path_possible,unconditional,,0,0,1,1
+NDDI-00897,directional,omeprazole,7646,momelotinib,2665204,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00898,directional,omeprazole,7646,vorasidenib,2690647,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00899,directional,omeprazole,7646,suzetrigine,2704819,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00900,directional,omeprazole,7646,imlunestrant,2725912,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00901,directional,omeprazole,7646,tebipenem pivoxil,2750185,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-00902,directional,omeprazole,7646,cysteamine,3022,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,2,2
+NDDI-00903,directional,omeprazole,7646,bortezomib,358258,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,40
+NDDI-00904,directional,omeprazole,7646,dasatinib,475342,PK,pk_unspecified,,,no_path,conditional,victim_specific_product,1,0,1,2
+NDDI-00905,directional,omeprazole,7646,dofetilide,49247,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,9
+NDDI-00906,directional,omeprazole,7646,lacosamide,623400,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,7,91
+NDDI-00907,directional,omeprazole,7646,673579,673579,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00908,directional,omeprazole,7646,tapentadol,787390,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,30
+NDDI-00909,directional,oxycodone,7804,pregabalin,187832,PK,pk_unspecified,,,undetermined,unconditional,,0,1,4,12
+NDDI-00910,directional,asenapine,784649,imipramine,5691,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,single_dose_perpetrator,1,0,3,5
+NDDI-00911,directional,fesoterodine,797195,ethinyl estradiol,4124,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,8,20
+NDDI-00912,directional,fesoterodine,797195,levonorgestrel,6373,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,victim_specific_product,1,0,8,20
+NDDI-00913,directional,phenobarbital,8134,ticlopidine,10594,PD,pd_effect_only,,,no_path,unconditional,,0,0,3,8
+NDDI-00914,directional,phenobarbital,8134,pregabalin,187832,PK,pk_unspecified,,,undetermined,unconditional,,0,1,7,12
+NDDI-00915,directional,phentolamine,8153,lidocaine,6387,PK,exposure_auc_or_cmax,,,undetermined,conditional,perpetrator_specific_product,1,0,1,2
+NDDI-00916,directional,dexlansoprazole,816346,theophylline,10438,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,3
+NDDI-00917,directional,dexlansoprazole,816346,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,conditional,specific_dose_or_regimen,0,0,3,4
+NDDI-00918,directional,dexlansoprazole,816346,clopidogrel,32968,PK+PD,pk_and_pd,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00919,directional,dexlansoprazole,816346,diazepam,3322,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,3
+NDDI-00920,directional,dexlansoprazole,816346,phenytoin,8183,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,3
+NDDI-00921,directional,phenytoin,8183,pregabalin,187832,PK,pk_unspecified,,,undetermined,unconditional,,0,1,7,12
+NDDI-00922,directional,phenytoin,8183,dofetilide,49247,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,9
+NDDI-00923,directional,atorvastatin,83367,warfarin,11289,PD,pd_effect_only,,,no_path,unconditional,,0,0,27,344
+NDDI-00924,directional,atorvastatin,83367,sildenafil,136411,PK,pk_unspecified,,,no_path,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00925,directional,atorvastatin,83367,everolimus,141704,PK,pk_unspecified,,,no_path,unconditional,,0,1,5,8
+NDDI-00926,directional,atorvastatin,83367,bazedoxifene,1441386,PK,pk_unspecified,,,undetermined,conditional,single_dose_perpetrator;specific_population,1,0,1,1
+NDDI-00927,directional,atorvastatin,83367,bexarotene,233272,PK,pk_unspecified,,,undetermined,unconditional,,0,0,2,14
+NDDI-00928,directional,atorvastatin,83367,relugolix,2472778,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00929,directional,atorvastatin,83367,orforglipron,2739838,not_stated,not_stated,,,undetermined,unconditional,,0,0,1,1
+NDDI-00930,directional,atorvastatin,83367,prasugrel,613391,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,8,25
+NDDI-00931,directional,piperacillin,8339,vancomycin,11124,PK,pk_unspecified,,,undetermined,unconditional,,0,1,2,19
+NDDI-00932,directional,piroxicam,8356,fondaparinux,321208,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,5,12
+NDDI-00933,directional,tazarotene,83947,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00934,directional,tazarotene,83947,norethindrone,7514,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-00935,directional,rosiglitazone,84108,warfarin,11289,PK,pk_unspecified,,,no_path,unconditional,,0,0,2,5
+NDDI-00936,directional,rosiglitazone,84108,ethinyl estradiol,4124,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,5
+NDDI-00937,directional,rosiglitazone,84108,nifedipine,7417,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,8,76
+NDDI-00938,directional,rosiglitazone,84108,norethindrone,7514,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,5
+NDDI-00939,directional,ustekinumab,847083,warfarin,11289,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,4,9
+NDDI-00940,directional,ustekinumab,847083,caffeine,1886,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,4,9
+NDDI-00941,directional,ustekinumab,847083,dextromethorphan,3289,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,4,9
+NDDI-00942,directional,ustekinumab,847083,midazolam,6960,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,4,9
+NDDI-00943,directional,ustekinumab,847083,omeprazole,7646,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,0,4,9
+NDDI-00944,directional,anastrozole,84857,tamoxifen,10324,PK,pk_unspecified,,,undetermined,unconditional,,0,0,3,86
+NDDI-00945,directional,anastrozole,84857,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,unconditional,,0,0,5,88
+NDDI-00946,directional,anastrozole,84857,abemaciclib,1946825,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,1
+NDDI-00947,directional,alosetron,85248,ethinyl estradiol,4124,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,1,16
+NDDI-00948,directional,alosetron,85248,levonorgestrel,6373,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,unconditional,,0,0,1,16
+NDDI-00949,directional,ritonavir,85762,doravirine,2055755,PK,pk_unspecified,strong_change,"{'auc': 3.54, 'cmax': 1.31};{'auc': 3.54, 'cmax': 1.31};{'auc': 3.54, 'cmax': 1.31}",undetermined,unconditional,,0,0,1,3
+NDDI-00950,directional,ritonavir,85762,pretomanid,2198359,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product,1,0,2,2
+NDDI-00951,directional,ritonavir,85762,deucravacitinib,2612087,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00952,directional,ritonavir,85762,momelotinib,2665204,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-00953,directional,ritonavir,85762,escitalopram,321988,PK,pk_unspecified,,,no_path,unconditional,,0,0,2,331
+NDDI-00954,directional,ritonavir,85762,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,7,18
+NDDI-00955,directional,pitavastatin,861634,darunavir,460132,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.03, 'cmax': 1.06};{'auc': 1.08, 'cmax': 1.02};{'auc': 1.03, 'cmax': 1.06};{'auc': 1.08, 'cmax': 1.02};{'auc': 1.03, 'cmax': 1.06}",no_path,unconditional,,0,0,1,1
+NDDI-00956,directional,prednisolone,8638,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,9,18
+NDDI-00957,directional,prednisolone,8638,cabazitaxel,996051,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,3
+NDDI-00958,directional,prednisone,8640,palovarotene,2663954,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,1
+NDDI-00959,directional,prednisone,8640,bortezomib,358258,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00960,directional,probenecid,8698,levetiracetam,114477,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,9,433
+NDDI-00961,directional,probenecid,8698,moxifloxacin,139462,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-00962,directional,probenecid,8698,baloxavir marboxil,2099995,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-00963,directional,probenecid,8698,bexagliflozin,2627044,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,4
+NDDI-00964,directional,fenofibrate,8703,ezetimibe,341248,PK,pk_unspecified,weak_change,"{'auc': 1.48, 'cmax': 1.64};{'auc': 1.48, 'cmax': 1.64};{'auc': 1.48, 'cmax': 1.64};{'auc': 1.48, 'cmax': 1.64};{'auc': 1.48, 'cmax': 1.64}",undetermined,unconditional,,0,0,1,1
+NDDI-00965,directional,fenofibrate,8703,pravastatin,42463,PK,pk_unspecified,exposure_equivalent,"{'auc': 1.13, 'cmax': 1.13};{'auc': 1.13, 'cmax': 1.13};{'auc': 1.13, 'cmax': 1.13};{'auc': 1.26, 'cmax': 1.29};{'auc': 1.13, 'cmax': 1.13}",undetermined,conditional,single_dose_perpetrator,1,0,1,3
+NDDI-00966,directional,fenofibrate,8703,atorvastatin,83367,PK,exposure_auc_or_cmax,exposure_equivalent,"{'auc': 0.83, 'cmax': 1.0};{'auc': 0.83, 'cmax': 1.0};{'auc': 1.03, 'cmax': 1.02};{'auc': 1.03, 'cmax': 1.02};{'auc': 1.03, 'cmax': 1.02}",undetermined,unconditional,,0,0,2,20
+NDDI-00967,directional,promethazine,8745,famciclovir,68099,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,2,15
+NDDI-00968,directional,fexofenadine,87636,erythromycin,4053,PK,pk_unspecified,,,path_expected,unconditional,,0,0,2,17
+NDDI-00969,directional,fexofenadine,87636,ketoconazole,6135,PK,pk_unspecified,,,path_expected,unconditional,,0,0,2,17
+NDDI-00970,directional,propoxyphene,8785,meclofenamate,588003,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00971,directional,propoxyphene,8785,lorazepam,6470,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,26
+NDDI-00972,directional,propranolol,8787,verapamil,11170,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,309
+NDDI-00973,directional,propranolol,8787,nefazodone,31565,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,12
+NDDI-00974,directional,propranolol,8787,dihydroergotamine,3418,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;specific_route,1,0,1,3
+NDDI-00975,directional,propranolol,8787,topiramate,38404,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,9,361
+NDDI-00976,directional,propranolol,8787,lorazepam,6470,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,26
+NDDI-00977,directional,propranolol,8787,metformin,6809,PK,pk_unspecified,exposure_equivalent,"{'auc': 0.9, 'cmax': 0.94};{'auc': 0.9, 'cmax': 0.94};{'auc': 0.9, 'cmax': 0.94};{'auc': 0.9, 'cmax': 0.94};{'auc': 0.9, 'cmax': 0.94}",no_path,conditional,single_dose_perpetrator;specific_population,1,0,7,272
+NDDI-00978,directional,montelukast,88249,digoxin,3407,PK,pk_unspecified,,,no_path,conditional,specific_dose_or_regimen,0,0,8,70
+NDDI-00979,directional,montelukast,88249,ethinyl estradiol,4124,PK,exposure_auc_or_cmax;pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,9,221
+NDDI-00980,directional,montelukast,88249,norethindrone,7514,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,9,221
+NDDI-00981,directional,montelukast,88249,prednisolone,8638,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,2
+NDDI-00982,directional,montelukast,88249,prednisone,8640,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,2
+NDDI-00983,directional,montelukast,88249,fexofenadine,87636,PK,pk_unspecified,,,no_path,conditional,specific_dose_or_regimen,0,0,9,71
+NDDI-00984,directional,aripiprazole,89013,warfarin,11289,PK+PD,pk_and_pd,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,17
+NDDI-00985,directional,aripiprazole,89013,omeprazole,7646,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,17
+NDDI-00986,directional,pyrazinamide,8987,clofazimine,2592,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00987,directional,pyrimethamine,9010,deucravacitinib,2612087,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00988,directional,quinidine,9068,timolol,10600,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,10
+NDDI-00989,directional,quinidine,9068,opicapone,2362167,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-00990,directional,quinidine,9068,asciminib,2584304,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00991,directional,quinidine,9068,futibatinib,2628190,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00992,directional,quinidine,9068,sebetralstat,2717944,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00993,directional,quinidine,9068,imlunestrant,2725912,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-00994,directional,quinidine,9068,lenalidomide,342369,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen;victim_specific_product,1,0,4,4
+NDDI-00995,directional,quinidine,9068,diltiazem,3443,PK,pk_unspecified,,,no_path,unconditional,,0,0,5,10
+NDDI-00996,directional,quinidine,9068,flecainide,4441,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,10
+NDDI-00997,directional,quinidine,9068,metoprolol,6918,PK,pk_unspecified,,,no_path,unconditional,,0,0,5,10
+NDDI-00998,directional,quinidine,9068,propafenone,8754,PK,pk_unspecified,,,no_path,unconditional,,0,0,5,10
+NDDI-00999,directional,quinidine,9068,propranolol,8787,PK,pk_unspecified,,,no_path,unconditional,,0,0,5,10
+NDDI-01000,directional,quinidine,9068,quinine,9071,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,10
+NDDI-01001,directional,quinine,9071,dextromethorphan,3289,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,1,13
+NDDI-01002,directional,quinine,9071,midazolam,6960,PK,exposure_auc_or_cmax,,,undetermined,conditional,specific_dose_or_regimen,0,0,7,13
+NDDI-01003,directional,ranitidine,9143,moxifloxacin,139462,PK,pk_unspecified,,,undetermined,unconditional,,0,0,5,65
+NDDI-01004,directional,ranitidine,9143,pemigatinib,2359268,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-01005,directional,ranitidine,9143,vardenafil,306674,PK,pk_unspecified,,,no_path,unconditional,,0,1,2,38
+NDDI-01006,directional,ranitidine,9143,nebivolol,31555,PK,pk_unspecified,,,no_path,conditional,specific_dose_or_regimen,0,0,2,56
+NDDI-01007,directional,ranitidine,9143,risperidone,35636,PK,pk_unspecified,weak_change,"{'auc': 1.2, 'cmax': 1.4};{'auc': 1.2, 'cmax': 1.4};{'auc': 1.2, 'cmax': 1.4};{'auc': 1.2, 'cmax': 1.4};{'auc': 1.2, 'cmax': 1.4}",undetermined,unconditional,,0,0,4,4
+NDDI-01008,directional,ranitidine,9143,galantamine,4637,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,32
+NDDI-01009,directional,ranitidine,9143,dofetilide,49247,PK,pk_unspecified,,,undetermined,conditional,specific_population,0,0,1,9
+NDDI-01010,directional,ranitidine,9143,topotecan,57308,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-01011,directional,ranitidine,9143,lorazepam,6470,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,26
+NDDI-01012,directional,ranitidine,9143,tiotropium,69120,PK,not_stated;pk_unspecified,,,undetermined,unconditional,,0,0,2,9
+NDDI-01013,directional,ranitidine,9143,eprosartan,83515,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,3
+NDDI-01014,directional,ranitidine,9143,rosiglitazone,84108,PK,pk_unspecified,,,no_path,conditional,specific_dose_or_regimen,0,0,3,6
+NDDI-01015,directional,rifampin,9384,teriflunomide,1310520,PK,pk_unspecified,,,no_path,unconditional,,0,0,8,26
+NDDI-01016,directional,rifampin,9384,alectinib,1727455,PK,exposure_auc_or_cmax,,,undetermined,unconditional,,0,0,1,1
+NDDI-01017,directional,rifampin,9384,baricitinib,2047232,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-01018,directional,rifampin,9384,selpercatinib,2370147,PK,pk_unspecified,,,no_path,conditional,single_dose_perpetrator,1,0,1,1
+NDDI-01019,directional,rifampin,9384,vibegron,2472254,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-01020,directional,rifampin,9384,vericiguat,2475830,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-01021,directional,rifampin,9384,trilaciclib,2479690,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,2
+NDDI-01022,directional,rifampin,9384,sotorasib,2550714,PK,exposure_auc_or_cmax,,,no_path,conditional,single_dose_perpetrator,1,0,1,1
+NDDI-01023,directional,rifampin,9384,momelotinib,2665204,PK,pk_unspecified,,,no_path,unconditional,,0,0,1,1
+NDDI-01024,directional,rifampin,9384,micafungin,325887,PK,pk_unspecified,,,undetermined,unconditional,,0,0,7,18
+NDDI-01025,directional,selegiline,9639,warfarin,11289,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen;specific_population,1,0,1,1
+NDDI-01026,directional,selegiline,9639,zolmitriptan,135775,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen,0,0,3,51
+NDDI-01027,directional,selegiline,9639,alprazolam,596,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,1,1
+NDDI-01028,directional,selegiline,9639,pseudoephedrine,8896,PK,pk_unspecified,,,undetermined,conditional,perpetrator_specific_product;specific_dose_or_regimen,1,0,1,1
+NDDI-01029,directional,obinutuzumab,974779,venetoclax,1747556,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,1
+NDDI-01030,directional,denosumab,993449,midazolam,6960,PK,pk_unspecified,,,undetermined,unconditional,,0,0,1,4
+NDDI-01031,directional,cabazitaxel,996051,midazolam,6960,PK,exposure_auc_or_cmax,,,undetermined,conditional,single_dose_perpetrator;specific_population,1,0,2,3
+NDDI-01032,directional,spironolactone,9997,nebivolol,31555,PK,pk_unspecified,,,undetermined,conditional,specific_dose_or_regimen;specific_population,0,1,3,58
+NDDI-01033,undirected,,,,,PK+PD,not_stated;pk_unspecified,,,,not_assessed,,0,0,3,368
+NDDI-01034,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,9,43
+NDDI-01035,undirected,,,,,PK,not_stated;pk_unspecified,,,,not_assessed,,0,0,12,30
+NDDI-01036,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01037,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,5,142
+NDDI-01038,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,1,1
+NDDI-01039,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,5,142
+NDDI-01040,undirected,,,,,PK,not_stated;pk_unspecified,,,,not_assessed,,0,0,12,30
+NDDI-01041,undirected,,,,,not_stated,not_stated,,,,not_assessed,,0,0,12,30
+NDDI-01042,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,19,150
+NDDI-01043,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01044,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,7
+NDDI-01045,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,7
+NDDI-01046,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,5,142
+NDDI-01047,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,1,1
+NDDI-01048,undirected,,,,,not_stated,not_stated,,,,not_assessed,,0,0,7,134
+NDDI-01049,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,1,5
+NDDI-01050,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,19,150
+NDDI-01051,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,7,31
+NDDI-01052,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,3,31
+NDDI-01053,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01054,undirected,,,,,PK+PD,not_stated;pk_unspecified,,,,not_assessed,,0,0,3,368
+NDDI-01055,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01056,undirected,,,,,PK+PD,not_stated;pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01057,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01058,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01059,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01060,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01061,undirected,,,,,PK+PD,not_stated;pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01062,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01063,undirected,,,,,PK,not_stated;pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01064,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01065,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,1,1
+NDDI-01066,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,2
+NDDI-01067,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,2
+NDDI-01068,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,1,1
+NDDI-01069,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,5,142
+NDDI-01070,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,19,150
+NDDI-01071,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,1,1
+NDDI-01072,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,12,256
+NDDI-01073,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01074,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01075,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01076,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,4,137
+NDDI-01077,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,5,142
+NDDI-01078,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,3,133
+NDDI-01079,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01080,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,2
+NDDI-01081,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,2
+NDDI-01082,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,2,5
+NDDI-01083,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,12,331
+NDDI-01084,undirected,,,,,PK+PD,not_stated;pk_unspecified,,,,not_assessed,,0,0,3,368
+NDDI-01085,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,2,31
+NDDI-01086,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,19,150
+NDDI-01087,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,4
+NDDI-01088,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01089,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01090,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,1,1
+NDDI-01091,undirected,,,,,PK+PD,not_stated,,,,not_assessed,,0,0,3,368
+NDDI-01092,undirected,,,,,PK+PD,not_stated;pk_unspecified,,,,not_assessed,,0,0,3,368
+NDDI-01093,undirected,,,,,PK+PD,not_stated;pk_unspecified,,,,not_assessed,,0,0,3,368
+NDDI-01094,undirected,,,,,PK+PD,not_stated;pk_unspecified,,,,not_assessed,,0,0,3,368
+NDDI-01095,undirected,,,,,not_stated,not_stated,,,,not_assessed,,0,0,4,73
+NDDI-01096,undirected,,,,,PD,not_stated;pd_effect_only,,,,not_assessed,,0,0,1,1
+NDDI-01097,undirected,,,,,not_stated,not_stated,,,,not_assessed,,0,0,4,73
+NDDI-01098,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,19,150
+NDDI-01099,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,19,150
+NDDI-01100,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,19,150
+NDDI-01101,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,1,67
+NDDI-01102,undirected,,,,,PK,pk_unspecified,,,,not_assessed,,0,0,19,150
+NDDI-01103,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,2,31
+NDDI-01104,undirected,,,,,PD,pd_effect_only,,,,not_assessed,,0,0,1,1

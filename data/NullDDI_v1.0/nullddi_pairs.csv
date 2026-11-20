@@ -1,0 +1,956 @@
+drug_a,drug_b,rxcui_a,rxcui_b,status,documented,reverse_fda
+antipyrine,pantoprazole,1001,40790,N0_undirected_only,,
+antipyrine,quetiapine,1001,51272,N1_one_direction,quetiapine->antipyrine,undetermined
+antipyrine,lovastatin,1001,6472,N1_one_direction,lovastatin->antipyrine,undetermined
+tamoxifen,abemaciclib,10324,1946825,N2_bidirectional,tamoxifen->abemaciclib; abemaciclib->tamoxifen,
+tamoxifen,desvenlafaxine,10324,734064,N1_one_direction,desvenlafaxine->tamoxifen,undetermined
+tamoxifen,anastrozole,10324,84857,N1_one_direction,anastrozole->tamoxifen,undetermined
+temazepam,ondansetron,10355,26225,N1_one_direction,ondansetron->temazepam,undetermined
+temazepam,duloxetine,10355,72625,N1_one_direction,temazepam->duloxetine,undetermined
+dabigatran etexilate,bosutinib,1037042,1307619,N1_one_direction,dabigatran etexilate->bosutinib,undetermined
+dabigatran etexilate,clarithromycin,1037042,21212,N1_one_direction,dabigatran etexilate->clarithromycin,path_expected
+dabigatran etexilate,relugolix,1037042,2472778,N1_one_direction,relugolix->dabigatran etexilate,undetermined
+dabigatran etexilate,brincidofovir,1037042,2599518,N1_one_direction,brincidofovir->dabigatran etexilate,undetermined
+dabigatran etexilate,quizartinib,1037042,2643048,N1_one_direction,quizartinib->dabigatran etexilate,undetermined
+dabigatran etexilate,clopidogrel,1037042,32968,N1_one_direction,dabigatran etexilate->clopidogrel,no_path
+dabigatran etexilate,diclofenac,1037042,3355,N1_one_direction,dabigatran etexilate->diclofenac,undetermined
+dabigatran etexilate,digoxin,1037042,3407,N1_one_direction,dabigatran etexilate->digoxin,no_path
+dabigatran etexilate,pantoprazole,1037042,40790,N1_one_direction,dabigatran etexilate->pantoprazole,undetermined
+dabigatran etexilate,enoxaparin,1037042,67108,N1_one_direction,enoxaparin->dabigatran etexilate,undetermined
+dabigatran etexilate,amiodarone,1037042,703,N1_one_direction,dabigatran etexilate->amiodarone,path_expected
+dabigatran etexilate,atorvastatin,1037042,83367,N1_one_direction,dabigatran etexilate->atorvastatin,no_path
+dabigatran etexilate,ranitidine,1037042,9143,N1_one_direction,dabigatran etexilate->ranitidine,no_path
+tetrabenazine,digoxin,10390,3407,N1_one_direction,tetrabenazine->digoxin,undetermined
+thalidomide,zoledronic acid,10432,77655,N1_one_direction,thalidomide->zoledronic acid,undetermined
+theophylline,moxifloxacin,10438,139462,N2_bidirectional,theophylline->moxifloxacin; moxifloxacin->theophylline,
+theophylline,tegaserod,10438,139778,N1_one_direction,tegaserod->theophylline,undetermined
+theophylline,azelastine,10438,18603,N0_undirected_only,,
+theophylline,citalopram,10438,2556,N1_one_direction,citalopram->theophylline,undetermined
+theophylline,colchicine,10438,2683,N1_one_direction,colchicine->theophylline,no_path
+theophylline,tiagabine,10438,31914,N1_one_direction,tiagabine->theophylline,undetermined
+theophylline,tadalafil,10438,358263,N1_one_direction,tadalafil->theophylline,no_path
+theophylline,dofetilide,10438,49247,N2_bidirectional,theophylline->dofetilide; dofetilide->theophylline,
+theophylline,rifabutin,10438,55672,N1_one_direction,rifabutin->theophylline,undetermined
+theophylline,olanzapine,10438,61381,N1_one_direction,olanzapine->theophylline,undetermined
+theophylline,famciclovir,10438,68099,N1_one_direction,theophylline->famciclovir,undetermined
+theophylline,ropinirole,10438,72302,N1_one_direction,ropinirole->theophylline,undetermined
+theophylline,repaglinide,10438,73044,N1_one_direction,repaglinide->theophylline,no_path
+theophylline,dexlansoprazole,10438,816346,N1_one_direction,dexlansoprazole->theophylline,undetermined
+tesamorelin,simvastatin,1044584,36567,N1_one_direction,tesamorelin->simvastatin,undetermined
+levothyroxine,omeprazole,10582,7646,N1_one_direction,omeprazole->levothyroxine,undetermined
+levothyroxine,selegiline,10582,9639,N1_one_direction,levothyroxine->selegiline,undetermined
+ticlopidine,brexpiprazole,10594,1658314,N1_one_direction,ticlopidine->brexpiprazole,undetermined
+ticlopidine,phenobarbital,10594,8134,N1_one_direction,phenobarbital->ticlopidine,no_path
+timolol,quinidine,10600,9068,N1_one_direction,quinidine->timolol,undetermined
+triamterene,memantine,10763,6719,N1_one_direction,triamterene->memantine,undetermined
+triazolam,citalopram,10767,2556,N1_one_direction,triazolam->citalopram,undetermined
+trimethoprim,patiromer,10829,1716203,N1_one_direction,patiromer->trimethoprim,undetermined
+vilazodone,caffeine,1086769,1886,N1_one_direction,vilazodone->caffeine,undetermined
+vilazodone,flurbiprofen,1086769,4502,N1_one_direction,vilazodone->flurbiprofen,undetermined
+vilazodone,nifedipine,1086769,7417,N1_one_direction,vilazodone->nifedipine,undetermined
+vandetanib,itraconazole,1098413,28031,N2_bidirectional,vandetanib->itraconazole; itraconazole->vandetanib,
+vandetanib,omeprazole,1098413,7646,N1_one_direction,omeprazole->vandetanib,no_path
+abiraterone,ketoconazole,1100072,6135,N1_one_direction,ketoconazole->abiraterone,no_path
+linagliptin,empagliflozin,1100699,1545653,N1_one_direction,empagliflozin->linagliptin,undetermined
+11118,levetiracetam,11118,114477,N1_one_direction,levetiracetam->11118,undetermined
+11118,pregabalin,11118,187832,N2_bidirectional,11118->pregabalin; pregabalin->11118,
+11118,fenfluramine,11118,4328,N1_one_direction,fenfluramine->11118,undetermined
+11118,lacosamide,11118,623400,N2_bidirectional,11118->lacosamide; lacosamide->11118,
+vancomycin,tazobactam,11124,37617,N2_bidirectional,vancomycin->tazobactam; tazobactam->vancomycin,
+vancomycin,piperacillin,11124,8339,N2_bidirectional,vancomycin->piperacillin; piperacillin->vancomycin,
+belatacept,caffeine,1112973,1886,N1_one_direction,belatacept->caffeine,undetermined
+belatacept,dextromethorphan,1112973,3289,N1_one_direction,belatacept->dextromethorphan,undetermined
+belatacept,losartan,1112973,52175,N1_one_direction,belatacept->losartan,undetermined
+belatacept,midazolam,1112973,6960,N1_one_direction,belatacept->midazolam,undetermined
+belatacept,omeprazole,1112973,7646,N1_one_direction,belatacept->omeprazole,undetermined
+verapamil,patiromer,11170,1716203,N1_one_direction,patiromer->verapamil,undetermined
+verapamil,bexagliflozin,11170,2627044,N1_one_direction,verapamil->bexagliflozin,undetermined
+verapamil,propranolol,11170,8787,N2_bidirectional,verapamil->propranolol; propranolol->verapamil,
+warfarin,levetiracetam,11289,114477,N2_bidirectional,warfarin->levetiracetam; levetiracetam->warfarin,
+warfarin,tolterodine,11289,119565,N0_undirected_only,,
+warfarin,ospemifene,11289,1370971,N1_one_direction,ospemifene->warfarin,undetermined
+warfarin,moxifloxacin,11289,139462,N2_bidirectional,warfarin->moxifloxacin; moxifloxacin->warfarin,
+warfarin,tegaserod,11289,139778,N1_one_direction,tegaserod->warfarin,undetermined
+warfarin,riociguat,11289,1439816,N1_one_direction,riociguat->warfarin,undetermined
+warfarin,macitentan,11289,1442132,N1_one_direction,macitentan->warfarin,undetermined
+warfarin,belinostat,11289,1543543,N1_one_direction,belinostat->warfarin,undetermined
+warfarin,empagliflozin,11289,1545653,N1_one_direction,empagliflozin->warfarin,undetermined
+warfarin,lansoprazole,11289,17128,N1_one_direction,lansoprazole->warfarin,no_path
+warfarin,patiromer,11289,1716203,N1_one_direction,patiromer->warfarin,undetermined
+warfarin,ixekizumab,11289,1745099,N1_one_direction,ixekizumab->warfarin,undetermined
+warfarin,amlodipine,11289,17767,N1_one_direction,amlodipine->warfarin,undetermined
+warfarin,rivastigmine,11289,183379,N2_bidirectional,warfarin->rivastigmine; rivastigmine->warfarin,
+warfarin,carvedilol,11289,20352,N1_one_direction,carvedilol->warfarin,undetermined
+warfarin,sevelamer,11289,214824,N1_one_direction,sevelamer->warfarin,undetermined
+warfarin,daptomycin,11289,22299,N2_bidirectional,warfarin->daptomycin; daptomycin->warfarin,
+warfarin,zanubrutinib,11289,2262435,N1_one_direction,zanubrutinib->warfarin,no_path
+warfarin,cenobamate,11289,2265690,N1_one_direction,cenobamate->warfarin,no_path
+warfarin,lanthanum carbonate,11289,234416,N1_one_direction,lanthanum carbonate->warfarin,undetermined
+warfarin,vericiguat,11289,2475830,N2_bidirectional,warfarin->vericiguat; vericiguat->warfarin,
+warfarin,citalopram,11289,2556,N1_one_direction,citalopram->warfarin,undetermined
+warfarin,maribavir,11289,2586068,N0_undirected_only,,
+warfarin,oseltamivir,11289,260101,N0_undirected_only,,
+warfarin,elacestrant,11289,2628469,N1_one_direction,warfarin->elacestrant,undetermined
+warfarin,elafibranor,11289,2684941,N1_one_direction,elafibranor->warfarin,undetermined
+warfarin,nateglinide,11289,274332,N2_bidirectional,warfarin->nateglinide; nateglinide->warfarin,
+warfarin,vardenafil,11289,306674,N2_bidirectional,warfarin->vardenafil; vardenafil->warfarin,
+warfarin,fondaparinux,11289,321208,N1_one_direction,warfarin->fondaparinux,undetermined
+warfarin,aliskiren,11289,325646,N1_one_direction,warfarin->aliskiren,undetermined
+warfarin,pioglitazone,11289,33738,N1_one_direction,pioglitazone->warfarin,no_path
+warfarin,lenalidomide,11289,342369,N1_one_direction,warfarin->lenalidomide,undetermined
+warfarin,treprostinil,11289,343048,N1_one_direction,treprostinil->warfarin,undetermined
+warfarin,quinapril,11289,35208,N1_one_direction,quinapril->warfarin,undetermined
+warfarin,tolvaptan,11289,358257,N1_one_direction,tolvaptan->warfarin,no_path
+warfarin,cinacalcet,11289,407990,N1_one_direction,cinacalcet->warfarin,no_path
+warfarin,pravastatin,11289,42463,N1_one_direction,pravastatin->warfarin,no_path
+warfarin,eszopiclone,11289,461016,N1_one_direction,eszopiclone->warfarin,undetermined
+warfarin,galantamine,11289,4637,N1_one_direction,galantamine->warfarin,undetermined
+warfarin,dofetilide,11289,49247,N1_one_direction,dofetilide->warfarin,undetermined
+warfarin,losartan,11289,52175,N1_one_direction,losartan->warfarin,undetermined
+warfarin,milnacipran,11289,588250,N2_bidirectional,warfarin->milnacipran; milnacipran->warfarin,
+warfarin,varenicline,11289,591622,N1_one_direction,varenicline->warfarin,undetermined
+warfarin,sitagliptin,11289,593411,N1_one_direction,sitagliptin->warfarin,undetermined
+warfarin,alprostadil,11289,598,N1_one_direction,alprostadil->warfarin,undetermined
+warfarin,olanzapine,11289,61381,N1_one_direction,olanzapine->warfarin,undetermined
+warfarin,nilotinib,11289,662281,N1_one_direction,nilotinib->warfarin,undetermined
+warfarin,memantine,11289,6719,N1_one_direction,memantine->warfarin,undetermined
+warfarin,valsartan,11289,69749,N1_one_direction,warfarin->valsartan,undetermined
+warfarin,raloxifene,11289,72143,N2_bidirectional,warfarin->raloxifene; raloxifene->warfarin,
+warfarin,duloxetine,11289,72625,N1_one_direction,duloxetine->warfarin,no_path
+warfarin,letrozole,11289,72965,N1_one_direction,letrozole->warfarin,undetermined
+warfarin,repaglinide,11289,73044,N1_one_direction,repaglinide->warfarin,no_path
+warfarin,febuxostat,11289,73689,N1_one_direction,febuxostat->warfarin,no_path
+warfarin,zaleplon,11289,74667,N1_one_direction,zaleplon->warfarin,undetermined
+warfarin,dexlansoprazole,11289,816346,N1_one_direction,dexlansoprazole->warfarin,undetermined
+warfarin,atorvastatin,11289,83367,N1_one_direction,atorvastatin->warfarin,no_path
+warfarin,rosiglitazone,11289,84108,N1_one_direction,rosiglitazone->warfarin,no_path
+warfarin,ustekinumab,11289,847083,N1_one_direction,ustekinumab->warfarin,undetermined
+warfarin,anastrozole,11289,84857,N1_one_direction,anastrozole->warfarin,undetermined
+warfarin,aripiprazole,11289,89013,N1_one_direction,aripiprazole->warfarin,undetermined
+warfarin,selegiline,11289,9639,N1_one_direction,selegiline->warfarin,undetermined
+zidovudine,elvitegravir,11413,1306286,N2_bidirectional,zidovudine->elvitegravir; elvitegravir->zidovudine,
+zidovudine,crofelemer,11413,1364449,N1_one_direction,crofelemer->zidovudine,undetermined
+zidovudine,itraconazole,11413,28031,N1_one_direction,itraconazole->zidovudine,undetermined
+zidovudine,posaconazole,11413,282446,N1_one_direction,posaconazole->zidovudine,undetermined
+zidovudine,rifabutin,11413,55672,N1_one_direction,zidovudine->rifabutin,undetermined
+zidovudine,maraviroc,11413,620216,N1_one_direction,maraviroc->zidovudine,undetermined
+zidovudine,famciclovir,11413,68099,N2_bidirectional,zidovudine->famciclovir; famciclovir->zidovudine,
+zidovudine,lamivudine,11413,68244,N2_bidirectional,zidovudine->lamivudine; lamivudine->zidovudine,
+indinavir,voriconazole,114289,121243,N1_one_direction,indinavir->voriconazole,path_expected
+indinavir,azithromycin,114289,18631,N1_one_direction,azithromycin->indinavir,undetermined
+indinavir,posaconazole,114289,282446,N1_one_direction,posaconazole->indinavir,no_path
+indinavir,rifapentine,114289,35617,N1_one_direction,indinavir->rifapentine,undetermined
+indinavir,venlafaxine,114289,39786,N1_one_direction,indinavir->venlafaxine,no_path
+levetiracetam,carbamazepine,114477,2002,N1_one_direction,levetiracetam->carbamazepine,undetermined
+levetiracetam,lamotrigine,114477,28439,N2_bidirectional,levetiracetam->lamotrigine; lamotrigine->levetiracetam,
+levetiracetam,digoxin,114477,3407,N2_bidirectional,levetiracetam->digoxin; digoxin->levetiracetam,
+levetiracetam,topiramate,114477,38404,N1_one_direction,levetiracetam->topiramate,undetermined
+levetiracetam,lacosamide,114477,623400,N1_one_direction,lacosamide->levetiracetam,undetermined
+levetiracetam,probenecid,114477,8698,N1_one_direction,probenecid->levetiracetam,undetermined
+crizotinib,esomeprazole,1148495,283742,N1_one_direction,esomeprazole->crizotinib,undetermined
+rabeprazole,vismodegib,114979,1242987,N1_one_direction,rabeprazole->vismodegib,undetermined
+rabeprazole,acalabrutinib,114979,1986808,N1_one_direction,rabeprazole->acalabrutinib,undetermined
+rabeprazole,encorafenib,114979,2049106,N1_one_direction,rabeprazole->encorafenib,undetermined
+rabeprazole,asciminib,114979,2584304,N1_one_direction,rabeprazole->asciminib,undetermined
+rabeprazole,deucravacitinib,114979,2612087,N1_one_direction,rabeprazole->deucravacitinib,undetermined
+rabeprazole,fruquintinib,114979,2670179,N1_one_direction,rabeprazole->fruquintinib,undetermined
+rabeprazole,vimseltinib,114979,2705378,N1_one_direction,rabeprazole->vimseltinib,undetermined
+rabeprazole,dordaviprone,114979,2721194,N1_one_direction,rabeprazole->dordaviprone,undetermined
+rabeprazole,zongertinib,114979,2721604,N1_one_direction,rabeprazole->zongertinib,no_path
+rabeprazole,clopidogrel,114979,32968,N1_one_direction,rabeprazole->clopidogrel,no_path
+ziprasidone,ethinyl estradiol,115698,4124,N1_one_direction,ziprasidone->ethinyl estradiol,undetermined
+ziprasidone,levonorgestrel,115698,6373,N1_one_direction,ziprasidone->levonorgestrel,undetermined
+aspirin,dimethyl fumarate,1191,1373478,N1_one_direction,aspirin->dimethyl fumarate,undetermined
+aspirin,vericiguat,1191,2475830,N1_one_direction,aspirin->vericiguat,undetermined
+aspirin,oseltamivir,1191,260101,N0_undirected_only,,
+aspirin,vonoprazan,1191,2604577,N1_one_direction,aspirin->vonoprazan,undetermined
+aspirin,alprostadil,1191,598,N1_one_direction,alprostadil->aspirin,undetermined
+aspirin,pemetrexed,1191,68446,N1_one_direction,aspirin->pemetrexed,undetermined
+tolterodine,vibegron,119565,2472254,N1_one_direction,tolterodine->vibegron,undetermined
+tolterodine,ethinyl estradiol,119565,4124,N1_one_direction,tolterodine->ethinyl estradiol,undetermined
+tolterodine,levonorgestrel,119565,6373,N1_one_direction,tolterodine->levonorgestrel,undetermined
+atenolol,apixaban,1202,1364430,N2_bidirectional,atenolol->apixaban; apixaban->atenolol,
+atenolol,moxifloxacin,1202,139462,N1_one_direction,moxifloxacin->atenolol,undetermined
+atenolol,valsartan,1202,69749,N0_undirected_only,,
+rituximab,venetoclax,121191,1747556,N1_one_direction,rituximab->venetoclax,undetermined
+rituximab,cyclophosphamide,121191,3002,N1_one_direction,cyclophosphamide->rituximab,undetermined
+rituximab,methotrexate,121191,6851,N1_one_direction,methotrexate->rituximab,undetermined
+voriconazole,relugolix,121243,2472778,N1_one_direction,voriconazole->relugolix,undetermined
+voriconazole,maribavir,121243,2586068,N0_undirected_only,,
+voriconazole,micafungin,121243,325887,N1_one_direction,voriconazole->micafungin,undetermined
+voriconazole,mycophenolic acid,121243,7145,N1_one_direction,voriconazole->mycophenolic acid,undetermined
+vismodegib,itraconazole,1242987,28031,N1_one_direction,itraconazole->vismodegib,undetermined
+vismodegib,fluconazole,1242987,4450,N1_one_direction,fluconazole->vismodegib,undetermined
+ivacaftor,ciprofloxacin,1243041,2551,N1_one_direction,ciprofloxacin->ivacaftor,no_path
+azacitidine,venetoclax,1251,1747556,N1_one_direction,azacitidine->venetoclax,undetermined
+gemcitabine,carboplatin,12574,40048,N1_one_direction,carboplatin->gemcitabine,undetermined
+aztreonam,daptomycin,1272,22299,N1_one_direction,aztreonam->daptomycin,undetermined
+aztreonam,telavancin,1272,473837,N2_bidirectional,aztreonam->telavancin; telavancin->aztreonam,
+avanafil,amlodipine,1291301,17767,N1_one_direction,avanafil->amlodipine,undetermined
+elvitegravir,abacavir,1306286,190521,N2_bidirectional,elvitegravir->abacavir; abacavir->elvitegravir,
+elvitegravir,emtricitabine,1306286,276237,N2_bidirectional,elvitegravir->emtricitabine; emtricitabine->elvitegravir,
+elvitegravir,tenofovir disoproxil,1306286,300195,N2_bidirectional,elvitegravir->tenofovir disoproxil; tenofovir disoproxil->elvitegravir,
+elvitegravir,famotidine,1306286,4278,N2_bidirectional,elvitegravir->famotidine; famotidine->elvitegravir,
+elvitegravir,etravirine,1306286,475969,N2_bidirectional,elvitegravir->etravirine; etravirine->elvitegravir,
+elvitegravir,stavudine,1306286,59763,N2_bidirectional,elvitegravir->stavudine; stavudine->elvitegravir,
+elvitegravir,maraviroc,1306286,620216,N1_one_direction,maraviroc->elvitegravir,undetermined
+elvitegravir,omeprazole,1306286,7646,N2_bidirectional,elvitegravir->omeprazole; omeprazole->elvitegravir,
+enzalutamide,caffeine,1307298,1886,N1_one_direction,enzalutamide->caffeine,no_path
+enzalutamide,relugolix,1307298,2472778,N1_one_direction,enzalutamide->relugolix,undetermined
+enzalutamide,rosuvastatin,1307298,301542,N1_one_direction,enzalutamide->rosuvastatin,no_path
+enzalutamide,dextromethorphan,1307298,3289,N1_one_direction,enzalutamide->dextromethorphan,no_path
+enzalutamide,pioglitazone,1307298,33738,N1_one_direction,enzalutamide->pioglitazone,no_path
+teriflunomide,bupropion,1310520,42347,N1_one_direction,teriflunomide->bupropion,no_path
+teriflunomide,metoprolol,1310520,6918,N1_one_direction,teriflunomide->metoprolol,no_path
+teriflunomide,midazolam,1310520,6960,N1_one_direction,teriflunomide->midazolam,no_path
+teriflunomide,omeprazole,1310520,7646,N1_one_direction,teriflunomide->omeprazole,no_path
+teriflunomide,rifampin,1310520,9384,N1_one_direction,rifampin->teriflunomide,no_path
+nelfinavir,crofelemer,134527,1364449,N1_one_direction,crofelemer->nelfinavir,undetermined
+rasagiline,carbidopa,134748,2019,N1_one_direction,carbidopa->rasagiline,undetermined
+rasagiline,opicapone,134748,2362167,N1_one_direction,rasagiline->opicapone,undetermined
+rasagiline,levodopa,134748,6375,N1_one_direction,levodopa->rasagiline,undetermined
+donepezil,risperidone,135447,35636,N1_one_direction,risperidone->donepezil,undetermined
+donepezil,memantine,135447,6719,N2_bidirectional,donepezil->memantine; memantine->donepezil,
+perampanel,levonorgestrel,1356552,6373,N1_one_direction,levonorgestrel->perampanel,undetermined
+zolmitriptan,acetaminophen,135775,161,N1_one_direction,acetaminophen->zolmitriptan,undetermined
+zolmitriptan,metoclopramide,135775,6915,N1_one_direction,metoclopramide->zolmitriptan,undetermined
+zolmitriptan,selegiline,135775,9639,N1_one_direction,selegiline->zolmitriptan,undetermined
+darifenacin,ethinyl estradiol,136198,4124,N1_one_direction,darifenacin->ethinyl estradiol,undetermined
+darifenacin,levonorgestrel,136198,6373,N1_one_direction,darifenacin->levonorgestrel,undetermined
+sildenafil,riociguat,136411,1439816,N1_one_direction,riociguat->sildenafil,undetermined
+sildenafil,amlodipine,136411,17767,N1_one_direction,sildenafil->amlodipine,undetermined
+sildenafil,vericiguat,136411,2475830,N2_bidirectional,sildenafil->vericiguat; vericiguat->sildenafil,
+sildenafil,ethinyl estradiol,136411,4124,N1_one_direction,ethinyl estradiol->sildenafil,undetermined
+sildenafil,levonorgestrel,136411,6373,N1_one_direction,levonorgestrel->sildenafil,undetermined
+sildenafil,magnesium hydroxide,136411,6581,N1_one_direction,magnesium hydroxide->sildenafil,undetermined
+sildenafil,atorvastatin,136411,83367,N1_one_direction,atorvastatin->sildenafil,no_path
+apixaban,digoxin,1364430,3407,N1_one_direction,apixaban->digoxin,undetermined
+apixaban,famotidine,1364430,4278,N1_one_direction,famotidine->apixaban,undetermined
+apixaban,prasugrel,1364430,613391,N2_bidirectional,apixaban->prasugrel; prasugrel->apixaban,
+apixaban,enoxaparin,1364430,67108,N1_one_direction,enoxaparin->apixaban,undetermined
+apixaban,naproxen,1364430,7258,N1_one_direction,apixaban->naproxen,undetermined
+bedaquiline,clofazimine,1364504,2592,N1_one_direction,bedaquiline->clofazimine,undetermined
+glycerol phenylbutyrate,celecoxib,1368451,140587,N1_one_direction,glycerol phenylbutyrate->celecoxib,undetermined
+moxifloxacin,itraconazole,139462,28031,N2_bidirectional,moxifloxacin->itraconazole; itraconazole->moxifloxacin,
+moxifloxacin,cyclosporine,139462,3008,N2_bidirectional,moxifloxacin->cyclosporine; cyclosporine->moxifloxacin,
+moxifloxacin,digoxin,139462,3407,N2_bidirectional,moxifloxacin->digoxin; digoxin->moxifloxacin,
+moxifloxacin,glyburide,139462,4815,N1_one_direction,moxifloxacin->glyburide,undetermined
+moxifloxacin,morphine,139462,7052,N1_one_direction,morphine->moxifloxacin,undetermined
+moxifloxacin,probenecid,139462,8698,N1_one_direction,probenecid->moxifloxacin,undetermined
+moxifloxacin,ranitidine,139462,9143,N1_one_direction,ranitidine->moxifloxacin,undetermined
+tegaserod,dextromethorphan,139778,3289,N2_bidirectional,tegaserod->dextromethorphan; dextromethorphan->tegaserod,
+insulin detemir,liraglutide,139825,475968,N2_bidirectional,insulin detemir->liraglutide; liraglutide->insulin detemir,
+pramlintide,acetaminophen,139953,161,N1_one_direction,pramlintide->acetaminophen,undetermined
+141400,entecavir,141400,306266,N1_one_direction,141400->entecavir,undetermined
+everolimus,alpelisib,141704,2169285,N1_one_direction,alpelisib->everolimus,undetermined
+everolimus,simvastatin,141704,36567,N2_bidirectional,everolimus->simvastatin; simvastatin->everolimus,
+everolimus,pravastatin,141704,42463,N2_bidirectional,everolimus->pravastatin; pravastatin->everolimus,
+everolimus,atorvastatin,141704,83367,N2_bidirectional,everolimus->atorvastatin; atorvastatin->everolimus,
+levomilnacipran,carbamazepine,1433212,2002,N1_one_direction,carbamazepine->levomilnacipran,undetermined
+levomilnacipran,alprazolam,1433212,596,N1_one_direction,alprazolam->levomilnacipran,undetermined
+dolutegravir,doravirine,1433868,2055755,N2_bidirectional,dolutegravir->doravirine; doravirine->dolutegravir,
+dolutegravir,darunavir,1433868,460132,N1_one_direction,darunavir->dolutegravir,no_path
+riociguat,macitentan,1439816,1442132,N1_one_direction,macitentan->riociguat,undetermined
+riociguat,ethinyl estradiol,1439816,4124,N1_one_direction,riociguat->ethinyl estradiol,undetermined
+riociguat,levonorgestrel,1439816,6373,N1_one_direction,riociguat->levonorgestrel,undetermined
+riociguat,midazolam,1439816,6960,N1_one_direction,riociguat->midazolam,undetermined
+bazedoxifene,atorvastatin,1441386,83367,N1_one_direction,atorvastatin->bazedoxifene,undetermined
+macitentan,rosuvastatin,1442132,301542,N1_one_direction,macitentan->rosuvastatin,undetermined
+macitentan,ethinyl estradiol,1442132,4124,N1_one_direction,macitentan->ethinyl estradiol,undetermined
+vortioxetine,diazepam,1455099,3322,N1_one_direction,vortioxetine->diazepam,undetermined
+sofosbuvir,doravirine,1484911,2055755,N2_bidirectional,sofosbuvir->doravirine; doravirine->sofosbuvir,
+acebutolol,hydralazine,149,5470,N1_one_direction,hydralazine->acebutolol,undetermined
+acebutolol,hydrochlorothiazide,149,5487,N1_one_direction,hydrochlorothiazide->acebutolol,undetermined
+apremilast,ketoconazole,1492727,6135,N0_undirected_only,,
+apremilast,methotrexate,1492727,6851,N0_undirected_only,,
+argatroban,erythromycin,15202,4053,N1_one_direction,erythromycin->argatroban,undetermined
+empagliflozin,glimepiride,1545653,25789,N1_one_direction,empagliflozin->glimepiride,undetermined
+empagliflozin,pioglitazone,1545653,33738,N1_one_direction,empagliflozin->pioglitazone,undetermined
+empagliflozin,digoxin,1545653,3407,N1_one_direction,empagliflozin->digoxin,undetermined
+empagliflozin,ramipril,1545653,35296,N1_one_direction,empagliflozin->ramipril,undetermined
+empagliflozin,simvastatin,1545653,36567,N1_one_direction,empagliflozin->simvastatin,undetermined
+empagliflozin,torsemide,1545653,38413,N1_one_direction,empagliflozin->torsemide,undetermined
+empagliflozin,hydrochlorothiazide,1545653,5487,N1_one_direction,empagliflozin->hydrochlorothiazide,undetermined
+empagliflozin,sitagliptin,1545653,593411,N1_one_direction,empagliflozin->sitagliptin,undetermined
+empagliflozin,metformin,1545653,6809,N1_one_direction,empagliflozin->metformin,undetermined
+eliglustat,ethinyl estradiol,1547220,4124,N1_one_direction,eliglustat->ethinyl estradiol,undetermined
+eliglustat,norethindrone,1547220,7514,N1_one_direction,eliglustat->norethindrone,undetermined
+decitabine,venetoclax,15657,1747556,N1_one_direction,decitabine->venetoclax,undetermined
+ledipasvir,doravirine,1591922,2055755,N2_bidirectional,ledipasvir->doravirine; doravirine->ledipasvir,
+mirtazapine,phenytoin,15996,8183,N1_one_direction,mirtazapine->phenytoin,undetermined
+lenvatinib,midazolam,1603296,6960,N1_one_direction,lenvatinib->midazolam,undetermined
+acetaminophen,selinexor,161,2178390,N1_one_direction,acetaminophen->selinexor,undetermined
+acetaminophen,ubrogepant,161,2268216,N2_bidirectional,acetaminophen->ubrogepant; ubrogepant->acetaminophen,
+acetaminophen,opicapone,161,2362167,N1_one_direction,acetaminophen->opicapone,undetermined
+acetaminophen,oseltamivir,161,260101,N0_undirected_only,,
+acetaminophen,imatinib,161,282388,N2_bidirectional,acetaminophen->imatinib; imatinib->acetaminophen,
+acetaminophen,tizanidine,161,57258,N1_one_direction,acetaminophen->tizanidine,undetermined
+acetaminophen,exenatide,161,60548,N1_one_direction,exenatide->acetaminophen,undetermined
+ivabradine,metformin,1649480,6809,N1_one_direction,ivabradine->metformin,no_path
+eluxadoline,ethinyl estradiol,1653781,4124,N2_bidirectional,eluxadoline->ethinyl estradiol; ethinyl estradiol->eluxadoline,
+eluxadoline,norethindrone,1653781,7514,N2_bidirectional,eluxadoline->norethindrone; norethindrone->eluxadoline,
+sacubitril,vericiguat,1656328,2475830,N2_bidirectional,sacubitril->vericiguat; vericiguat->sacubitril,
+brexpiprazole,omeprazole,1658314,7646,N1_one_direction,omeprazole->brexpiprazole,undetermined
+alirocumab,rosuvastatin,1659152,301542,N1_one_direction,alirocumab->rosuvastatin,undetermined
+alirocumab,atorvastatin,1659152,83367,N1_one_direction,alirocumab->atorvastatin,undetermined
+sonidegib,esomeprazole,1659191,283742,N1_one_direction,esomeprazole->sonidegib,undetermined
+acarbose,rosiglitazone,16681,84108,N1_one_direction,acarbose->rosiglitazone,undetermined
+aripiprazole lauroxil,famotidine,1673265,4278,N1_one_direction,famotidine->aripiprazole lauroxil,undetermined
+lansoprazole,futibatinib,17128,2628190,N1_one_direction,lansoprazole->futibatinib,undetermined
+lansoprazole,quizartinib,17128,2643048,N1_one_direction,lansoprazole->quizartinib,undetermined
+lansoprazole,clopidogrel,17128,32968,N1_one_direction,lansoprazole->clopidogrel,no_path
+lansoprazole,methotrexate,17128,6851,N1_one_direction,lansoprazole->methotrexate,no_path
+lansoprazole,amoxicillin,17128,723,N0_undirected_only,,
+patiromer,amlodipine,1716203,17767,N1_one_direction,patiromer->amlodipine,undetermined
+patiromer,clopidogrel,1716203,32968,N1_one_direction,patiromer->clopidogrel,undetermined
+patiromer,cinacalcet,1716203,407990,N1_one_direction,patiromer->cinacalcet,undetermined
+patiromer,furosemide,1716203,4603,N1_one_direction,patiromer->furosemide,undetermined
+patiromer,metoprolol,1716203,6918,N1_one_direction,patiromer->metoprolol,undetermined
+osimertinib,simvastatin,1721560,36567,N1_one_direction,osimertinib->simvastatin,undetermined
+alectinib,posaconazole,1727455,282446,N1_one_direction,posaconazole->alectinib,undetermined
+alectinib,esomeprazole,1727455,283742,N1_one_direction,esomeprazole->alectinib,undetermined
+alectinib,rifampin,1727455,9384,N1_one_direction,rifampin->alectinib,undetermined
+alfuzosin,tadalafil,17300,358263,N0_undirected_only,,
+elbasvir,doravirine,1734628,2055755,N2_bidirectional,elbasvir->doravirine; doravirine->elbasvir,
+grazoprevir,doravirine,1734630,2055755,N2_bidirectional,grazoprevir->doravirine; doravirine->grazoprevir,
+brivaracetam,levonorgestrel,1739745,6373,N1_one_direction,brivaracetam->levonorgestrel,undetermined
+ixekizumab,caffeine,1745099,1886,N1_one_direction,ixekizumab->caffeine,undetermined
+ixekizumab,midazolam,1745099,6960,N1_one_direction,ixekizumab->midazolam,undetermined
+ixekizumab,omeprazole,1745099,7646,N1_one_direction,ixekizumab->omeprazole,undetermined
+venetoclax,azithromycin,1747556,18631,N1_one_direction,azithromycin->venetoclax,undetermined
+venetoclax,cytarabine,1747556,3041,N1_one_direction,cytarabine->venetoclax,undetermined
+venetoclax,obinutuzumab,1747556,974779,N1_one_direction,obinutuzumab->venetoclax,undetermined
+amlodipine,cimetidine,17767,2541,N1_one_direction,cimetidine->amlodipine,undetermined
+amlodipine,digoxin,17767,3407,N1_one_direction,amlodipine->digoxin,undetermined
+amlodipine,ethanol,17767,448,N1_one_direction,amlodipine->ethanol,undetermined
+amlodipine,dofetilide,17767,49247,N1_one_direction,amlodipine->dofetilide,undetermined
+amlodipine,valsartan,17767,69749,N0_undirected_only,,
+amlodipine,atorvastatin,17767,83367,N1_one_direction,amlodipine->atorvastatin,undetermined
+pimavanserin,carbidopa,1791685,2019,N1_one_direction,pimavanserin->carbidopa,undetermined
+pimavanserin,levodopa,1791685,6375,N1_one_direction,pimavanserin->levodopa,undetermined
+rivastigmine,diazepam,183379,3322,N2_bidirectional,rivastigmine->diazepam; diazepam->rivastigmine,
+rivastigmine,digoxin,183379,3407,N2_bidirectional,rivastigmine->digoxin; digoxin->rivastigmine,
+rivastigmine,fluoxetine,183379,4493,N2_bidirectional,rivastigmine->fluoxetine; fluoxetine->rivastigmine,
+artemether,tafenoquine,18343,2054023,N1_one_direction,tafenoquine->artemether,undetermined
+butorphanol,cimetidine,1841,2541,N2_bidirectional,butorphanol->cimetidine; cimetidine->butorphanol,
+butorphanol,sumatriptan,1841,37418,N1_one_direction,sumatriptan->butorphanol,undetermined
+azelastine,erythromycin,18603,4053,N0_undirected_only,,
+azelastine,ranitidine,18603,9143,N0_undirected_only,,
+rucaparib,rosuvastatin,1862579,301542,N1_one_direction,rucaparib->rosuvastatin,undetermined
+azithromycin,efavirenz,18631,195085,N1_one_direction,azithromycin->efavirenz,undetermined
+azithromycin,fluconazole,18631,4450,N1_one_direction,azithromycin->fluconazole,undetermined
+azithromycin,magnesium hydroxide,18631,6581,N2_bidirectional,azithromycin->magnesium hydroxide; magnesium hydroxide->azithromycin,
+ribociclib,fulvestrant,1873916,282357,N1_one_direction,fulvestrant->ribociclib,undetermined
+pregabalin,carbamazepine,187832,2002,N2_bidirectional,pregabalin->carbamazepine; carbamazepine->pregabalin,
+pregabalin,gabapentin,187832,25480,N2_bidirectional,pregabalin->gabapentin; gabapentin->pregabalin,
+pregabalin,lamotrigine,187832,28439,N2_bidirectional,pregabalin->lamotrigine; lamotrigine->pregabalin,
+pregabalin,topiramate,187832,38404,N2_bidirectional,pregabalin->topiramate; topiramate->pregabalin,
+pregabalin,ethanol,187832,448,N2_bidirectional,pregabalin->ethanol; ethanol->pregabalin,
+pregabalin,milnacipran,187832,588250,N1_one_direction,pregabalin->milnacipran,undetermined
+pregabalin,lorazepam,187832,6470,N2_bidirectional,pregabalin->lorazepam; lorazepam->pregabalin,
+pregabalin,oxycodone,187832,7804,N2_bidirectional,pregabalin->oxycodone; oxycodone->pregabalin,
+pregabalin,phenobarbital,187832,8134,N2_bidirectional,pregabalin->phenobarbital; phenobarbital->pregabalin,
+pregabalin,phenytoin,187832,8183,N2_bidirectional,pregabalin->phenytoin; phenytoin->pregabalin,
+caffeine,tafenoquine,1886,2054023,N1_one_direction,tafenoquine->caffeine,undetermined
+caffeine,maribavir,1886,2586068,N0_undirected_only,,
+caffeine,abrocitinib,1886,2591476,N1_one_direction,abrocitinib->caffeine,undetermined
+caffeine,leniolisib,1886,2633005,N1_one_direction,leniolisib->caffeine,no_path
+caffeine,mavorixafor,1886,2684021,N1_one_direction,mavorixafor->caffeine,undetermined
+caffeine,icotrokinra,1886,2739030,N1_one_direction,caffeine->icotrokinra,undetermined
+caffeine,posaconazole,1886,282446,N1_one_direction,posaconazole->caffeine,no_path
+caffeine,pantoprazole,1886,40790,N0_undirected_only,,
+caffeine,armodafinil,1886,641465,N1_one_direction,armodafinil->caffeine,no_path
+caffeine,ustekinumab,1886,847083,N1_one_direction,ustekinumab->caffeine,undetermined
+calcium carbonate,lusutrombopag,1897,2054984,N1_one_direction,calcium carbonate->lusutrombopag,undetermined
+calcium carbonate,cinacalcet,1897,407990,N0_undirected_only,,
+calcium carbonate,raloxifene,1897,72143,N1_one_direction,calcium carbonate->raloxifene,undetermined
+abacavir,methadone,190521,6813,N1_one_direction,methadone->abacavir,undetermined
+midostaurin,dextromethorphan,1919083,3289,N1_one_direction,midostaurin->dextromethorphan,undetermined
+midostaurin,digoxin,1919083,3407,N1_one_direction,midostaurin->digoxin,undetermined
+capecitabine,trastuzumab,194000,224905,N1_one_direction,trastuzumab->capecitabine,undetermined
+capecitabine,ixabepilone,194000,337523,N1_one_direction,capecitabine->ixabepilone,undetermined
+capecitabine,docetaxel,194000,72962,N2_bidirectional,capecitabine->docetaxel; docetaxel->capecitabine,
+abemaciclib,exemestane,1946825,258494,N2_bidirectional,abemaciclib->exemestane; exemestane->abemaciclib,
+abemaciclib,imlunestrant,1946825,2725912,N2_bidirectional,abemaciclib->imlunestrant; imlunestrant->abemaciclib,
+abemaciclib,fulvestrant,1946825,282357,N2_bidirectional,abemaciclib->fulvestrant; fulvestrant->abemaciclib,
+abemaciclib,letrozole,1946825,72965,N2_bidirectional,abemaciclib->letrozole; letrozole->abemaciclib,
+abemaciclib,anastrozole,1946825,84857,N2_bidirectional,abemaciclib->anastrozole; anastrozole->abemaciclib,
+efavirenz,pretomanid,195085,2198359,N1_one_direction,pretomanid->efavirenz,undetermined
+efavirenz,abrocitinib,195085,2591476,N1_one_direction,abrocitinib->efavirenz,undetermined
+lopinavir,pretomanid,195088,2198359,N1_one_direction,lopinavir->pretomanid,undetermined
+budesonide,ethinyl estradiol,19831,4124,N1_one_direction,budesonide->ethinyl estradiol,undetermined
+letermovir,itraconazole,1988648,28031,N0_undirected_only,,
+letermovir,acyclovir,1988648,281,N1_one_direction,letermovir->acyclovir,undetermined
+letermovir,posaconazole,1988648,282446,N0_undirected_only,,
+letermovir,digoxin,1988648,3407,N1_one_direction,letermovir->digoxin,undetermined
+letermovir,ethinyl estradiol,1988648,4124,N0_undirected_only,,
+letermovir,fluconazole,1988648,4450,N0_undirected_only,,
+letermovir,levonorgestrel,1988648,6373,N0_undirected_only,,
+letermovir,mycophenolate mofetil,1988648,68149,N0_undirected_only,,
+semaglutide,omeprazole,1991302,7646,N1_one_direction,omeprazole->semaglutide,undetermined
+ertugliflozin,glimepiride,1992672,25789,N1_one_direction,ertugliflozin->glimepiride,undetermined
+ertugliflozin,simvastatin,1992672,36567,N1_one_direction,ertugliflozin->simvastatin,undetermined
+ertugliflozin,sitagliptin,1992672,593411,N1_one_direction,ertugliflozin->sitagliptin,undetermined
+ertugliflozin,metformin,1992672,6809,N1_one_direction,ertugliflozin->metformin,undetermined
+captopril,furosemide,1998,4603,N1_one_direction,furosemide->captopril,undetermined
+carbamazepine,selinexor,2002,2178390,N1_one_direction,carbamazepine->selinexor,undetermined
+carbamazepine,gabapentin,2002,25480,N1_one_direction,gabapentin->carbamazepine,undetermined
+carbamazepine,citalopram,2002,2556,N1_one_direction,citalopram->carbamazepine,undetermined
+carbamazepine,milnacipran,2002,588250,N1_one_direction,carbamazepine->milnacipran,undetermined
+carbamazepine,lacosamide,2002,623400,N2_bidirectional,carbamazepine->lacosamide; lacosamide->carbamazepine,
+carbidopa,istradefylline,2019,2199015,N1_one_direction,istradefylline->carbidopa,undetermined
+carvedilol,hydrochlorothiazide,20352,5487,N2_bidirectional,carvedilol->hydrochlorothiazide; hydrochlorothiazide->carvedilol,
+cannabidiol,fenfluramine,2045371,4328,N1_one_direction,fenfluramine->cannabidiol,undetermined
+baricitinib,cyclosporine,2047232,3008,N1_one_direction,cyclosporine->baricitinib,no_path
+baricitinib,digoxin,2047232,3407,N1_one_direction,baricitinib->digoxin,no_path
+baricitinib,simvastatin,2047232,36567,N1_one_direction,baricitinib->simvastatin,no_path
+baricitinib,ethinyl estradiol,2047232,4124,N1_one_direction,baricitinib->ethinyl estradiol,undetermined
+baricitinib,fluconazole,2047232,4450,N1_one_direction,fluconazole->baricitinib,no_path
+baricitinib,levonorgestrel,2047232,6373,N1_one_direction,baricitinib->levonorgestrel,undetermined
+baricitinib,methotrexate,2047232,6851,N1_one_direction,baricitinib->methotrexate,no_path
+baricitinib,rifampin,2047232,9384,N1_one_direction,rifampin->baricitinib,no_path
+encorafenib,oxaliplatin,2049106,32592,N1_one_direction,encorafenib->oxaliplatin,undetermined
+encorafenib,irinotecan,2049106,51499,N1_one_direction,encorafenib->irinotecan,undetermined
+binimetinib,midazolam,2049122,6960,N1_one_direction,binimetinib->midazolam,undetermined
+elagolix,rosuvastatin,2049846,301542,N1_one_direction,rosuvastatin->elagolix,no_path
+elagolix,sertraline,2049846,36437,N1_one_direction,sertraline->elagolix,no_path
+elagolix,fluconazole,2049846,4450,N1_one_direction,fluconazole->elagolix,no_path
+tafenoquine,chloroquine,2054023,2393,N2_bidirectional,tafenoquine->chloroquine; chloroquine->tafenoquine,
+tafenoquine,desipramine,2054023,3247,N1_one_direction,tafenoquine->desipramine,undetermined
+tafenoquine,flurbiprofen,2054023,4502,N1_one_direction,tafenoquine->flurbiprofen,undetermined
+tafenoquine,midazolam,2054023,6960,N1_one_direction,tafenoquine->midazolam,undetermined
+tafenoquine,lumefantrine,2054023,847728,N1_one_direction,tafenoquine->lumefantrine,undetermined
+stiripentol,fenfluramine,2054968,4328,N1_one_direction,fenfluramine->stiripentol,undetermined
+lusutrombopag,cyclosporine,2054984,3008,N1_one_direction,cyclosporine->lusutrombopag,undetermined
+lusutrombopag,midazolam,2054984,6960,N1_one_direction,lusutrombopag->midazolam,undetermined
+doravirine,pantoprazole,2055755,40790,N1_one_direction,pantoprazole->doravirine,undetermined
+doravirine,ethinyl estradiol,2055755,4124,N1_one_direction,doravirine->ethinyl estradiol,undetermined
+doravirine,ketoconazole,2055755,6135,N1_one_direction,ketoconazole->doravirine,undetermined
+doravirine,levonorgestrel,2055755,6373,N1_one_direction,doravirine->levonorgestrel,undetermined
+doravirine,magnesium hydroxide,2055755,6581,N1_one_direction,magnesium hydroxide->doravirine,undetermined
+doravirine,metformin,2055755,6809,N1_one_direction,doravirine->metformin,undetermined
+doravirine,methadone,2055755,6813,N2_bidirectional,doravirine->methadone; methadone->doravirine,
+doravirine,lamivudine,2055755,68244,N2_bidirectional,doravirine->lamivudine; lamivudine->doravirine,
+doravirine,midazolam,2055755,6960,N1_one_direction,doravirine->midazolam,undetermined
+doravirine,atorvastatin,2055755,83367,N1_one_direction,doravirine->atorvastatin,undetermined
+doravirine,ritonavir,2055755,85762,N1_one_direction,ritonavir->doravirine,undetermined
+sarecycline,ethinyl estradiol,2059018,4124,N1_one_direction,sarecycline->ethinyl estradiol,undetermined
+baloxavir marboxil,oseltamivir,2099995,260101,N1_one_direction,oseltamivir->baloxavir marboxil,undetermined
+baloxavir marboxil,itraconazole,2099995,28031,N1_one_direction,itraconazole->baloxavir marboxil,undetermined
+baloxavir marboxil,probenecid,2099995,8698,N1_one_direction,probenecid->baloxavir marboxil,undetermined
+clarithromycin,selinexor,21212,2178390,N1_one_direction,clarithromycin->selinexor,undetermined
+clarithromycin,fluconazole,21212,4450,N1_one_direction,fluconazole->clarithromycin,no_path
+erdafitinib,metformin,2123125,6809,N1_one_direction,erdafitinib->metformin,undetermined
+erdafitinib,midazolam,2123125,6960,N1_one_direction,erdafitinib->midazolam,undetermined
+clobazam,fenfluramine,21241,4328,N1_one_direction,fenfluramine->clobazam,undetermined
+sevelamer,digoxin,214824,3407,N1_one_direction,sevelamer->digoxin,undetermined
+sevelamer,enalapril,214824,3827,N1_one_direction,sevelamer->enalapril,undetermined
+sevelamer,cinacalcet,214824,407990,N0_undirected_only,,
+sevelamer,metoprolol,214824,6918,N1_one_direction,sevelamer->metoprolol,undetermined
+darolutamide,midazolam,2180325,6960,N1_one_direction,darolutamide->midazolam,no_path
+darolutamide,docetaxel,2180325,72962,N1_one_direction,docetaxel->darolutamide,path_expected
+pretomanid,midazolam,2198359,6960,N1_one_direction,pretomanid->midazolam,undetermined
+pretomanid,ritonavir,2198359,85762,N1_one_direction,ritonavir->pretomanid,undetermined
+lefamulin,digoxin,2198944,3407,N1_one_direction,lefamulin->digoxin,undetermined
+lefamulin,midazolam,2198944,6960,N1_one_direction,lefamulin->midazolam,undetermined
+istradefylline,levodopa,2199015,6375,N1_one_direction,istradefylline->levodopa,undetermined
+trastuzumab,cisplatin,224905,2555,N1_one_direction,trastuzumab->cisplatin,undetermined
+trastuzumab,paclitaxel,224905,56946,N1_one_direction,trastuzumab->paclitaxel,undetermined
+lasmiditan,topiramate,2256930,38404,N1_one_direction,lasmiditan->topiramate,undetermined
+lasmiditan,propranolol,2256930,8787,N1_one_direction,lasmiditan->propranolol,undetermined
+zanubrutinib,rosuvastatin,2262435,301542,N1_one_direction,zanubrutinib->rosuvastatin,no_path
+cenobamate,ethanol,2265690,448,N0_undirected_only,,
+cefiderocol,rosuvastatin,2265702,301542,N1_one_direction,cefiderocol->rosuvastatin,undetermined
+cefiderocol,furosemide,2265702,4603,N1_one_direction,cefiderocol->furosemide,undetermined
+cefiderocol,metformin,2265702,6809,N1_one_direction,cefiderocol->metformin,undetermined
+ubrogepant,atogepant,2268216,2571813,N2_bidirectional,ubrogepant->atogepant; atogepant->ubrogepant,
+ubrogepant,esomeprazole,2268216,283742,N2_bidirectional,ubrogepant->esomeprazole; esomeprazole->ubrogepant,
+ubrogepant,norgestimate,2268216,31994,N2_bidirectional,ubrogepant->norgestimate; norgestimate->ubrogepant,
+ubrogepant,sumatriptan,2268216,37418,N2_bidirectional,ubrogepant->sumatriptan; sumatriptan->ubrogepant,
+ubrogepant,ethinyl estradiol,2268216,4124,N2_bidirectional,ubrogepant->ethinyl estradiol; ethinyl estradiol->ubrogepant,
+ubrogepant,naproxen,2268216,7258,N2_bidirectional,ubrogepant->naproxen; naproxen->ubrogepant,
+lumateperone,midazolam,2275602,6960,N1_one_direction,lumateperone->midazolam,undetermined
+rimegepant,sumatriptan,2282307,37418,N1_one_direction,rimegepant->sumatriptan,undetermined
+rimegepant,ethinyl estradiol,2282307,4124,N0_undirected_only,,
+rimegepant,metformin,2282307,6809,N1_one_direction,rimegepant->metformin,undetermined
+rimegepant,midazolam,2282307,6960,N1_one_direction,rimegepant->midazolam,undetermined
+bempedoic acid,metformin,2282403,6809,N1_one_direction,bempedoic acid->metformin,undetermined
+ozanimod,itraconazole,2288236,28031,N1_one_direction,itraconazole->ozanimod,undetermined
+ozanimod,cyclosporine,2288236,3008,N1_one_direction,cyclosporine->ozanimod,undetermined
+ozanimod,ethinyl estradiol,2288236,4124,N1_one_direction,ozanimod->ethinyl estradiol,undetermined
+ozanimod,norethindrone,2288236,7514,N1_one_direction,ozanimod->norethindrone,undetermined
+ozanimod,pseudoephedrine,2288236,8896,N1_one_direction,ozanimod->pseudoephedrine,undetermined
+bexarotene,carboplatin,233272,40048,N1_one_direction,bexarotene->carboplatin,undetermined
+bexarotene,atorvastatin,233272,83367,N1_one_direction,atorvastatin->bexarotene,undetermined
+lanthanum carbonate,digoxin,234416,3407,N1_one_direction,lanthanum carbonate->digoxin,undetermined
+lanthanum carbonate,metoprolol,234416,6918,N1_one_direction,lanthanum carbonate->metoprolol,undetermined
+pemigatinib,esomeprazole,2359268,283742,N1_one_direction,esomeprazole->pemigatinib,undetermined
+pemigatinib,metformin,2359268,6809,N1_one_direction,pemigatinib->metformin,undetermined
+pemigatinib,ranitidine,2359268,9143,N1_one_direction,ranitidine->pemigatinib,undetermined
+tucatinib,omeprazole,2361285,7646,N1_one_direction,omeprazole->tucatinib,no_path
+capmatinib,midazolam,2362165,6960,N1_one_direction,capmatinib->midazolam,no_path
+opicapone,quinidine,2362167,9068,N1_one_direction,quinidine->opicapone,undetermined
+trospium,digoxin,236778,3407,N2_bidirectional,trospium->digoxin; digoxin->trospium,
+ripretinib,pantoprazole,2369389,40790,N1_one_direction,pantoprazole->ripretinib,undetermined
+selpercatinib,metformin,2370147,6809,N1_one_direction,selpercatinib->metformin,no_path
+selpercatinib,rifampin,2370147,9384,N1_one_direction,rifampin->selpercatinib,no_path
+risdiplam,omeprazole,2390935,7646,N1_one_direction,omeprazole->risdiplam,undetermined
+fludarabine,nelarabine,24698,274771,N1_one_direction,fludarabine->nelarabine,undetermined
+vibegron,diltiazem,2472254,3443,N1_one_direction,diltiazem->vibegron,undetermined
+vibegron,ketoconazole,2472254,6135,N1_one_direction,ketoconazole->vibegron,undetermined
+vibegron,rifampin,2472254,9384,N1_one_direction,rifampin->vibegron,undetermined
+relugolix,rosuvastatin,2472778,301542,N1_one_direction,relugolix->rosuvastatin,undetermined
+relugolix,midazolam,2472778,6960,N1_one_direction,relugolix->midazolam,undetermined
+relugolix,atorvastatin,2472778,83367,N1_one_direction,atorvastatin->relugolix,undetermined
+vericiguat,28004,2475830,28004,N1_one_direction,28004->vericiguat,undetermined
+vericiguat,digoxin,2475830,3407,N2_bidirectional,vericiguat->digoxin; digoxin->vericiguat,
+vericiguat,ketoconazole,2475830,6135,N1_one_direction,ketoconazole->vericiguat,undetermined
+vericiguat,6693,2475830,6693,N1_one_direction,6693->vericiguat,undetermined
+vericiguat,midazolam,2475830,6960,N1_one_direction,vericiguat->midazolam,undetermined
+vericiguat,valsartan,2475830,69749,N2_bidirectional,vericiguat->valsartan; valsartan->vericiguat,
+vericiguat,rifampin,2475830,9384,N1_one_direction,rifampin->vericiguat,undetermined
+tepotinib,metformin,2477103,6809,N1_one_direction,tepotinib->metformin,undetermined
+2478646,rosuvastatin,2478646,301542,N1_one_direction,2478646->rosuvastatin,undetermined
+2478646,simvastatin,2478646,36567,N1_one_direction,2478646->simvastatin,undetermined
+2478646,atorvastatin,2478646,83367,N1_one_direction,2478646->atorvastatin,undetermined
+trilaciclib,itraconazole,2479690,28031,N1_one_direction,itraconazole->trilaciclib,undetermined
+trilaciclib,topotecan,2479690,57308,N1_one_direction,trilaciclib->topotecan,undetermined
+trilaciclib,midazolam,2479690,6960,N1_one_direction,trilaciclib->midazolam,undetermined
+trilaciclib,rifampin,2479690,9384,N1_one_direction,rifampin->trilaciclib,undetermined
+felbamate,lamotrigine,24812,28439,N1_one_direction,felbamate->lamotrigine,undetermined
+felbamate,ethinyl estradiol,24812,4124,N1_one_direction,felbamate->ethinyl estradiol,undetermined
+formoterol,ciclesonide,25255,274964,N1_one_direction,formoterol->ciclesonide,undetermined
+bevacizumab,carboplatin,253337,40048,N1_one_direction,bevacizumab->carboplatin,undetermined
+bevacizumab,irinotecan,253337,51499,N1_one_direction,bevacizumab->irinotecan,undetermined
+cimetidine,oseltamivir,2541,260101,N0_undirected_only,,
+cimetidine,elacestrant,2541,2628469,N1_one_direction,cimetidine->elacestrant,undetermined
+cimetidine,sebetralstat,2541,2717944,N1_one_direction,cimetidine->sebetralstat,undetermined
+cimetidine,oxcarbazepine,2541,32624,N1_one_direction,cimetidine->oxcarbazepine,undetermined
+cimetidine,risperidone,2541,35636,N1_one_direction,cimetidine->risperidone,undetermined
+cimetidine,sertraline,2541,36437,N1_one_direction,cimetidine->sertraline,no_path
+cimetidine,venlafaxine,2541,39786,N1_one_direction,cimetidine->venlafaxine,no_path
+cimetidine,zonisamide,2541,39998,N1_one_direction,cimetidine->zonisamide,undetermined
+cimetidine,fluconazole,2541,4450,N1_one_direction,cimetidine->fluconazole,no_path
+cimetidine,fosfomycin,2541,4550,N1_one_direction,cimetidine->fosfomycin,undetermined
+cimetidine,lorazepam,2541,6470,N1_one_direction,cimetidine->lorazepam,undetermined
+cimetidine,metformin,2541,6809,N1_one_direction,metformin->cimetidine,path_expected
+cimetidine,famciclovir,2541,68099,N1_one_direction,cimetidine->famciclovir,undetermined
+cimetidine,tiotropium,2541,69120,N2_bidirectional,cimetidine->tiotropium; tiotropium->cimetidine,
+cimetidine,valsartan,2541,69749,N0_undirected_only,,
+cimetidine,letrozole,2541,72965,N1_one_direction,cimetidine->letrozole,undetermined
+cimetidine,atorvastatin,2541,83367,N1_one_direction,cimetidine->atorvastatin,no_path
+gabapentin,lacosamide,25480,623400,N1_one_direction,lacosamide->gabapentin,undetermined
+gabapentin,morphine,25480,7052,N1_one_direction,gabapentin->morphine,undetermined
+sotorasib,itraconazole,2550714,28031,N1_one_direction,itraconazole->sotorasib,no_path
+sotorasib,metformin,2550714,6809,N2_bidirectional,sotorasib->metformin; metformin->sotorasib,
+sotorasib,rifampin,2550714,9384,N1_one_direction,rifampin->sotorasib,no_path
+ciprofloxacin,metronidazole,2551,6922,N1_one_direction,metronidazole->ciprofloxacin,undetermined
+cisplatin,cetuximab,2555,318341,N2_bidirectional,cisplatin->cetuximab; cetuximab->cisplatin,
+cisplatin,topotecan,2555,57308,N2_bidirectional,cisplatin->topotecan; topotecan->cisplatin,
+cisplatin,pemetrexed,2555,68446,N1_one_direction,cisplatin->pemetrexed,undetermined
+cisplatin,docetaxel,2555,72962,N2_bidirectional,cisplatin->docetaxel; docetaxel->cisplatin,
+citalopram,daridorexant,2556,2591497,N0_undirected_only,,
+citalopram,digoxin,2556,3407,N1_one_direction,digoxin->citalopram,undetermined
+citalopram,bupropion,2556,42347,N1_one_direction,citalopram->bupropion,undetermined
+citalopram,imipramine,2556,5691,N1_one_direction,citalopram->imipramine,undetermined
+citalopram,ketoconazole,2556,6135,N1_one_direction,ketoconazole->citalopram,undetermined
+citalopram,metoprolol,2556,6918,N0_undirected_only,,
+finerenone,gemfibrozil,2562811,4719,N1_one_direction,gemfibrozil->finerenone,undetermined
+finerenone,midazolam,2562811,6960,N1_one_direction,finerenone->midazolam,undetermined
+finerenone,repaglinide,2562811,73044,N1_one_direction,finerenone->repaglinide,undetermined
+belumosudil,itraconazole,2564025,28031,N1_one_direction,itraconazole->belumosudil,no_path
+glimepiride,bexagliflozin,25789,2627044,N2_bidirectional,glimepiride->bexagliflozin; bexagliflozin->glimepiride,
+glimepiride,rosiglitazone,25789,84108,N1_one_direction,glimepiride->rosiglitazone,no_path
+asciminib,itraconazole,2584304,28031,N1_one_direction,itraconazole->asciminib,undetermined
+asciminib,quinidine,2584304,9068,N1_one_direction,quinidine->asciminib,undetermined
+maribavir,dextromethorphan,2586068,3289,N0_undirected_only,,
+maribavir,ketoconazole,2586068,6135,N0_undirected_only,,
+maribavir,midazolam,2586068,6960,N0_undirected_only,,
+abrocitinib,rosuvastatin,2591476,301542,N1_one_direction,abrocitinib->rosuvastatin,undetermined
+abrocitinib,metformin,2591476,6809,N1_one_direction,abrocitinib->metformin,undetermined
+abrocitinib,midazolam,2591476,6960,N1_one_direction,abrocitinib->midazolam,undetermined
+clofazimine,cycloserine,2592,3007,N1_one_direction,cycloserine->clofazimine,undetermined
+clofazimine,dapsone,2592,3108,N1_one_direction,dapsone->clofazimine,undetermined
+clofazimine,pyridoxine,2592,684879,N1_one_direction,pyridoxine->clofazimine,undetermined
+clofazimine,pyrazinamide,2592,8987,N1_one_direction,pyrazinamide->clofazimine,undetermined
+clonazepam,fluoxetine,2598,4493,N1_one_direction,fluoxetine->clonazepam,undetermined
+clonazepam,lacosamide,2598,623400,N1_one_direction,lacosamide->clonazepam,undetermined
+2599041,carboplatin,2599041,40048,N1_one_direction,2599041->carboplatin,undetermined
+2599041,irinotecan,2599041,51499,N1_one_direction,2599041->irinotecan,undetermined
+brincidofovir,midazolam,2599518,6960,N1_one_direction,brincidofovir->midazolam,undetermined
+mavacamten,ethinyl estradiol,2600867,4124,N1_one_direction,mavacamten->ethinyl estradiol,undetermined
+mavacamten,norethindrone,2600867,7514,N1_one_direction,mavacamten->norethindrone,undetermined
+oseltamivir,amantadine,260101,620,N0_undirected_only,,
+oseltamivir,amoxicillin,260101,723,N0_undirected_only,,
+oseltamivir,rimantadine,260101,9386,N0_undirected_only,,
+vonoprazan,diclofenac,2604577,3355,N1_one_direction,diclofenac->vonoprazan,undetermined
+vonoprazan,meloxicam,2604577,41493,N1_one_direction,meloxicam->vonoprazan,undetermined
+deucravacitinib,cyclosporine,2612087,3008,N1_one_direction,cyclosporine->deucravacitinib,undetermined
+deucravacitinib,diflunisal,2612087,3393,N1_one_direction,diflunisal->deucravacitinib,undetermined
+deucravacitinib,fluvoxamine,2612087,42355,N1_one_direction,fluvoxamine->deucravacitinib,undetermined
+deucravacitinib,famotidine,2612087,4278,N1_one_direction,famotidine->deucravacitinib,undetermined
+deucravacitinib,ritonavir,2612087,85762,N1_one_direction,ritonavir->deucravacitinib,undetermined
+deucravacitinib,pyrimethamine,2612087,9010,N1_one_direction,pyrimethamine->deucravacitinib,undetermined
+olutasidenib,itraconazole,2623641,28031,N1_one_direction,itraconazole->olutasidenib,undetermined
+clozapine,risperidone,2626,35636,N1_one_direction,clozapine->risperidone,undetermined
+bexagliflozin,digoxin,2627044,3407,N1_one_direction,bexagliflozin->digoxin,undetermined
+bexagliflozin,sitagliptin,2627044,593411,N2_bidirectional,bexagliflozin->sitagliptin; sitagliptin->bexagliflozin,
+bexagliflozin,exenatide,2627044,60548,N1_one_direction,exenatide->bexagliflozin,undetermined
+bexagliflozin,metformin,2627044,6809,N2_bidirectional,bexagliflozin->metformin; metformin->bexagliflozin,
+bexagliflozin,probenecid,2627044,8698,N1_one_direction,probenecid->bexagliflozin,undetermined
+futibatinib,quinidine,2628190,9068,N1_one_direction,quinidine->futibatinib,undetermined
+elacestrant,omeprazole,2628469,7646,N1_one_direction,omeprazole->elacestrant,undetermined
+pirtobrutinib,itraconazole,2629338,28031,N1_one_direction,itraconazole->pirtobrutinib,no_path
+pirtobrutinib,omeprazole,2629338,7646,N1_one_direction,omeprazole->pirtobrutinib,path_possible
+sparsentan,esomeprazole,2630535,283742,N1_one_direction,esomeprazole->sparsentan,undetermined
+sparsentan,rosuvastatin,2630535,301542,N1_one_direction,sparsentan->rosuvastatin,undetermined
+sparsentan,midazolam,2630535,6960,N1_one_direction,sparsentan->midazolam,undetermined
+sparsentan,pitavastatin,2630535,861634,N1_one_direction,sparsentan->pitavastatin,undetermined
+omaveloxolone,digoxin,2631931,3407,N1_one_direction,omaveloxolone->digoxin,undetermined
+omaveloxolone,metformin,2631931,6809,N1_one_direction,omaveloxolone->metformin,undetermined
+leniolisib,furosemide,2633005,4603,N1_one_direction,leniolisib->furosemide,no_path
+leniolisib,metformin,2633005,6809,N1_one_direction,leniolisib->metformin,no_path
+leniolisib,midazolam,2633005,6960,N1_one_direction,leniolisib->midazolam,no_path
+zavegepant,sumatriptan,2637955,37418,N1_one_direction,zavegepant->sumatriptan,undetermined
+zavegepant,ethinyl estradiol,2637955,4124,N0_undirected_only,,
+quizartinib,raltegravir,2643048,719872,N1_one_direction,quizartinib->raltegravir,undetermined
+palovarotene,midazolam,2663954,6960,N1_one_direction,palovarotene->midazolam,undetermined
+palovarotene,prednisone,2663954,8640,N1_one_direction,prednisone->palovarotene,undetermined
+momelotinib,midazolam,2665204,6960,N1_one_direction,momelotinib->midazolam,no_path
+momelotinib,omeprazole,2665204,7646,N1_one_direction,omeprazole->momelotinib,no_path
+momelotinib,ritonavir,2665204,85762,N1_one_direction,ritonavir->momelotinib,no_path
+momelotinib,rifampin,2665204,9384,N1_one_direction,rifampin->momelotinib,no_path
+etrasimod,ethinyl estradiol,2668045,4124,N1_one_direction,etrasimod->ethinyl estradiol,undetermined
+etrasimod,levonorgestrel,2668045,6373,N1_one_direction,etrasimod->levonorgestrel,undetermined
+zuranolone,ethanol,2669905,448,N2_bidirectional,zuranolone->ethanol; ethanol->zuranolone,
+zuranolone,alprazolam,2669905,596,N2_bidirectional,zuranolone->alprazolam; alprazolam->zuranolone,
+fruquintinib,itraconazole,2670179,28031,N1_one_direction,itraconazole->fruquintinib,undetermined
+resmetirom,cyclosporine,2677894,3008,N1_one_direction,cyclosporine->resmetirom,no_path
+mavorixafor,furosemide,2684021,4603,N1_one_direction,mavorixafor->furosemide,undetermined
+mavorixafor,losartan,2684021,52175,N1_one_direction,mavorixafor->losartan,undetermined
+mavorixafor,omeprazole,2684021,7646,N1_one_direction,mavorixafor->omeprazole,undetermined
+elafibranor,indomethacin,2684941,5781,N1_one_direction,indomethacin->elafibranor,undetermined
+vorasidenib,lamotrigine,2690647,28439,N1_one_direction,vorasidenib->lamotrigine,undetermined
+vorasidenib,omeprazole,2690647,7646,N1_one_direction,omeprazole->vorasidenib,undetermined
+revumenib,fluconazole,2698325,4450,N1_one_direction,fluconazole->revumenib,undetermined
+crinecerfont,ethinyl estradiol,2701386,4124,N1_one_direction,crinecerfont->ethinyl estradiol,undetermined
+crinecerfont,levonorgestrel,2701386,6373,N1_one_direction,crinecerfont->levonorgestrel,undetermined
+crinecerfont,midazolam,2701386,6960,N1_one_direction,crinecerfont->midazolam,undetermined
+suzetrigine,omeprazole,2704819,7646,N1_one_direction,omeprazole->suzetrigine,undetermined
+vimseltinib,itraconazole,2705378,28031,N1_one_direction,itraconazole->vimseltinib,undetermined
+leflunomide,bupropion,27169,42347,N1_one_direction,leflunomide->bupropion,undetermined
+leflunomide,metoprolol,27169,6918,N1_one_direction,leflunomide->metoprolol,undetermined
+leflunomide,midazolam,27169,6960,N1_one_direction,leflunomide->midazolam,undetermined
+leflunomide,omeprazole,27169,7646,N1_one_direction,leflunomide->omeprazole,undetermined
+sebetralstat,modafinil,2717944,30125,N1_one_direction,modafinil->sebetralstat,undetermined
+sebetralstat,eltrombopag,2717944,711942,N1_one_direction,eltrombopag->sebetralstat,undetermined
+sebetralstat,quinidine,2717944,9068,N1_one_direction,quinidine->sebetralstat,undetermined
+activated charcoal,nebivolol,272,31555,N1_one_direction,activated charcoal->nebivolol,undetermined
+imlunestrant,dextromethorphan,2725912,3289,N1_one_direction,imlunestrant->dextromethorphan,undetermined
+imlunestrant,midazolam,2725912,6960,N1_one_direction,imlunestrant->midazolam,undetermined
+imlunestrant,repaglinide,2725912,73044,N1_one_direction,imlunestrant->repaglinide,undetermined
+imlunestrant,omeprazole,2725912,7646,N2_bidirectional,imlunestrant->omeprazole; omeprazole->imlunestrant,
+imlunestrant,quinidine,2725912,9068,N1_one_direction,quinidine->imlunestrant,undetermined
+sevabertinib,esomeprazole,2728187,283742,N1_one_direction,esomeprazole->sevabertinib,undetermined
+tradipitant,midazolam,2739506,6960,N1_one_direction,tradipitant->midazolam,undetermined
+orforglipron,rosuvastatin,2739838,301542,N1_one_direction,rosuvastatin->orforglipron,undetermined
+orforglipron,atorvastatin,2739838,83367,N1_one_direction,atorvastatin->orforglipron,undetermined
+nateglinide,diclofenac,274332,3355,N2_bidirectional,nateglinide->diclofenac; diclofenac->nateglinide,
+nateglinide,digoxin,274332,3407,N2_bidirectional,nateglinide->digoxin; digoxin->nateglinide,
+nateglinide,glyburide,274332,4815,N2_bidirectional,nateglinide->glyburide; glyburide->nateglinide,
+nateglinide,metformin,274332,6809,N2_bidirectional,nateglinide->metformin; metformin->nateglinide,
+baxdrostat,itraconazole,2743398,28031,N1_one_direction,itraconazole->baxdrostat,undetermined
+ciclesonide,erythromycin,274964,4053,N1_one_direction,erythromycin->ciclesonide,undetermined
+daraxonrasib,esomeprazole,2750155,283742,N1_one_direction,esomeprazole->daraxonrasib,undetermined
+tebipenem pivoxil,magnesium hydroxide,2750185,6581,N1_one_direction,magnesium hydroxide->tebipenem pivoxil,undetermined
+tebipenem pivoxil,omeprazole,2750185,7646,N1_one_direction,omeprazole->tebipenem pivoxil,undetermined
+brepocitinib,itraconazole,2751486,28031,N1_one_direction,itraconazole->brepocitinib,undetermined
+emtricitabine,famciclovir,276237,68099,N2_bidirectional,emtricitabine->famciclovir; famciclovir->emtricitabine,
+28004,metoprolol,28004,6918,N1_one_direction,metoprolol->28004,undetermined
+itraconazole,micafungin,28031,325887,N1_one_direction,itraconazole->micafungin,undetermined
+itraconazole,selegiline,28031,9639,N1_one_direction,itraconazole->selegiline,undetermined
+acyclovir,digoxin,281,3407,N2_bidirectional,acyclovir->digoxin; digoxin->acyclovir,
+fulvestrant,ketoconazole,282357,6135,N1_one_direction,ketoconazole->fulvestrant,undetermined
+imatinib,nilotinib,282388,662281,N1_one_direction,imatinib->nilotinib,undetermined
+posaconazole,loperamide,282446,6468,N1_one_direction,loperamide->posaconazole,path_expected
+posaconazole,lamivudine,282446,68244,N1_one_direction,posaconazole->lamivudine,undetermined
+posaconazole,metoclopramide,282446,6915,N1_one_direction,metoclopramide->posaconazole,undetermined
+lamotrigine,risperidone,28439,35636,N1_one_direction,lamotrigine->risperidone,undetermined
+lamotrigine,zonisamide,28439,39998,N1_one_direction,zonisamide->lamotrigine,undetermined
+lamotrigine,ethinyl estradiol,28439,4124,N1_one_direction,lamotrigine->ethinyl estradiol,undetermined
+lamotrigine,bupropion,28439,42347,N1_one_direction,bupropion->lamotrigine,undetermined
+lamotrigine,lacosamide,28439,623400,N1_one_direction,lacosamide->lamotrigine,undetermined
+miglitol,digoxin,30009,3407,N1_one_direction,miglitol->digoxin,undetermined
+tenofovir disoproxil,entecavir,300195,306266,N1_one_direction,tenofovir disoproxil->entecavir,undetermined
+cyclophosphamide,docetaxel,3002,72962,N1_one_direction,docetaxel->cyclophosphamide,undetermined
+cyclosporine,micafungin,3008,325887,N1_one_direction,cyclosporine->micafungin,undetermined
+cyclosporine,sirolimus,3008,35302,N1_one_direction,sirolimus->cyclosporine,path_possible
+modafinil,dextroamphetamine,30125,3288,N2_bidirectional,modafinil->dextroamphetamine; dextroamphetamine->modafinil,
+modafinil,methylphenidate,30125,6901,N2_bidirectional,modafinil->methylphenidate; methylphenidate->modafinil,
+rosuvastatin,37864,301542,37864,N1_one_direction,37864->rosuvastatin,undetermined
+cysteamine,omeprazole,3022,7646,N1_one_direction,omeprazole->cysteamine,undetermined
+entecavir,lamivudine,306266,68244,N1_one_direction,lamivudine->entecavir,undetermined
+vardenafil,digoxin,306674,3407,N2_bidirectional,vardenafil->digoxin; digoxin->vardenafil,
+vardenafil,glyburide,306674,4815,N2_bidirectional,vardenafil->glyburide; glyburide->vardenafil,
+vardenafil,nifedipine,306674,7417,N1_one_direction,vardenafil->nifedipine,undetermined
+vardenafil,ranitidine,306674,9143,N2_bidirectional,vardenafil->ranitidine; ranitidine->vardenafil,
+nebivolol,furosemide,31555,4603,N2_bidirectional,nebivolol->furosemide; furosemide->nebivolol,
+nebivolol,hydrochlorothiazide,31555,5487,N2_bidirectional,nebivolol->hydrochlorothiazide; hydrochlorothiazide->nebivolol,
+nebivolol,valsartan,31555,69749,N0_undirected_only,,
+nebivolol,ranitidine,31555,9143,N1_one_direction,ranitidine->nebivolol,no_path
+nebivolol,spironolactone,31555,9997,N2_bidirectional,nebivolol->spironolactone; spironolactone->nebivolol,
+nefazodone,pravastatin,31565,42463,N1_one_direction,nefazodone->pravastatin,no_path
+nefazodone,phenytoin,31565,8183,N1_one_direction,nefazodone->phenytoin,no_path
+nefazodone,propranolol,31565,8787,N1_one_direction,propranolol->nefazodone,no_path
+cetuximab,carboplatin,318341,40048,N2_bidirectional,cetuximab->carboplatin; carboplatin->cetuximab,
+cetuximab,irinotecan,318341,51499,N2_bidirectional,cetuximab->irinotecan; irinotecan->cetuximab,
+tiagabine,ethanol,31914,448,N1_one_direction,tiagabine->ethanol,undetermined
+norgestimate,rifaximin,31994,35619,N1_one_direction,rifaximin->norgestimate,undetermined
+fondaparinux,digoxin,321208,3407,N1_one_direction,digoxin->fondaparinux,undetermined
+fondaparinux,piroxicam,321208,8356,N1_one_direction,piroxicam->fondaparinux,undetermined
+escitalopram,metoprolol,321988,6918,N0_undirected_only,,
+escitalopram,ritonavir,321988,85762,N2_bidirectional,escitalopram->ritonavir; ritonavir->escitalopram,
+solifenacin,digoxin,322167,3407,N1_one_direction,solifenacin->digoxin,undetermined
+desipramine,tolcapone,3247,72937,N1_one_direction,tolcapone->desipramine,undetermined
+micafungin,sirolimus,325887,35302,N1_one_direction,sirolimus->micafungin,undetermined
+micafungin,tacrolimus,325887,42316,N1_one_direction,tacrolimus->micafungin,undetermined
+micafungin,fluconazole,325887,4450,N1_one_direction,fluconazole->micafungin,undetermined
+micafungin,mycophenolate mofetil,325887,68149,N2_bidirectional,micafungin->mycophenolate mofetil; mycophenolate mofetil->micafungin,
+micafungin,amphotericin b,325887,732,N1_one_direction,amphotericin b->micafungin,undetermined
+micafungin,nifedipine,325887,7417,N1_one_direction,nifedipine->micafungin,undetermined
+micafungin,ritonavir,325887,85762,N1_one_direction,ritonavir->micafungin,undetermined
+micafungin,prednisolone,325887,8638,N1_one_direction,prednisolone->micafungin,undetermined
+micafungin,rifampin,325887,9384,N1_one_direction,rifampin->micafungin,undetermined
+oxcarbazepine,erythromycin,32624,4053,N1_one_direction,erythromycin->oxcarbazepine,undetermined
+dexamethasone,lenalidomide,3264,342369,N1_one_direction,dexamethasone->lenalidomide,undetermined
+dexamethasone,bortezomib,3264,358258,N1_one_direction,dexamethasone->bortezomib,undetermined
+dexamethasone,irinotecan,3264,51499,N1_one_direction,dexamethasone->irinotecan,undetermined
+dextromethorphan,sorafenib,3289,495881,N1_one_direction,sorafenib->dextromethorphan,undetermined
+dextromethorphan,ustekinumab,3289,847083,N1_one_direction,ustekinumab->dextromethorphan,undetermined
+dextromethorphan,quinine,3289,9071,N1_one_direction,quinine->dextromethorphan,undetermined
+paroxetine,zaleplon,32937,74667,N1_one_direction,paroxetine->zaleplon,undetermined
+clopidogrel,pantoprazole,32968,40790,N1_one_direction,pantoprazole->clopidogrel,undetermined
+clopidogrel,dexlansoprazole,32968,816346,N1_one_direction,dexlansoprazole->clopidogrel,undetermined
+diazepam,olanzapine,3322,61381,N1_one_direction,olanzapine->diazepam,undetermined
+diazepam,fosphenytoin,3322,72236,N1_one_direction,diazepam->fosphenytoin,undetermined
+diazepam,dexlansoprazole,3322,816346,N1_one_direction,dexlansoprazole->diazepam,undetermined
+diazepam,phenytoin,3322,8183,N1_one_direction,diazepam->phenytoin,path_expected
+diazepam,propranolol,3322,8787,N1_one_direction,diazepam->propranolol,no_path
+diclofenac,misoprostol,3355,42331,N1_one_direction,misoprostol->diclofenac,undetermined
+foscarnet,ganciclovir,33562,4678,N1_one_direction,ganciclovir->foscarnet,undetermined
+didanosine,ganciclovir,3364,4678,N1_one_direction,didanosine->ganciclovir,undetermined
+didanosine,rifabutin,3364,55672,N2_bidirectional,didanosine->rifabutin; rifabutin->didanosine,
+pioglitazone,metformin,33738,6809,N1_one_direction,pioglitazone->metformin,no_path
+digoxin,quinapril,3407,35208,N1_one_direction,quinapril->digoxin,undetermined
+digoxin,37864,3407,37864,N1_one_direction,37864->digoxin,undetermined
+digoxin,orlistat,3407,37925,N1_one_direction,orlistat->digoxin,undetermined
+digoxin,torsemide,3407,38413,N1_one_direction,torsemide->digoxin,undetermined
+digoxin,trandolapril,3407,38454,N1_one_direction,trandolapril->digoxin,undetermined
+digoxin,iloprost,3407,40138,N1_one_direction,iloprost->digoxin,undetermined
+digoxin,pantoprazole,3407,40790,N0_undirected_only,,
+digoxin,meloxicam,3407,41493,N1_one_direction,meloxicam->digoxin,undetermined
+digoxin,pravastatin,3407,42463,N1_one_direction,pravastatin->digoxin,no_path
+digoxin,felodipine,3407,4316,N1_one_direction,felodipine->digoxin,no_path
+digoxin,eszopiclone,3407,461016,N1_one_direction,eszopiclone->digoxin,undetermined
+digoxin,galantamine,3407,4637,N1_one_direction,galantamine->digoxin,undetermined
+digoxin,dofetilide,3407,49247,N1_one_direction,dofetilide->digoxin,undetermined
+digoxin,losartan,3407,52175,N1_one_direction,losartan->digoxin,undetermined
+digoxin,sitagliptin,3407,593411,N1_one_direction,sitagliptin->digoxin,undetermined
+digoxin,alprostadil,3407,598,N1_one_direction,alprostadil->digoxin,undetermined
+digoxin,maraviroc,3407,620216,N1_one_direction,maraviroc->digoxin,no_path
+digoxin,lacosamide,3407,623400,N1_one_direction,lacosamide->digoxin,undetermined
+digoxin,famciclovir,3407,68099,N2_bidirectional,digoxin->famciclovir; famciclovir->digoxin,
+digoxin,mexiletine,3407,6926,N0_undirected_only,,
+digoxin,valsartan,3407,69749,N0_undirected_only,,
+digoxin,repaglinide,3407,73044,N1_one_direction,repaglinide->digoxin,no_path
+digoxin,valacyclovir,3407,73645,N2_bidirectional,digoxin->valacyclovir; valacyclovir->digoxin,
+digoxin,sapropterin,3407,753340,N1_one_direction,sapropterin->digoxin,undetermined
+digoxin,montelukast,3407,88249,N1_one_direction,montelukast->digoxin,no_path
+anidulafungin,tacrolimus,341018,42316,N1_one_direction,tacrolimus->anidulafungin,undetermined
+ezetimibe,fenofibrate,341248,8703,N1_one_direction,fenofibrate->ezetimibe,undetermined
+dihydroergotamine,topiramate,3418,38404,N2_bidirectional,dihydroergotamine->topiramate; topiramate->dihydroergotamine,
+dihydroergotamine,propranolol,3418,8787,N1_one_direction,propranolol->dihydroergotamine,undetermined
+lenalidomide,temsirolimus,342369,657797,N1_one_direction,temsirolimus->lenalidomide,undetermined
+lenalidomide,quinidine,342369,9068,N1_one_direction,quinidine->lenalidomide,undetermined
+diltiazem,sirolimus,3443,35302,N1_one_direction,sirolimus->diltiazem,path_expected
+diltiazem,pravastatin,3443,42463,N1_one_direction,diltiazem->pravastatin,no_path
+diltiazem,quinidine,3443,9068,N1_one_direction,quinidine->diltiazem,no_path
+quazepam,bupropion,35185,42347,N1_one_direction,quazepam->bupropion,undetermined
+quinapril,hydrochlorothiazide,35208,5487,N0_undirected_only,,
+disulfiram,lorazepam,3554,6470,N1_one_direction,disulfiram->lorazepam,undetermined
+rifaximin,ethinyl estradiol,35619,4124,N1_one_direction,rifaximin->ethinyl estradiol,undetermined
+risperidone,topiramate,35636,38404,N2_bidirectional,risperidone->topiramate; topiramate->risperidone,
+risperidone,erythromycin,35636,4053,N1_one_direction,erythromycin->risperidone,undetermined
+risperidone,galantamine,35636,4637,N1_one_direction,risperidone->galantamine,undetermined
+risperidone,amitriptyline,35636,704,N1_one_direction,amitriptyline->risperidone,undetermined
+risperidone,ranitidine,35636,9143,N1_one_direction,ranitidine->risperidone,undetermined
+risperidone,selegiline,35636,9639,N1_one_direction,risperidone->selegiline,undetermined
+aprepitant,vinorelbine,358255,39541,N1_one_direction,aprepitant->vinorelbine,undetermined
+aprepitant,palonosetron,358255,70561,N1_one_direction,aprepitant->palonosetron,undetermined
+aprepitant,docetaxel,358255,72962,N1_one_direction,aprepitant->docetaxel,no_path
+aprepitant,cabazitaxel,358255,996051,N1_one_direction,aprepitant->cabazitaxel,undetermined
+tolvaptan,furosemide,358257,4603,N1_one_direction,tolvaptan->furosemide,no_path
+tolvaptan,hydrochlorothiazide,358257,5487,N1_one_direction,tolvaptan->hydrochlorothiazide,undetermined
+tolvaptan,amiodarone,358257,703,N1_one_direction,tolvaptan->amiodarone,path_possible
+bortezomib,melphalan,358258,6718,N1_one_direction,melphalan->bortezomib,undetermined
+bortezomib,omeprazole,358258,7646,N1_one_direction,omeprazole->bortezomib,undetermined
+bortezomib,prednisone,358258,8640,N1_one_direction,prednisone->bortezomib,undetermined
+fosamprenavir,saquinavir,358262,83395,N1_one_direction,fosamprenavir->saquinavir,undetermined
+tadalafil,bosentan,358263,75207,N1_one_direction,tadalafil->bosentan,path_expected
+tadalafil,tamsulosin,358263,77492,N1_one_direction,tadalafil->tamsulosin,undetermined
+doxorubicin,dexrazoxane,3639,42736,N1_one_direction,dexrazoxane->doxorubicin,undetermined
+doxorubicin,docetaxel,3639,72962,N1_one_direction,docetaxel->doxorubicin,undetermined
+simvastatin,sitagliptin,36567,593411,N1_one_direction,sitagliptin->simvastatin,undetermined
+sumatriptan,topiramate,37418,38404,N1_one_direction,topiramate->sumatriptan,undetermined
+37864,midazolam,37864,6960,N1_one_direction,37864->midazolam,undetermined
+orlistat,pravastatin,37925,42463,N1_one_direction,orlistat->pravastatin,undetermined
+orlistat,glyburide,37925,4815,N1_one_direction,orlistat->glyburide,undetermined
+orlistat,nifedipine,37925,7417,N1_one_direction,orlistat->nifedipine,undetermined
+orlistat,phenytoin,37925,8183,N1_one_direction,orlistat->phenytoin,undetermined
+topiramate,venlafaxine,38404,39786,N2_bidirectional,topiramate->venlafaxine; venlafaxine->topiramate,
+topiramate,haloperidol,38404,5093,N1_one_direction,topiramate->haloperidol,undetermined
+topiramate,lacosamide,38404,623400,N1_one_direction,lacosamide->topiramate,undetermined
+topiramate,propranolol,38404,8787,N2_bidirectional,topiramate->propranolol; propranolol->topiramate,
+venlafaxine,ethanol,39786,448,N1_one_direction,ethanol->venlafaxine,undetermined
+venlafaxine,imipramine,39786,5691,N2_bidirectional,venlafaxine->imipramine; imipramine->venlafaxine,
+epirubicin,paclitaxel,3995,56946,N2_bidirectional,epirubicin->paclitaxel; paclitaxel->epirubicin,
+epirubicin,docetaxel,3995,72962,N2_bidirectional,epirubicin->docetaxel; docetaxel->epirubicin,
+zonisamide,ketoconazole,39998,6135,N1_one_direction,ketoconazole->zonisamide,undetermined
+zonisamide,lacosamide,39998,623400,N1_one_direction,lacosamide->zonisamide,undetermined
+guanfacine,673579,40114,673579,N1_one_direction,guanfacine->673579,undetermined
+erythromycin,losartan,4053,52175,N1_one_direction,erythromycin->losartan,undetermined
+erythromycin,fexofenadine,4053,87636,N1_one_direction,fexofenadine->erythromycin,path_expected
+estazolam,fluoxetine,4077,4493,N1_one_direction,fluoxetine->estazolam,undetermined
+pantoprazole,cinacalcet,40790,407990,N0_undirected_only,,
+pantoprazole,cladribine,40790,44157,N1_one_direction,pantoprazole->cladribine,undetermined
+pantoprazole,ethanol,40790,448,N0_undirected_only,,
+pantoprazole,glyburide,40790,4815,N0_undirected_only,,
+pantoprazole,metronidazole,40790,6922,N0_undirected_only,,
+pantoprazole,mycophenolic acid,40790,7145,N1_one_direction,pantoprazole->mycophenolic acid,undetermined
+pantoprazole,amoxicillin,40790,723,N0_undirected_only,,
+ethinyl estradiol,cladribine,4124,44157,N1_one_direction,cladribine->ethinyl estradiol,undetermined
+ethinyl estradiol,sitagliptin,4124,593411,N1_one_direction,sitagliptin->ethinyl estradiol,undetermined
+ethinyl estradiol,isotretinoin,4124,6064,N1_one_direction,isotretinoin->ethinyl estradiol,undetermined
+ethinyl estradiol,72611,4124,72611,N1_one_direction,72611->ethinyl estradiol,undetermined
+ethinyl estradiol,fesoterodine,4124,797195,N1_one_direction,fesoterodine->ethinyl estradiol,undetermined
+ethinyl estradiol,tazarotene,4124,83947,N1_one_direction,tazarotene->ethinyl estradiol,undetermined
+ethinyl estradiol,rosiglitazone,4124,84108,N1_one_direction,rosiglitazone->ethinyl estradiol,undetermined
+ethinyl estradiol,alosetron,4124,85248,N1_one_direction,alosetron->ethinyl estradiol,undetermined
+ethinyl estradiol,montelukast,4124,88249,N1_one_direction,montelukast->ethinyl estradiol,undetermined
+misoprostol,ibuprofen,42331,5640,N1_one_direction,misoprostol->ibuprofen,undetermined
+bupropion,memantine,42347,6719,N2_bidirectional,bupropion->memantine; memantine->bupropion,
+pravastatin,fenofibrate,42463,8703,N2_bidirectional,pravastatin->fenofibrate; fenofibrate->pravastatin,
+famotidine,dasatinib,4278,475342,N1_one_direction,famotidine->dasatinib,no_path
+famotidine,nilotinib,4278,662281,N1_one_direction,famotidine->nilotinib,undetermined
+famotidine,aripiprazole,4278,89013,N1_one_direction,famotidine->aripiprazole,undetermined
+felodipine,indomethacin,4316,5781,N0_undirected_only,,
+felodipine,metoprolol,4316,6918,N0_undirected_only,,
+felodipine,spironolactone,4316,9997,N0_undirected_only,,
+cladribine,levonorgestrel,44157,6373,N1_one_direction,cladribine->levonorgestrel,undetermined
+cladribine,interferon beta-1a,44157,75917,N1_one_direction,interferon beta-1a->cladribine,undetermined
+flecainide,quinidine,4441,9068,N1_one_direction,quinidine->flecainide,undetermined
+fluconazole,rifabutin,4450,55672,N1_one_direction,rifabutin->fluconazole,undetermined
+fluconazole,eprosartan,4450,83515,N1_one_direction,fluconazole->eprosartan,undetermined
+ethanol,olanzapine,448,61381,N1_one_direction,olanzapine->ethanol,undetermined
+fluorouracil,docetaxel,4492,72962,N2_bidirectional,fluorouracil->docetaxel; docetaxel->fluorouracil,
+fluoxetine,milnacipran,4493,588250,N1_one_direction,fluoxetine->milnacipran,undetermined
+fluoxetine,iloperidone,4493,73178,N1_one_direction,iloperidone->fluoxetine,undetermined
+darunavir,pitavastatin,460132,861634,N1_one_direction,pitavastatin->darunavir,no_path
+furosemide,valsartan,4603,69749,N0_undirected_only,,
+galantamine,memantine,4637,6719,N1_one_direction,memantine->galantamine,undetermined
+galantamine,ranitidine,4637,9143,N1_one_direction,ranitidine->galantamine,undetermined
+ganciclovir,mycophenolate mofetil,4678,68149,N2_bidirectional,ganciclovir->mycophenolate mofetil; mycophenolate mofetil->ganciclovir,
+gemfibrozil,raloxifene,4719,72143,N1_one_direction,gemfibrozil->raloxifene,undetermined
+telavancin,midazolam,473837,6960,N2_bidirectional,telavancin->midazolam; midazolam->telavancin,
+dasatinib,omeprazole,475342,7646,N1_one_direction,omeprazole->dasatinib,no_path
+glyburide,dofetilide,4815,49247,N1_one_direction,glyburide->dofetilide,undetermined
+glyburide,sitagliptin,4815,593411,N1_one_direction,sitagliptin->glyburide,undetermined
+glyburide,alprostadil,4815,598,N1_one_direction,alprostadil->glyburide,undetermined
+glyburide,memantine,4815,6719,N1_one_direction,glyburide->memantine,undetermined
+glyburide,valsartan,4815,69749,N0_undirected_only,,
+dofetilide,medroxyprogesterone,49247,6691,N1_one_direction,medroxyprogesterone->dofetilide,undetermined
+dofetilide,omeprazole,49247,7646,N1_one_direction,omeprazole->dofetilide,undetermined
+dofetilide,phenytoin,49247,8183,N2_bidirectional,dofetilide->phenytoin; phenytoin->dofetilide,
+dofetilide,propranolol,49247,8787,N1_one_direction,dofetilide->propranolol,undetermined
+dofetilide,ranitidine,49247,9143,N1_one_direction,ranitidine->dofetilide,undetermined
+sorafenib,midazolam,495881,6960,N1_one_direction,sorafenib->midazolam,undetermined
+sorafenib,omeprazole,495881,7646,N1_one_direction,sorafenib->omeprazole,undetermined
+allopurinol,famciclovir,519,68099,N1_one_direction,allopurinol->famciclovir,undetermined
+losartan,ketoconazole,52175,6135,N1_one_direction,ketoconazole->losartan,undetermined
+hydrochlorothiazide,memantine,5487,6719,N1_one_direction,hydrochlorothiazide->memantine,undetermined
+hydrochlorothiazide,valsartan,5487,69749,N0_undirected_only,,
+hydrochlorothiazide,telmisartan,5487,73494,N0_undirected_only,,
+hydrochlorothiazide,irbesartan,5487,83818,N1_one_direction,hydrochlorothiazide->irbesartan,undetermined
+rifabutin,methadone,55672,6813,N1_one_direction,rifabutin->methadone,undetermined
+ibuprofen,metformin,5640,6809,N1_one_direction,ibuprofen->metformin,undetermined
+ibuprofen,selegiline,5640,9639,N1_one_direction,ibuprofen->selegiline,undetermined
+imipramine,olanzapine,5691,61381,N1_one_direction,olanzapine->imipramine,undetermined
+imipramine,asenapine,5691,784649,N1_one_direction,asenapine->imipramine,undetermined
+topotecan,ranitidine,57308,9143,N1_one_direction,ranitidine->topotecan,undetermined
+indomethacin,valsartan,5781,69749,N0_undirected_only,,
+meclofenamate,propoxyphene,588003,8785,N1_one_direction,propoxyphene->meclofenamate,undetermined
+sitagliptin,metformin,593411,6809,N2_bidirectional,sitagliptin->metformin; metformin->sitagliptin,
+sitagliptin,norethindrone,593411,7514,N1_one_direction,sitagliptin->norethindrone,undetermined
+sitagliptin,rosiglitazone,593411,84108,N1_one_direction,sitagliptin->rosiglitazone,undetermined
+alprazolam,selegiline,596,9639,N2_bidirectional,alprazolam->selegiline; selegiline->alprazolam,
+isotretinoin,norethindrone,6064,7514,N1_one_direction,isotretinoin->norethindrone,undetermined
+isotretinoin,phenytoin,6064,8183,N1_one_direction,isotretinoin->phenytoin,undetermined
+prasugrel,atorvastatin,613391,83367,N1_one_direction,atorvastatin->prasugrel,undetermined
+ketoconazole,eprosartan,6135,83515,N1_one_direction,ketoconazole->eprosartan,undetermined
+ketoconazole,fexofenadine,6135,87636,N1_one_direction,fexofenadine->ketoconazole,path_expected
+ketoconazole,selegiline,6135,9639,N1_one_direction,ketoconazole->selegiline,undetermined
+olanzapine,lorazepam,61381,6470,N1_one_direction,lorazepam->olanzapine,undetermined
+olanzapine,selegiline,61381,9639,N1_one_direction,olanzapine->selegiline,undetermined
+maraviroc,levonorgestrel,620216,6373,N1_one_direction,maraviroc->levonorgestrel,undetermined
+maraviroc,lamivudine,620216,68244,N1_one_direction,maraviroc->lamivudine,undetermined
+maraviroc,midazolam,620216,6960,N1_one_direction,maraviroc->midazolam,no_path
+lacosamide,metformin,623400,6809,N2_bidirectional,lacosamide->metformin; metformin->lacosamide,
+lacosamide,omeprazole,623400,7646,N1_one_direction,omeprazole->lacosamide,undetermined
+lacosamide,phenobarbital,623400,8134,N1_one_direction,lacosamide->phenobarbital,undetermined
+lacosamide,phenytoin,623400,8183,N1_one_direction,lacosamide->phenytoin,undetermined
+levonorgestrel,fesoterodine,6373,797195,N1_one_direction,fesoterodine->levonorgestrel,undetermined
+levonorgestrel,alosetron,6373,85248,N1_one_direction,alosetron->levonorgestrel,undetermined
+lidocaine,phentolamine,6387,8153,N1_one_direction,phentolamine->lidocaine,undetermined
+lorazepam,metoprolol,6470,6918,N1_one_direction,metoprolol->lorazepam,undetermined
+lorazepam,metronidazole,6470,6922,N1_one_direction,metronidazole->lorazepam,undetermined
+lorazepam,duloxetine,6470,72625,N1_one_direction,lorazepam->duloxetine,undetermined
+lorazepam,propoxyphene,6470,8785,N1_one_direction,propoxyphene->lorazepam,undetermined
+lorazepam,propranolol,6470,8787,N1_one_direction,propranolol->lorazepam,undetermined
+lorazepam,aripiprazole,6470,89013,N1_one_direction,lorazepam->aripiprazole,undetermined
+lorazepam,ranitidine,6470,9143,N1_one_direction,ranitidine->lorazepam,undetermined
+memantine,metformin,6719,6809,N1_one_direction,metformin->memantine,undetermined
+673579,omeprazole,673579,7646,N1_one_direction,omeprazole->673579,undetermined
+metformin,propranolol,6809,8787,N1_one_direction,propranolol->metformin,no_path
+famciclovir,promethazine,68099,8745,N1_one_direction,promethazine->famciclovir,undetermined
+tiotropium,ranitidine,69120,9143,N2_bidirectional,tiotropium->ranitidine; ranitidine->tiotropium,
+metoclopramide,tapentadol,6915,787390,N1_one_direction,metoclopramide->tapentadol,undetermined
+metoprolol,quinidine,6918,9068,N1_one_direction,quinidine->metoprolol,no_path
+mexiletine,propranolol,6926,8787,N0_undirected_only,,
+midazolam,desvenlafaxine,6960,734064,N1_one_direction,desvenlafaxine->midazolam,undetermined
+midazolam,ustekinumab,6960,847083,N1_one_direction,ustekinumab->midazolam,undetermined
+midazolam,quinine,6960,9071,N1_one_direction,quinine->midazolam,undetermined
+midazolam,denosumab,6960,993449,N1_one_direction,denosumab->midazolam,undetermined
+midazolam,cabazitaxel,6960,996051,N1_one_direction,cabazitaxel->midazolam,undetermined
+interferon beta-1b,dalfampridine,72257,897018,N1_one_direction,interferon beta-1b->dalfampridine,undetermined
+tirofiban,nifedipine,73137,7417,N1_one_direction,nifedipine->tirofiban,undetermined
+desvenlafaxine,aripiprazole,734064,89013,N1_one_direction,desvenlafaxine->aripiprazole,undetermined
+nifedipine,irbesartan,7417,83818,N1_one_direction,nifedipine->irbesartan,undetermined
+nifedipine,rosiglitazone,7417,84108,N1_one_direction,rosiglitazone->nifedipine,undetermined
+norethindrone,tazarotene,7514,83947,N1_one_direction,tazarotene->norethindrone,undetermined
+norethindrone,rosiglitazone,7514,84108,N1_one_direction,rosiglitazone->norethindrone,undetermined
+norethindrone,montelukast,7514,88249,N1_one_direction,montelukast->norethindrone,undetermined
+omeprazole,tapentadol,7646,787390,N1_one_direction,omeprazole->tapentadol,undetermined
+omeprazole,ustekinumab,7646,847083,N1_one_direction,ustekinumab->omeprazole,undetermined
+omeprazole,aripiprazole,7646,89013,N1_one_direction,aripiprazole->omeprazole,undetermined
+dexlansoprazole,phenytoin,816346,8183,N1_one_direction,dexlansoprazole->phenytoin,undetermined
+atorvastatin,fenofibrate,83367,8703,N1_one_direction,fenofibrate->atorvastatin,undetermined
+eprosartan,ranitidine,83515,9143,N1_one_direction,ranitidine->eprosartan,undetermined
+rosiglitazone,ranitidine,84108,9143,N1_one_direction,ranitidine->rosiglitazone,no_path
+prednisolone,montelukast,8638,88249,N1_one_direction,montelukast->prednisolone,undetermined
+prednisolone,cabazitaxel,8638,996051,N1_one_direction,prednisolone->cabazitaxel,undetermined
+prednisone,montelukast,8640,88249,N1_one_direction,montelukast->prednisone,undetermined
+propafenone,quinidine,8754,9068,N1_one_direction,quinidine->propafenone,no_path
+fexofenadine,montelukast,87636,88249,N1_one_direction,montelukast->fexofenadine,no_path
+propranolol,quinidine,8787,9068,N1_one_direction,quinidine->propranolol,no_path
+pseudoephedrine,selegiline,8896,9639,N1_one_direction,selegiline->pseudoephedrine,undetermined
+quinidine,quinine,9068,9071,N1_one_direction,quinidine->quinine,undetermined

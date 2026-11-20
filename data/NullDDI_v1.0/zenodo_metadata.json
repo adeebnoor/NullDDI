@@ -1,0 +1,12 @@
+{
+  "title": "NullDDI v1.0: documented drug non-interactions from US drug labels (data and code)",
+  "upload_type": "dataset",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "creators": [
+    {"name": "Noor, Adeeb", "affiliation": "King Abdulaziz University", "orcid": "0000-0002-8251-1853"},
+    {"name": "Dumontier, Michel", "affiliation": "Maastricht University", "orcid": "0000-0003-4727-9435"}
+  ],
+  "description": "An open, sentence-traceable reference of regulator-documented drug non-interactions extracted from US FDA drug labels without human curation: 1,032 directional and 72 undirected statements, 955 pairs, 509 ingredients, with direction, dimension, numeric grade, conditions and provenance. Companion to the PNAS submission 'The missing negative'. Code (MIT) is in the code archive.",
+  "keywords": ["drug-drug interactions", "negative knowledge", "drug labels", "FAIR"]
+}
