@@ -3,6 +3,8 @@
 This repository holds the paper, data and code for
 
 > A. Noor, M. Dumontier. **The missing negative: documented drug non-interactions are structured claims, and resources and algorithms flatten them.** Manuscript prepared for *PNAS* (v1.1, November 2026; not yet peer reviewed).
+>
+> **Status:** v1.1 is a working draft under revision with co-author input; v1.2 is in preparation. It has not yet been approved for submission by all authors.
 
 Drug-interaction resources record only interactions. NullDDI assembles the non-interactions that US drug labels actually document, extracted from 264,800 openFDA labels by two independent extractors and traced to their sentences:
 
